@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"request",
+		"response" ],
+	"name" : "RequestClient",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
