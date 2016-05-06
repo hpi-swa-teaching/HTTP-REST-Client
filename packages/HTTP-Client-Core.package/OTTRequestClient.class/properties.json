@@ -8,7 +8,7 @@
 	"instvars" : [
 		"request",
 		"response" ],
-	"name" : "RequestClient",
+	"name" : "OTTRequestClient",
 	"pools" : [
 		 ],
 	"super" : "Model",
