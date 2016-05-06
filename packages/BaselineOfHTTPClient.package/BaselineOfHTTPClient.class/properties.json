@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfHTTPClient",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHTTPClient",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
