@@ -2,9 +2,9 @@
 	"class" : {
 		"open" : "NS 5/5/2016 00:20" },
 	"instance" : {
-		"buildWith:" : "NS 5/5/2016 14:57",
-		"request" : "NS 5/5/2016 00:40",
-		"request:" : "NS 5/5/2016 00:37",
-		"response" : "NS 5/5/2016 00:45",
-		"response:" : "NS 5/5/2016 00:41",
-		"sendRequest" : "NS 5/5/2016 00:52" } }
+		"buildWith:" : "MH 5/6/2016 22:29",
+		"requestUrl" : "MH 5/6/2016 22:24",
+		"requestUrl:" : "MH 5/6/2016 22:24",
+		"responseData" : "MH 5/6/2016 22:29",
+		"responseData:" : "MH 5/6/2016 22:24",
+		"sendRequest" : "MH 5/6/2016 22:33" } }

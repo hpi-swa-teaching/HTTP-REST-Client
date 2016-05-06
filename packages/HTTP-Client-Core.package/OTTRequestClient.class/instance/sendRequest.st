@@ -1,6 +1,8 @@
 actions
 sendRequest
-	| resp |
-	resp := WebClient httpGet: self request.
-	resp isSuccess ifFalse:[^self error: resp status].
-	self response: resp content.
+
+	| response |
+	response := WebClient httpGet: self requestUrl.
+	response isSuccess ifFalse:
+		[^ self error: response status].
+	self responseData: response content.

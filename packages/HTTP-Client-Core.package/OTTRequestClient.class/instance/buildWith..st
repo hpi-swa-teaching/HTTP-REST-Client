@@ -1,7 +1,7 @@
 initialize
 buildWith: builder
 
-	| windowSpec requestButtonSpec requestFieldSpec responseFieldSpec |
+	| windowSpec requestButtonSpec requestUrlSpec responseDataSpec |
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
@@ -9,16 +9,16 @@ buildWith: builder
 		extent: 500@300;
 		children: OrderedCollection new.
 		
-	requestFieldSpec := builder pluggableTextSpec new.
-	requestFieldSpec
+	requestUrlSpec := builder pluggableInputFieldSpec new.
+	requestUrlSpec
 		model: self;
-		help: 'Type your request here';
-		getText: #request;
-		setText: #request:;
-		editText: #request:;
+		help: 'Request Url';
+		getText: #requestUrl;
+		setText: #requestUrl:;
+		editText: #requestUrl:;
 		indicateUnacceptedChanges: false;
 		frame: (0@0 corner: 0.8@0.1).
-	windowSpec children add: requestFieldSpec.
+	windowSpec children add: requestUrlSpec.
 		
 	requestButtonSpec := builder pluggableButtonSpec new.
 	requestButtonSpec
@@ -28,12 +28,12 @@ buildWith: builder
 		frame: (0.8@0 corner: 1@0.1).
 	windowSpec children add: requestButtonSpec.
 	
-	responseFieldSpec := builder pluggableTextSpec new.
-	responseFieldSpec
+	responseDataSpec := builder pluggableTextSpec new.
+	responseDataSpec
 		model: self;
-		getText: #response;
-		help: 'Response will be displayed here';
+		getText: #responseData;
+		help: 'Response Data';
 		frame: (0@0.1 corner: 1@1).
-	windowSpec children add: responseFieldSpec.
+	windowSpec children add: responseDataSpec.
 	
-	^ builder build: windowSpec.
+	^ builder build: windowSpec

@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"request",
-		"response" ],
+		"requestUrl",
+		"responseData" ],
 	"name" : "OTTRequestClient",
 	"pools" : [
 		 ],
