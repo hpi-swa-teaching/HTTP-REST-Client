@@ -1,0 +1,17 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"requestURL",
+		"requestMethod",
+		"sendButton",
+		"responseData" ],
+	"name" : "OTTHTTPClientUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
