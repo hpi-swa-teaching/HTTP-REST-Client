@@ -1,14 +1,13 @@
 {
 	"class" : {
-		"open" : "NS 5/12/2016 11:27" },
+		"open" : "MH 5/12/2016 11:45" },
 	"instance" : {
 		"createRequestFor:" : "MH 5/12/2016 11:26",
 		"initialize" : "MH 5/11/2016 14:30",
-		"open" : "MH 5/11/2016 14:00",
 		"requestMethod" : "MH 5/12/2016 11:26",
 		"requestURL" : "MH 5/12/2016 11:23",
 		"requestURL:" : "MH 5/12/2016 11:24",
 		"responseData" : "MH 5/12/2016 11:24",
 		"responseData:" : "MH 5/12/2016 11:24",
-		"sendRequest" : "MH 5/12/2016 11:27",
+		"sendRequest" : "MH 5/12/2016 11:33",
 		"ui" : "MH 5/11/2016 13:57" } }

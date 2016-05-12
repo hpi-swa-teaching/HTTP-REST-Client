@@ -7,4 +7,4 @@ sendRequest
 	response := client sendRequest: request.
 	response isSuccess ifFalse:
 		[^ self error: response status].
-	self ui responseData theText: response content.
+	self responseData: response content.
