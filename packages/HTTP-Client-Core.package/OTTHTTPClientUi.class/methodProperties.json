@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "MH 5/11/2016 14:05",
-		"requestMethod" : "MH 5/11/2016 14:05",
-		"requestURL" : "MH 5/11/2016 14:05",
-		"responseData" : "MH 5/11/2016 14:05",
-		"sendButton" : "MH 5/11/2016 14:05" } }
+		"initializePanel" : "jt 5/12/2016 12:06",
+		"requestHeaderKey" : "jt 5/12/2016 12:06",
+		"requestHeaderValue" : "jt 5/12/2016 12:06",
+		"requestMethod" : "jt 5/12/2016 12:06",
+		"requestURL" : "jt 5/12/2016 12:06",
+		"responseData" : "jt 5/12/2016 12:06",
+		"sendButton" : "jt 5/12/2016 12:06" } }

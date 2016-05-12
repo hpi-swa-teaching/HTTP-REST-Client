@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 |
+	| unnamedMorph1 unnamedMorph2 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -26,7 +26,7 @@ initializePanel
 	panel frameFractions: (0@0 corner: 1@1).
 	panel frameOffsets: (0@0 corner: 0@0).
 	panel balloonText: (nil).
-	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	panel balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	panel color: ((Color r: 0.85 g: 0.85 b: 0.85)).
 	panel borderWidth: (0).
 	panel borderStyle2: (#simple).
@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -80,7 +80,7 @@ initializePanel
 	requestURL frameFractions: (0@0 corner: 1@1).
 	requestURL frameOffsets: (0@0 corner: 0@0).
 	requestURL balloonText: (nil).
-	requestURL balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	requestURL balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestURL widgetResizable: (false).
 	requestURL horizontalScrollBarPolicy: (#alwaysOff).
 	requestURL verticalScrollBarPolicy: (#alwaysOff).
@@ -118,15 +118,119 @@ initializePanel
 	requestMethod frameFractions: (0@0 corner: 1@1).
 	requestMethod frameOffsets: (0@0 corner: 0@0).
 	requestMethod balloonText: (nil).
-	requestMethod balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	requestMethod balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestMethod readOnly: (true).
 	requestMethod setProperty: #objectName toValue: 'requestMethod'.
 	unnamedMorph1 addChild: requestMethod.
 	panel addChild: unnamedMorph1.
+	unnamedMorph2 := UiContainer new.
+	unnamedMorph2 changeTableLayout.
+	unnamedMorph2 extent: (492@30).
+	unnamedMorph2 position: (4@38).
+	unnamedMorph2 hResizing: (#spaceFill).
+	unnamedMorph2 vResizing: (#shrinkWrap).
+	unnamedMorph2 minWidth: (1).
+	unnamedMorph2 minHeight: (1).
+	unnamedMorph2 cellInset: (4).
+	unnamedMorph2 cellPositioning: (#center).
+	unnamedMorph2 cellSpacing: (#none).
+	unnamedMorph2 layoutInset: (4).
+	unnamedMorph2 listCentering: (#topLeft).
+	unnamedMorph2 listDirection: (#leftToRight).
+	unnamedMorph2 listSpacing: (#none).
+	unnamedMorph2 maxCellSize: (1073741823).
+	unnamedMorph2 minCellSize: (0).
+	unnamedMorph2 wrapCentering: (#topLeft).
+	unnamedMorph2 wrapDirection: (#none).
+	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph2 balloonText: (nil).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph2 color: (Color transparent).
+	unnamedMorph2 borderWidth: (0).
+	unnamedMorph2 borderStyle2: (#simple).
+	unnamedMorph2 borderColor: (Color black).
+	requestHeaderKey := UiLineEdit new.
+	requestHeaderKey extent: (240@20).
+	requestHeaderKey position: (8@43).
+	requestHeaderKey hResizing: (#spaceFill).
+	requestHeaderKey vResizing: (#rigid).
+	requestHeaderKey minWidth: (1).
+	requestHeaderKey minHeight: (1).
+	requestHeaderKey cellInset: (0).
+	requestHeaderKey cellPositioning: (#center).
+	requestHeaderKey cellSpacing: (#none).
+	requestHeaderKey layoutInset: (0).
+	requestHeaderKey listCentering: (#topLeft).
+	requestHeaderKey listDirection: (#topToBottom).
+	requestHeaderKey listSpacing: (#none).
+	requestHeaderKey maxCellSize: (1073741823).
+	requestHeaderKey minCellSize: (0).
+	requestHeaderKey wrapCentering: (#topLeft).
+	requestHeaderKey wrapDirection: (#none).
+	requestHeaderKey frameFractions: (0@0 corner: 1@1).
+	requestHeaderKey frameOffsets: (0@0 corner: 0@0).
+	requestHeaderKey balloonText: (nil).
+	requestHeaderKey balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	requestHeaderKey widgetResizable: (false).
+	requestHeaderKey horizontalScrollBarPolicy: (#alwaysOff).
+	requestHeaderKey verticalScrollBarPolicy: (#alwaysOff).
+	requestHeaderKey outerBorderWidth: (1).
+	requestHeaderKey scrollBarThickness: (9).
+	requestHeaderKey theText: ('').
+	requestHeaderKey readOnly: (false).
+	requestHeaderKey autoConvert: (false).
+	requestHeaderKey autoAccept: (false).
+	requestHeaderKey acceptOnFocusLost: (true).
+	requestHeaderKey scrollingMode: (#none).
+	requestHeaderKey scrollingLimit: (10).
+	requestHeaderKey helpText: ('Insert Header Key here...').
+	requestHeaderKey hideCursor: (true).
+	requestHeaderKey setProperty: #objectName toValue: 'requestHeaderKey'.
+	unnamedMorph2 addChild: requestHeaderKey.
+	requestHeaderValue := UiLineEdit new.
+	requestHeaderValue extent: (240@20).
+	requestHeaderValue position: (252@43).
+	requestHeaderValue hResizing: (#spaceFill).
+	requestHeaderValue vResizing: (#rigid).
+	requestHeaderValue minWidth: (1).
+	requestHeaderValue minHeight: (1).
+	requestHeaderValue cellInset: (0).
+	requestHeaderValue cellPositioning: (#center).
+	requestHeaderValue cellSpacing: (#none).
+	requestHeaderValue layoutInset: (0).
+	requestHeaderValue listCentering: (#topLeft).
+	requestHeaderValue listDirection: (#topToBottom).
+	requestHeaderValue listSpacing: (#none).
+	requestHeaderValue maxCellSize: (1073741823).
+	requestHeaderValue minCellSize: (0).
+	requestHeaderValue wrapCentering: (#topLeft).
+	requestHeaderValue wrapDirection: (#none).
+	requestHeaderValue frameFractions: (0@0 corner: 1@1).
+	requestHeaderValue frameOffsets: (0@0 corner: 0@0).
+	requestHeaderValue balloonText: (nil).
+	requestHeaderValue balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	requestHeaderValue widgetResizable: (false).
+	requestHeaderValue horizontalScrollBarPolicy: (#alwaysOff).
+	requestHeaderValue verticalScrollBarPolicy: (#alwaysOff).
+	requestHeaderValue outerBorderWidth: (1).
+	requestHeaderValue scrollBarThickness: (9).
+	requestHeaderValue theText: ('').
+	requestHeaderValue readOnly: (false).
+	requestHeaderValue autoConvert: (false).
+	requestHeaderValue autoAccept: (false).
+	requestHeaderValue acceptOnFocusLost: (true).
+	requestHeaderValue scrollingMode: (#none).
+	requestHeaderValue scrollingLimit: (10).
+	requestHeaderValue helpText: ('Insert Header Key here...').
+	requestHeaderValue hideCursor: (true).
+	requestHeaderValue setProperty: #objectName toValue: 'requestHeaderValue'.
+	unnamedMorph2 addChild: requestHeaderValue.
+	panel addChild: unnamedMorph2.
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
 	sendButton extent: (492@20).
-	sendButton position: (4@38).
+	sendButton position: (4@72).
 	sendButton hResizing: (#spaceFill).
 	sendButton vResizing: (#shrinkWrap).
 	sendButton minWidth: (1).
@@ -145,7 +249,7 @@ initializePanel
 	sendButton frameFractions: (0@0 corner: 1@1).
 	sendButton frameOffsets: (0@0 corner: 0@0).
 	sendButton balloonText: (nil).
-	sendButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	sendButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	sendButton enabled: (true).
 	sendButton setProperty: #iconByDesigner toValue: 'nil'.
 	sendButton icon: (nil).
@@ -157,8 +261,8 @@ initializePanel
 	sendButton setProperty: #objectName toValue: 'sendButton'.
 	panel addChild: sendButton.
 	responseData := UiTextEdit new.
-	responseData extent: (492@234).
-	responseData position: (4@62).
+	responseData extent: (492@200).
+	responseData position: (4@96).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -177,7 +281,7 @@ initializePanel
 	responseData frameFractions: (0@0 corner: 1@1).
 	responseData frameOffsets: (0@0 corner: 0@0).
 	responseData balloonText: (nil).
-	responseData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	responseData widgetResizable: (true).
 	responseData horizontalScrollBarPolicy: (#alwaysOff).
 	responseData verticalScrollBarPolicy: (#asNeeded).

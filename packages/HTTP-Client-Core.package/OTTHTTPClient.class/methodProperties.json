@@ -2,8 +2,10 @@
 	"class" : {
 		"open" : "MH 5/12/2016 11:45" },
 	"instance" : {
-		"createRequestFor:" : "MH 5/12/2016 11:26",
+		"createRequestFor:" : "jt 5/12/2016 12:09",
 		"initialize" : "MH 5/11/2016 14:30",
+		"requestHeaderKey" : "jt 5/12/2016 11:58",
+		"requestHeaderValue" : "jt 5/12/2016 11:58",
 		"requestMethod" : "MH 5/12/2016 11:26",
 		"requestURL" : "MH 5/12/2016 11:23",
 		"requestURL:" : "MH 5/12/2016 11:24",
