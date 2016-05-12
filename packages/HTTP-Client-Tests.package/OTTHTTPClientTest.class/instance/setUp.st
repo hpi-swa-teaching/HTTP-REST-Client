@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self client:  OTTRequestClient new.
+	self client:  OTTHTTPClient new.
