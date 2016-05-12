@@ -2,8 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createRequestFor:" : "MH 5/11/2016 14:37",
+		"createRequestFor:" : "MH 5/12/2016 11:26",
 		"initialize" : "MH 5/11/2016 14:30",
 		"open" : "MH 5/11/2016 14:00",
-		"sendRequest" : "MH 5/11/2016 14:39",
+		"requestMethod" : "MH 5/12/2016 11:26",
+		"requestURL" : "MH 5/12/2016 11:23",
+		"requestURL:" : "MH 5/12/2016 11:24",
+		"responseData" : "MH 5/12/2016 11:24",
+		"responseData:" : "MH 5/12/2016 11:24",
+		"sendRequest" : "MH 5/12/2016 11:27",
 		"ui" : "MH 5/11/2016 13:57" } }
