@@ -8,8 +8,8 @@
 	"instvars" : [
 		"requestURL",
 		"requestMethod",
-		"requestHeaderKey",
-		"requestHeaderValue",
+		"headerContainer",
+		"addHeader",
 		"sendButton",
 		"responseData" ],
 	"name" : "OTTHTTPClientUi",

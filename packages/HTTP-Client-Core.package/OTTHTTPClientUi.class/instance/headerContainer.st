@@ -1,5 +1,5 @@
 accessing
-requestHeaderKey
+headerContainer
 	"No description given."
 	
-	^ requestHeaderKey
+	^ headerContainer

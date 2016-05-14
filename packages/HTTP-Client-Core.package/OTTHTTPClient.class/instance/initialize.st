@@ -8,3 +8,4 @@ initialize
 		addText: 'POST'.
 		
 	self connect: self ui sendButton signal: #clicked: toSelector: #sendRequest.
+	self connect: self ui addHeader signal: #clicked: toSelector: #addHeader.

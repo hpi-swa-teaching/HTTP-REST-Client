@@ -1,11 +1,14 @@
 as yet unclassified
 createRequestFor: client
 
-	| request |
+	| request headers |
 	request := client requestWithUrl: self requestURL.
 	request method: self requestMethod.
-	self requestHeaderKey = '' ifFalse:[self requestHeaderValue = '' ifFalse:[
-		request headerAt: self requestHeaderKey put: self requestHeaderValue]].
+	
+	headers := self requestHeader.
+	headers ifNotEmpty:[
+		headers keys do:[ :headerKey |
+			request headerAt: headerKey put: (headers at: headerKey)]].
 
 	(self requestMethod = 'POST') 
 	ifTrue: [

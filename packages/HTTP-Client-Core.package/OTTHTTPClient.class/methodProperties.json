@@ -2,15 +2,14 @@
 	"class" : {
 		"open" : "MH 5/12/2016 11:45" },
 	"instance" : {
-		"createRequestFor:" : "AS 5/12/2016 12:19",
-		"initialize" : "MH 5/11/2016 14:30",
-		"open" : "MH 5/11/2016 14:00",
-		"requestHeaderKey" : "jt 5/12/2016 11:58",
-		"requestHeaderValue" : "jt 5/12/2016 11:58",
+		"addHeader" : "jt 5/14/2016 18:13",
+		"createRequestFor:" : "jt 5/14/2016 18:00",
+		"initialize" : "jt 5/14/2016 18:10",
+		"requestHeader" : "jt 5/14/2016 18:26",
 		"requestMethod" : "MH 5/12/2016 11:26",
 		"requestURL" : "MH 5/12/2016 11:23",
 		"requestURL:" : "MH 5/12/2016 11:24",
 		"responseData" : "MH 5/12/2016 11:24",
 		"responseData:" : "MH 5/12/2016 11:24",
-		"sendRequest" : "MH 5/12/2016 11:33",
+		"sendRequest" : "jt 5/14/2016 18:09",
 		"ui" : "MH 5/11/2016 13:57" } }
