@@ -11,7 +11,8 @@
 		"headerContainer",
 		"addHeader",
 		"sendButton",
-		"responseData" ],
+		"responseData",
+		"responseHeader" ],
 	"name" : "OTTHTTPClientUi",
 	"pools" : [
 		 ],

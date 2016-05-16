@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (504@304).
+	panel extent: (504@400).
 	panel position: (0@0).
 	panel hResizing: (#spaceFill).
 	panel vResizing: (#spaceFill).
@@ -145,7 +145,7 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
@@ -303,7 +303,7 @@ initializePanel
 	addHeader frameFractions: (0@0 corner: 1@1).
 	addHeader frameOffsets: (0@0 corner: 0@0).
 	addHeader balloonText: ('').
-	addHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	addHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	addHeader enabled: (true).
 	addHeader setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0303Normal'.
 	addHeader icon: (UiDiagonaIcons icon0303Normal).
@@ -349,12 +349,12 @@ initializePanel
 	sendButton setProperty: #objectName toValue: 'sendButton'.
 	panel addChild: sendButton.
 	responseData := UiTextEdit new.
-	responseData extent: (496@188).
+	responseData extent: (496@183).
 	responseData position: (4@112).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
-	responseData minWidth: (1).
-	responseData minHeight: (40).
+	responseData minWidth: (496).
+	responseData minHeight: (175).
 	responseData cellInset: (0).
 	responseData cellPositioning: (#center).
 	responseData cellSpacing: (#none).
@@ -384,4 +384,40 @@ initializePanel
 	responseData scrollingLimit: (10).
 	responseData setProperty: #objectName toValue: 'responseData'.
 	panel addChild: responseData.
+	responseHeader := UiTextEdit new.
+	responseHeader extent: (496@97).
+	responseHeader position: (4@299).
+	responseHeader hResizing: (#spaceFill).
+	responseHeader vResizing: (#spaceFill).
+	responseHeader minWidth: (496).
+	responseHeader minHeight: (88).
+	responseHeader cellInset: (0).
+	responseHeader cellPositioning: (#center).
+	responseHeader cellSpacing: (#none).
+	responseHeader layoutInset: (0).
+	responseHeader listCentering: (#topLeft).
+	responseHeader listDirection: (#topToBottom).
+	responseHeader listSpacing: (#none).
+	responseHeader maxCellSize: (1073741823).
+	responseHeader minCellSize: (0).
+	responseHeader wrapCentering: (#topLeft).
+	responseHeader wrapDirection: (#none).
+	responseHeader frameFractions: (0@0 corner: 1@1).
+	responseHeader frameOffsets: (0@0 corner: 0@0).
+	responseHeader balloonText: (nil).
+	responseHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	responseHeader widgetResizable: (true).
+	responseHeader horizontalScrollBarPolicy: (#alwaysOff).
+	responseHeader verticalScrollBarPolicy: (#asNeeded).
+	responseHeader outerBorderWidth: (1).
+	responseHeader scrollBarThickness: (9).
+	responseHeader theText: ('').
+	responseHeader readOnly: (false).
+	responseHeader autoConvert: (false).
+	responseHeader autoAccept: (false).
+	responseHeader acceptOnFocusLost: (false).
+	responseHeader scrollingMode: (#none).
+	responseHeader scrollingLimit: (10).
+	responseHeader setProperty: #objectName toValue: 'responseHeader'.
+	panel addChild: responseHeader.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

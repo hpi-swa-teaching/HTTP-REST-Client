@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addHeader" : "jt 5/16/2016 13:20",
-		"headerContainer" : "jt 5/16/2016 13:20",
-		"initializePanel" : "jt 5/16/2016 13:20",
-		"requestMethod" : "jt 5/16/2016 13:20",
-		"requestURL" : "jt 5/16/2016 13:20",
-		"responseData" : "jt 5/16/2016 13:20",
-		"sendButton" : "jt 5/16/2016 13:20" } }
+		"addHeader" : "CP 5/16/2016 13:32",
+		"headerContainer" : "CP 5/16/2016 13:32",
+		"initializePanel" : "CP 5/16/2016 13:32",
+		"requestMethod" : "CP 5/16/2016 13:32",
+		"requestURL" : "CP 5/16/2016 13:32",
+		"responseData" : "CP 5/16/2016 13:32",
+		"responseHeader" : "CP 5/16/2016 13:32",
+		"sendButton" : "CP 5/16/2016 13:32" } }
