@@ -2,9 +2,10 @@
 	"class" : {
 		"open" : "MH 5/12/2016 11:45" },
 	"instance" : {
-		"addHeader" : "jt 5/14/2016 18:13",
+		"addHeader" : "jt 5/17/2016 12:16",
 		"createRequestFor:" : "jt 5/14/2016 18:00",
-		"initialize" : "jt 5/14/2016 18:10",
+		"initialize" : "jt 5/17/2016 12:06",
+		"removeHeader" : "jt 5/17/2016 12:11",
 		"requestHeader" : "jt 5/14/2016 18:26",
 		"requestMethod" : "MH 5/12/2016 11:26",
 		"requestURL" : "MH 5/12/2016 11:23",
