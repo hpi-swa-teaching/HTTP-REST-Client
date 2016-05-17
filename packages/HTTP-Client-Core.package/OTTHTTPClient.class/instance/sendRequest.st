@@ -2,7 +2,7 @@ as yet unclassified
 sendRequest
 
 	| client request response |
-	client := WebClient new initializeFromUrl: self requestURL.
+	client := self createClientFor: self requestURL.
 	request := self createRequestFor: client.
 	response := client sendRequest: request.
 	response isSuccess

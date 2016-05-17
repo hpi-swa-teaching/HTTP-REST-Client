@@ -7,6 +7,6 @@ requestHeaders
 		do: [:keyValuePair |
 				key := keyValuePair submorphs first theText asString.
 				value := keyValuePair submorphs second theText asString.
-				(key empty not and: [value empty not])
+				(key ~= '' and: [value ~= ''])
 					ifTrue: [headers at: key put: value]].
 	^ headers

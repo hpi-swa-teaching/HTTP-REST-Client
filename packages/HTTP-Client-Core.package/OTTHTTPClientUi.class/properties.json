@@ -11,6 +11,8 @@
 		"headerContainer",
 		"addHeader",
 		"removeHeader",
+		"authUsername",
+		"authPassword",
 		"sendButton",
 		"responseData",
 		"responseHeader" ],
