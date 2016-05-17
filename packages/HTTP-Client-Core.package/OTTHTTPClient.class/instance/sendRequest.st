@@ -5,8 +5,8 @@ sendRequest
 	client := WebClient new initializeFromUrl: self requestURL.
 	request := self createRequestFor: client.
 	response := client sendRequest: request.
-	response isSuccess ifFalse:
-		[^ self error: response status].
+	response isSuccess
+		ifFalse: [^ self error: response status].
 	
 	self responseData: response content.
 	self responseHeader: response.

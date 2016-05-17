@@ -7,6 +7,7 @@ initialize
 		addText: 'GET';
 		addText: 'POST'.
 		
-	self connect: self ui sendButton signal: #clicked: toSelector: #sendRequest.
-	self connect: self ui addHeader signal: #clicked: toSelector: #addHeader.
-	self connect: self ui removeHeader signal: #clicked: toSelector: #removeHeader.
+	self
+		connect: self ui sendButton signal: #clicked: toSelector: #sendRequest;
+		connect: self ui addHeader signal: #clicked: toSelector: #addHeader;
+		connect: self ui removeHeader signal: #clicked: toSelector: #removeHeader.
