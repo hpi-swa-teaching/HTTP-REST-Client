@@ -1,5 +1,5 @@
 accessing
-addHeader
+addHeaderField
 	"No description given."
 	
 	^ addHeader

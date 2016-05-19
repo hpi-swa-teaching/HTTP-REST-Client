@@ -5,6 +5,6 @@ requestSpecification: aRequestSpecification
 		requestURL: aRequestSpecification url;
 		requestMethod: aRequestSpecification method;
 		postData: aRequestSpecification body;
-		"requestHeaders: aRequestData headers;"
+		requestHeaders: aRequestSpecification headers;
 		authUsername: aRequestSpecification authUsername;
 		authPassword: aRequestSpecification authPassword.

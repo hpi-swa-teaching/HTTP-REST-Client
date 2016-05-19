@@ -1,8 +1,7 @@
-as yet unclassified
-addHeader
+ui
+addHeaderField
 
 	| headerContainerCopy |
 	headerContainerCopy := self ui headerContainer submorphs last copy.
-	headerContainerCopy submorphs first theText: nil.
-	headerContainerCopy submorphs last theText: nil.
+	self setHeader: headerContainerCopy key: '' value: ''.
 	self ui headerContainer addMorphBack: headerContainerCopy.

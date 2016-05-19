@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addHeader" : "MH 5/19/2016 12:41",
-		"authPassword" : "MH 5/19/2016 12:41",
-		"authUsername" : "MH 5/19/2016 12:41",
-		"headerContainer" : "MH 5/19/2016 12:41",
-		"initializePanel" : "MH 5/19/2016 12:41",
-		"postData" : "MH 5/19/2016 12:41",
-		"removeHeader" : "MH 5/19/2016 12:41",
-		"requestMethod" : "MH 5/19/2016 12:41",
-		"requestURL" : "MH 5/19/2016 12:41",
-		"responseData" : "MH 5/19/2016 12:41",
-		"responseHeader" : "MH 5/19/2016 12:41",
-		"sendButton" : "MH 5/19/2016 12:41" } }
+		"addHeaderField" : "MH 5/19/2016 14:10",
+		"authPassword" : "MH 5/19/2016 13:52",
+		"authUsername" : "MH 5/19/2016 13:52",
+		"headerContainer" : "MH 5/19/2016 13:52",
+		"initializePanel" : "MH 5/19/2016 13:52",
+		"postData" : "MH 5/19/2016 13:52",
+		"removeHeaderField" : "MH 5/19/2016 14:07",
+		"requestMethod" : "MH 5/19/2016 13:52",
+		"requestURL" : "MH 5/19/2016 13:52",
+		"resetButton" : "MH 5/19/2016 13:52",
+		"responseData" : "MH 5/19/2016 13:52",
+		"responseHeader" : "MH 5/19/2016 13:52",
+		"sendButton" : "MH 5/19/2016 13:52" } }

@@ -1,5 +1,5 @@
 accessing
-removeHeader
+removeHeaderField
 	"No description given."
 	
 	^ removeHeader
