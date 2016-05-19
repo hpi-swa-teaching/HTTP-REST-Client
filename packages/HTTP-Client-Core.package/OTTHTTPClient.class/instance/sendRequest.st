@@ -1,19 +1,17 @@
 as yet unclassified
 sendRequest
 
-	| client request response data|
-	client := self createClientFor: self requestURL.
-	request := self createRequestFor: client.
-	self requestMethod = 'POST'
-		ifFalse: [
-			response := client sendRequest: request
-		];
+	| requestSpecification client request response |
+	requestSpecification := self requestSpecification.
+	client := self createClientWith: requestSpecification.
+	request := self createRequestWith: requestSpecification for: client.
+	request method = 'POST'
 		ifTrue: [
-			data := self postData.
 			response := client sendRequest: request
-				content: data readStream
-				size: data size.
-		].
+				content: requestSpecification body readStream
+				size: requestSpecification body size];
+		ifFalse: [response := client sendRequest: request].
+		
 	response isSuccess
 		ifFalse: [^ self error: response status].
 	

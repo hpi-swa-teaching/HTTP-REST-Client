@@ -1,0 +1,19 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url",
+		"method",
+		"body",
+		"headers",
+		"authPassword",
+		"authUsername" ],
+	"name" : "OTTRequestSpecification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
