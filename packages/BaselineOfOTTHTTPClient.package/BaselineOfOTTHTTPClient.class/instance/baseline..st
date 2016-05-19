@@ -4,6 +4,7 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec baseline: 'Widgets' with: [	spec repository: 'github://hpi-swa/widgets:master/repository' ].
 			spec
 				package: 'HTTP-Client-Core';
 				package: 'HTTP-Client-Tests' with: [ spec requires: #('default') ].
