@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (545@435).
+	panel extent: (554@443).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (536@30).
+	unnamedMorph1 extent: (545@30).
 	unnamedMorph1 position: (4@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
@@ -60,7 +60,7 @@ initializePanel
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color transparent).
 	requestURL := UiLineEdit new.
-	requestURL extent: (372@20).
+	requestURL extent: (381@20).
 	requestURL position: (8@9).
 	requestURL hResizing: (#spaceFill).
 	requestURL vResizing: (#rigid).
@@ -99,7 +99,7 @@ initializePanel
 	unnamedMorph1 addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (150@20).
-	requestMethod position: (384@8).
+	requestMethod position: (393@8).
 	requestMethod hResizing: (#rigid).
 	requestMethod vResizing: (#rigid).
 	requestMethod minWidth: (1).
@@ -125,7 +125,7 @@ initializePanel
 	panel addChild: unnamedMorph1.
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (536@46).
+	unnamedMorph2 extent: (545@46).
 	unnamedMorph2 position: (4@38).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
@@ -152,7 +152,7 @@ initializePanel
 	unnamedMorph2 borderColor: (Color black).
 	headerContainer := UiContainer new.
 	headerContainer changeTableLayout.
-	headerContainer extent: (423@38).
+	headerContainer extent: (432@38).
 	headerContainer position: (12@42).
 	headerContainer hResizing: (#spaceFill).
 	headerContainer vResizing: (#shrinkWrap).
@@ -180,7 +180,7 @@ initializePanel
 	headerContainer setProperty: #objectName toValue: 'headerContainer'.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (415@30).
+	unnamedMorph3 extent: (424@30).
 	unnamedMorph3 position: (16@46).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#shrinkWrap).
@@ -206,7 +206,7 @@ initializePanel
 	unnamedMorph3 borderStyle2: (#simple).
 	unnamedMorph3 borderColor: (Color black).
 	unnamedMorph4 := UiLineEdit new.
-	unnamedMorph4 extent: (201@20).
+	unnamedMorph4 extent: (206@20).
 	unnamedMorph4 position: (20@51).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
@@ -243,8 +243,8 @@ initializePanel
 	unnamedMorph4 hideCursor: (true).
 	unnamedMorph3 addChild: unnamedMorph4.
 	unnamedMorph5 := UiLineEdit new.
-	unnamedMorph5 extent: (202@20).
-	unnamedMorph5 position: (225@51).
+	unnamedMorph5 extent: (206@20).
+	unnamedMorph5 position: (230@51).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (1).
@@ -284,7 +284,7 @@ initializePanel
 	addHeader := UiPushButton new.
 	addHeader changeTableLayout.
 	addHeader extent: (50@20).
-	addHeader position: (444@51).
+	addHeader position: (453@51).
 	addHeader hResizing: (#shrinkWrap).
 	addHeader vResizing: (#shrinkWrap).
 	addHeader minWidth: (1).
@@ -317,7 +317,7 @@ initializePanel
 	removeHeader := UiPushButton new.
 	removeHeader changeTableLayout.
 	removeHeader extent: (35@18).
-	removeHeader position: (500@52).
+	removeHeader position: (509@52).
 	removeHeader hResizing: (#shrinkWrap).
 	removeHeader vResizing: (#shrinkWrap).
 	removeHeader minWidth: (1).
@@ -336,7 +336,7 @@ initializePanel
 	removeHeader frameFractions: (0@0 corner: 1@1).
 	removeHeader frameOffsets: (0@0 corner: 0@0).
 	removeHeader balloonText: (nil).
-	removeHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	removeHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	removeHeader enabled: (true).
 	removeHeader setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0304Normal'.
 	removeHeader icon: (UiDiagonaIcons icon0304Normal).
@@ -350,7 +350,7 @@ initializePanel
 	panel addChild: unnamedMorph2.
 	unnamedMorph6 := UiContainer new.
 	unnamedMorph6 changeTableLayout.
-	unnamedMorph6 extent: (536@30).
+	unnamedMorph6 extent: (545@30).
 	unnamedMorph6 position: (4@88).
 	unnamedMorph6 hResizing: (#spaceFill).
 	unnamedMorph6 vResizing: (#shrinkWrap).
@@ -370,13 +370,13 @@ initializePanel
 	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	unnamedMorph6 color: (Color transparent).
 	unnamedMorph6 borderWidth: (0).
 	unnamedMorph6 borderStyle2: (#simple).
 	unnamedMorph6 borderColor: (Color black).
 	authUsername := UiLineEdit new.
-	authUsername extent: (262@20).
+	authUsername extent: (266@20).
 	authUsername position: (8@93).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
@@ -396,7 +396,7 @@ initializePanel
 	authUsername frameFractions: (0@0 corner: 1@1).
 	authUsername frameOffsets: (0@0 corner: 0@0).
 	authUsername balloonText: (nil).
-	authUsername balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	authUsername balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	authUsername widgetResizable: (false).
 	authUsername horizontalScrollBarPolicy: (#alwaysOff).
 	authUsername verticalScrollBarPolicy: (#alwaysOff).
@@ -414,8 +414,8 @@ initializePanel
 	authUsername setProperty: #objectName toValue: 'authUsername'.
 	unnamedMorph6 addChild: authUsername.
 	authPassword := UiLineEdit new.
-	authPassword extent: (262@20).
-	authPassword position: (274@93).
+	authPassword extent: (267@20).
+	authPassword position: (278@93).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -434,7 +434,7 @@ initializePanel
 	authPassword frameFractions: (0@0 corner: 1@1).
 	authPassword frameOffsets: (0@0 corner: 0@0).
 	authPassword balloonText: (nil).
-	authPassword balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	authPassword balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	authPassword widgetResizable: (false).
 	authPassword horizontalScrollBarPolicy: (#alwaysOff).
 	authPassword verticalScrollBarPolicy: (#alwaysOff).
@@ -454,7 +454,7 @@ initializePanel
 	panel addChild: unnamedMorph6.
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
-	sendButton extent: (536@20).
+	sendButton extent: (545@20).
 	sendButton position: (4@122).
 	sendButton hResizing: (#spaceFill).
 	sendButton vResizing: (#shrinkWrap).
@@ -486,7 +486,7 @@ initializePanel
 	sendButton setProperty: #objectName toValue: 'sendButton'.
 	panel addChild: sendButton.
 	responseData := UiTextEdit new.
-	responseData extent: (536@140).
+	responseData extent: (545@111).
 	responseData position: (4@146).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
@@ -522,8 +522,8 @@ initializePanel
 	responseData setProperty: #objectName toValue: 'responseData'.
 	panel addChild: responseData.
 	responseHeader := UiTextEdit new.
-	responseHeader extent: (536@140).
-	responseHeader position: (4@290).
+	responseHeader extent: (545@111).
+	responseHeader position: (4@261).
 	responseHeader hResizing: (#spaceFill).
 	responseHeader vResizing: (#spaceFill).
 	responseHeader minWidth: (496).
@@ -542,7 +542,7 @@ initializePanel
 	responseHeader frameFractions: (0@0 corner: 1@1).
 	responseHeader frameOffsets: (0@0 corner: 0@0).
 	responseHeader balloonText: ('').
-	responseHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	responseHeader widgetResizable: (true).
 	responseHeader horizontalScrollBarPolicy: (#alwaysOff).
 	responseHeader verticalScrollBarPolicy: (#asNeeded).
@@ -557,4 +557,40 @@ initializePanel
 	responseHeader scrollingLimit: (10).
 	responseHeader setProperty: #objectName toValue: 'responseHeader'.
 	panel addChild: responseHeader.
+	postData := UiTextEdit new.
+	postData extent: (545@62).
+	postData position: (4@376).
+	postData hResizing: (#spaceFill).
+	postData vResizing: (#spaceFill).
+	postData minWidth: (1).
+	postData minHeight: (1).
+	postData cellInset: (0).
+	postData cellPositioning: (#center).
+	postData cellSpacing: (#none).
+	postData layoutInset: (0).
+	postData listCentering: (#topLeft).
+	postData listDirection: (#topToBottom).
+	postData listSpacing: (#none).
+	postData maxCellSize: (1073741823).
+	postData minCellSize: (0).
+	postData wrapCentering: (#topLeft).
+	postData wrapDirection: (#none).
+	postData frameFractions: (0@0 corner: 1@1).
+	postData frameOffsets: (0@0 corner: 0@0).
+	postData balloonText: (nil).
+	postData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	postData widgetResizable: (true).
+	postData horizontalScrollBarPolicy: (#alwaysOff).
+	postData verticalScrollBarPolicy: (#asNeeded).
+	postData outerBorderWidth: (1).
+	postData scrollBarThickness: (9).
+	postData theText: ('').
+	postData readOnly: (false).
+	postData autoConvert: (false).
+	postData autoAccept: (false).
+	postData acceptOnFocusLost: (false).
+	postData scrollingMode: (#none).
+	postData scrollingLimit: (10).
+	postData setProperty: #objectName toValue: 'postData'.
+	panel addChild: postData.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

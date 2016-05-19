@@ -2,14 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addHeader" : "MH 5/17/2016 15:49",
-		"authPassword" : "MH 5/17/2016 15:49",
-		"authUsername" : "MH 5/17/2016 15:49",
-		"headerContainer" : "MH 5/17/2016 15:49",
-		"initializePanel" : "MH 5/17/2016 15:49",
-		"removeHeader" : "MH 5/17/2016 15:49",
-		"requestMethod" : "MH 5/17/2016 15:49",
-		"requestURL" : "MH 5/17/2016 15:49",
-		"responseData" : "MH 5/17/2016 15:49",
-		"responseHeader" : "MH 5/17/2016 15:49",
-		"sendButton" : "MH 5/17/2016 15:49" } }
+		"addHeader" : "AS 5/19/2016 10:55",
+		"authPassword" : "AS 5/19/2016 10:55",
+		"authUsername" : "AS 5/19/2016 10:55",
+		"headerContainer" : "AS 5/19/2016 10:55",
+		"initializePanel" : "AS 5/19/2016 10:55",
+		"postData" : "AS 5/19/2016 10:55",
+		"removeHeader" : "AS 5/19/2016 10:55",
+		"requestMethod" : "AS 5/19/2016 10:55",
+		"requestURL" : "AS 5/19/2016 10:55",
+		"responseData" : "AS 5/19/2016 10:55",
+		"responseHeader" : "AS 5/19/2016 10:55",
+		"sendButton" : "AS 5/19/2016 10:55" } }

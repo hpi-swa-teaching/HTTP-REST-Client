@@ -15,7 +15,8 @@
 		"authPassword",
 		"sendButton",
 		"responseData",
-		"responseHeader" ],
+		"responseHeader",
+		"postData" ],
 	"name" : "OTTHTTPClientUi",
 	"pools" : [
 		 ],
