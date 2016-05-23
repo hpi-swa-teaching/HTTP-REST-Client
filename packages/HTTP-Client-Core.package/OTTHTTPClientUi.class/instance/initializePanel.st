@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (560@537).
+	panel extent: (584@561).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -34,7 +34,7 @@ initializePanel
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (551@30).
+	unnamedMorph1 extent: (575@30).
 	unnamedMorph1 position: (4@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
@@ -60,7 +60,7 @@ initializePanel
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color transparent).
 	requestURL := UiLineEdit new.
-	requestURL extent: (387@20).
+	requestURL extent: (411@20).
 	requestURL position: (8@9).
 	requestURL hResizing: (#spaceFill).
 	requestURL vResizing: (#rigid).
@@ -99,7 +99,7 @@ initializePanel
 	unnamedMorph1 addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (150@20).
-	requestMethod position: (399@8).
+	requestMethod position: (423@8).
 	requestMethod hResizing: (#rigid).
 	requestMethod vResizing: (#rigid).
 	requestMethod minWidth: (1).
@@ -125,7 +125,7 @@ initializePanel
 	panel addChild: unnamedMorph1.
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (551@46).
+	unnamedMorph2 extent: (575@46).
 	unnamedMorph2 position: (4@38).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
@@ -152,7 +152,7 @@ initializePanel
 	unnamedMorph2 borderColor: (Color black).
 	headerContainer := UiContainer new.
 	headerContainer changeTableLayout.
-	headerContainer extent: (438@38).
+	headerContainer extent: (462@38).
 	headerContainer position: (12@42).
 	headerContainer hResizing: (#spaceFill).
 	headerContainer vResizing: (#shrinkWrap).
@@ -180,7 +180,7 @@ initializePanel
 	headerContainer setProperty: #objectName toValue: 'headerContainer'.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (430@30).
+	unnamedMorph3 extent: (454@30).
 	unnamedMorph3 position: (16@46).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#shrinkWrap).
@@ -206,7 +206,7 @@ initializePanel
 	unnamedMorph3 borderStyle2: (#simple).
 	unnamedMorph3 borderColor: (Color black).
 	unnamedMorph4 := UiLineEdit new.
-	unnamedMorph4 extent: (209@20).
+	unnamedMorph4 extent: (221@20).
 	unnamedMorph4 position: (20@51).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
@@ -243,8 +243,8 @@ initializePanel
 	unnamedMorph4 hideCursor: (true).
 	unnamedMorph3 addChild: unnamedMorph4.
 	unnamedMorph5 := UiLineEdit new.
-	unnamedMorph5 extent: (209@20).
-	unnamedMorph5 position: (233@51).
+	unnamedMorph5 extent: (221@20).
+	unnamedMorph5 position: (245@51).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (1).
@@ -281,76 +281,76 @@ initializePanel
 	unnamedMorph3 addChild: unnamedMorph5.
 	headerContainer addChild: unnamedMorph3.
 	unnamedMorph2 addChild: headerContainer.
-	addHeader := UiPushButton new.
-	addHeader changeTableLayout.
-	addHeader extent: (50@20).
-	addHeader position: (459@51).
-	addHeader hResizing: (#shrinkWrap).
-	addHeader vResizing: (#shrinkWrap).
-	addHeader minWidth: (1).
-	addHeader minHeight: (1).
-	addHeader cellInset: (4).
-	addHeader cellPositioning: (#center).
-	addHeader cellSpacing: (#none).
-	addHeader layoutInset: (2@0 corner: 2@0).
-	addHeader listCentering: (#topLeft).
-	addHeader listDirection: (#leftToRight).
-	addHeader listSpacing: (#none).
-	addHeader maxCellSize: (1073741823).
-	addHeader minCellSize: (0).
-	addHeader wrapCentering: (#topLeft).
-	addHeader wrapDirection: (#none).
-	addHeader frameFractions: (0@0 corner: 1@1).
-	addHeader frameOffsets: (0@0 corner: 0@0).
-	addHeader balloonText: ('').
-	addHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	addHeader enabled: (true).
-	addHeader setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0303Normal'.
-	addHeader icon: (UiDiagonaIcons icon0303Normal).
-	addHeader text: ('add').
-	addHeader color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	addHeader checkable: (false).
-	addHeader checked: (false).
-	addHeader autoExclusive: (false).
-	addHeader setProperty: #objectName toValue: 'addHeader'.
-	unnamedMorph2 addChild: addHeader.
-	removeHeader := UiPushButton new.
-	removeHeader changeTableLayout.
-	removeHeader extent: (35@18).
-	removeHeader position: (515@52).
-	removeHeader hResizing: (#shrinkWrap).
-	removeHeader vResizing: (#shrinkWrap).
-	removeHeader minWidth: (1).
-	removeHeader minHeight: (1).
-	removeHeader cellInset: (4).
-	removeHeader cellPositioning: (#center).
-	removeHeader cellSpacing: (#none).
-	removeHeader layoutInset: (2@0 corner: 2@0).
-	removeHeader listCentering: (#topLeft).
-	removeHeader listDirection: (#leftToRight).
-	removeHeader listSpacing: (#none).
-	removeHeader maxCellSize: (1073741823).
-	removeHeader minCellSize: (0).
-	removeHeader wrapCentering: (#topLeft).
-	removeHeader wrapDirection: (#none).
-	removeHeader frameFractions: (0@0 corner: 1@1).
-	removeHeader frameOffsets: (0@0 corner: 0@0).
-	removeHeader balloonText: (nil).
-	removeHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	removeHeader enabled: (true).
-	removeHeader setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0304Normal'.
-	removeHeader icon: (UiDiagonaIcons icon0304Normal).
-	removeHeader text: ('').
-	removeHeader color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	removeHeader checkable: (false).
-	removeHeader checked: (false).
-	removeHeader autoExclusive: (false).
-	removeHeader setProperty: #objectName toValue: 'removeHeader'.
-	unnamedMorph2 addChild: removeHeader.
+	addHeaderField := UiPushButton new.
+	addHeaderField changeTableLayout.
+	addHeaderField extent: (50@20).
+	addHeaderField position: (483@51).
+	addHeaderField hResizing: (#shrinkWrap).
+	addHeaderField vResizing: (#rigid).
+	addHeaderField minWidth: (1).
+	addHeaderField minHeight: (1).
+	addHeaderField cellInset: (4).
+	addHeaderField cellPositioning: (#center).
+	addHeaderField cellSpacing: (#none).
+	addHeaderField layoutInset: (2@0 corner: 2@0).
+	addHeaderField listCentering: (#topLeft).
+	addHeaderField listDirection: (#leftToRight).
+	addHeaderField listSpacing: (#none).
+	addHeaderField maxCellSize: (1073741823).
+	addHeaderField minCellSize: (0).
+	addHeaderField wrapCentering: (#topLeft).
+	addHeaderField wrapDirection: (#none).
+	addHeaderField frameFractions: (0@0 corner: 1@1).
+	addHeaderField frameOffsets: (0@0 corner: 0@0).
+	addHeaderField balloonText: ('').
+	addHeaderField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	addHeaderField enabled: (true).
+	addHeaderField setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0303Normal'.
+	addHeaderField icon: (UiDiagonaIcons icon0303Normal).
+	addHeaderField text: ('add').
+	addHeaderField color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	addHeaderField checkable: (false).
+	addHeaderField checked: (false).
+	addHeaderField autoExclusive: (false).
+	addHeaderField setProperty: #objectName toValue: 'addHeaderField'.
+	unnamedMorph2 addChild: addHeaderField.
+	removeHeaderField := UiPushButton new.
+	removeHeaderField changeTableLayout.
+	removeHeaderField extent: (35@20).
+	removeHeaderField position: (539@51).
+	removeHeaderField hResizing: (#shrinkWrap).
+	removeHeaderField vResizing: (#rigid).
+	removeHeaderField minWidth: (1).
+	removeHeaderField minHeight: (1).
+	removeHeaderField cellInset: (4).
+	removeHeaderField cellPositioning: (#center).
+	removeHeaderField cellSpacing: (#none).
+	removeHeaderField layoutInset: (2@0 corner: 2@0).
+	removeHeaderField listCentering: (#topLeft).
+	removeHeaderField listDirection: (#leftToRight).
+	removeHeaderField listSpacing: (#none).
+	removeHeaderField maxCellSize: (1073741823).
+	removeHeaderField minCellSize: (0).
+	removeHeaderField wrapCentering: (#topLeft).
+	removeHeaderField wrapDirection: (#none).
+	removeHeaderField frameFractions: (0@0 corner: 1@1).
+	removeHeaderField frameOffsets: (0@0 corner: 0@0).
+	removeHeaderField balloonText: (nil).
+	removeHeaderField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	removeHeaderField enabled: (true).
+	removeHeaderField setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0304Normal'.
+	removeHeaderField icon: (UiDiagonaIcons icon0304Normal).
+	removeHeaderField text: ('').
+	removeHeaderField color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	removeHeaderField checkable: (false).
+	removeHeaderField checked: (false).
+	removeHeaderField autoExclusive: (false).
+	removeHeaderField setProperty: #objectName toValue: 'removeHeaderField'.
+	unnamedMorph2 addChild: removeHeaderField.
 	panel addChild: unnamedMorph2.
 	unnamedMorph6 := UiContainer new.
 	unnamedMorph6 changeTableLayout.
-	unnamedMorph6 extent: (551@30).
+	unnamedMorph6 extent: (575@30).
 	unnamedMorph6 position: (4@88).
 	unnamedMorph6 hResizing: (#spaceFill).
 	unnamedMorph6 vResizing: (#shrinkWrap).
@@ -370,13 +370,13 @@ initializePanel
 	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph6 color: (Color transparent).
 	unnamedMorph6 borderWidth: (0).
 	unnamedMorph6 borderStyle2: (#simple).
 	unnamedMorph6 borderColor: (Color black).
 	authUsername := UiLineEdit new.
-	authUsername extent: (269@20).
+	authUsername extent: (281@20).
 	authUsername position: (8@93).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
@@ -396,7 +396,7 @@ initializePanel
 	authUsername frameFractions: (0@0 corner: 1@1).
 	authUsername frameOffsets: (0@0 corner: 0@0).
 	authUsername balloonText: (nil).
-	authUsername balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	authUsername balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	authUsername widgetResizable: (false).
 	authUsername horizontalScrollBarPolicy: (#alwaysOff).
 	authUsername verticalScrollBarPolicy: (#alwaysOff).
@@ -414,8 +414,8 @@ initializePanel
 	authUsername setProperty: #objectName toValue: 'authUsername'.
 	unnamedMorph6 addChild: authUsername.
 	authPassword := UiLineEdit new.
-	authPassword extent: (270@20).
-	authPassword position: (281@93).
+	authPassword extent: (282@20).
+	authPassword position: (293@93).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -434,7 +434,7 @@ initializePanel
 	authPassword frameFractions: (0@0 corner: 1@1).
 	authPassword frameOffsets: (0@0 corner: 0@0).
 	authPassword balloonText: (nil).
-	authPassword balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	authPassword balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	authPassword widgetResizable: (false).
 	authPassword horizontalScrollBarPolicy: (#alwaysOff).
 	authPassword verticalScrollBarPolicy: (#alwaysOff).
@@ -454,7 +454,7 @@ initializePanel
 	panel addChild: unnamedMorph6.
 	unnamedMorph7 := UiContainer new.
 	unnamedMorph7 changeTableLayout.
-	unnamedMorph7 extent: (551@30).
+	unnamedMorph7 extent: (575@30).
 	unnamedMorph7 position: (4@122).
 	unnamedMorph7 hResizing: (#spaceFill).
 	unnamedMorph7 vResizing: (#shrinkWrap).
@@ -474,7 +474,7 @@ initializePanel
 	unnamedMorph7 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph7 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph7 balloonText: (nil).
-	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph7 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph7 color: (Color transparent).
 	unnamedMorph7 borderWidth: (0).
 	unnamedMorph7 borderStyle2: (#simple).
@@ -534,7 +534,7 @@ initializePanel
 	resetButton frameFractions: (0@0 corner: 1@1).
 	resetButton frameOffsets: (0@0 corner: 0@0).
 	resetButton balloonText: (nil).
-	resetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	resetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	resetButton enabled: (true).
 	resetButton setProperty: #iconByDesigner toValue: 'nil'.
 	resetButton icon: (nil).
@@ -546,7 +546,7 @@ initializePanel
 	resetButton setProperty: #objectName toValue: 'resetButton'.
 	unnamedMorph7 addChild: resetButton.
 	unnamedMorph8 := UiSpacer new.
-	unnamedMorph8 extent: (276@20).
+	unnamedMorph8 extent: (300@20).
 	unnamedMorph8 position: (208@127).
 	unnamedMorph8 hResizing: (#spaceFill).
 	unnamedMorph8 vResizing: (#rigid).
@@ -566,7 +566,7 @@ initializePanel
 	unnamedMorph8 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph8 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph8 balloonText: (nil).
-	unnamedMorph8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	unnamedMorph8 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph8 color: (Color blue).
 	unnamedMorph8 borderWidth: (0).
 	unnamedMorph8 borderStyle2: (#simple).
@@ -576,7 +576,7 @@ initializePanel
 	responseTime := UiLabel new.
 	responseTime changeTableLayout.
 	responseTime extent: (63@18).
-	responseTime position: (488@128).
+	responseTime position: (512@128).
 	responseTime hResizing: (#shrinkWrap).
 	responseTime vResizing: (#shrinkWrap).
 	responseTime minWidth: (1).
@@ -595,7 +595,7 @@ initializePanel
 	responseTime frameFractions: (0@0 corner: 1@1).
 	responseTime frameOffsets: (0@0 corner: 0@0).
 	responseTime balloonText: (nil).
-	responseTime balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseTime balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	responseTime text: ('Time: 0ms').
 	responseTime setProperty: #formByDesigner toValue: 'nil'.
 	responseTime form: (nil).
@@ -603,7 +603,7 @@ initializePanel
 	unnamedMorph7 addChild: responseTime.
 	panel addChild: unnamedMorph7.
 	postData := UiTextEdit new.
-	postData extent: (551@122).
+	postData extent: (575@130).
 	postData position: (4@156).
 	postData hResizing: (#spaceFill).
 	postData vResizing: (#spaceFill).
@@ -623,7 +623,7 @@ initializePanel
 	postData frameFractions: (0@0 corner: 1@1).
 	postData frameOffsets: (0@0 corner: 0@0).
 	postData balloonText: (nil).
-	postData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	postData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	postData widgetResizable: (true).
 	postData horizontalScrollBarPolicy: (#alwaysOff).
 	postData verticalScrollBarPolicy: (#asNeeded).
@@ -639,8 +639,8 @@ initializePanel
 	postData setProperty: #objectName toValue: 'postData'.
 	panel addChild: postData.
 	responseData := UiTextEdit new.
-	responseData extent: (551@123).
-	responseData position: (4@282).
+	responseData extent: (575@131).
+	responseData position: (4@290).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -675,8 +675,8 @@ initializePanel
 	responseData setProperty: #objectName toValue: 'responseData'.
 	panel addChild: responseData.
 	responseHeader := UiTextEdit new.
-	responseHeader extent: (551@123).
-	responseHeader position: (4@409).
+	responseHeader extent: (575@131).
+	responseHeader position: (4@425).
 	responseHeader hResizing: (#spaceFill).
 	responseHeader vResizing: (#spaceFill).
 	responseHeader minWidth: (1).
