@@ -15,6 +15,7 @@
 		"authPassword",
 		"sendButton",
 		"resetButton",
+		"responseTime",
 		"postData",
 		"responseData",
 		"responseHeader" ],
