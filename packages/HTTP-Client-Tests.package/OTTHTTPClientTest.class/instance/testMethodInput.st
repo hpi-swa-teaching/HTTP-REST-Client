@@ -1,9 +1,8 @@
 testing
 testMethodInput
 
-	| requestSpecification testClient |
-	requestSpecification := OTTRequestSpecification new url: 'http://www.test.de/bla'.
-	testClient := OTTHTTPTestClient new webClient: clientMock.
-	testClient requestSpecification: requestSpecification.
-	testClient sendRequest.
-	self assert: clientMock request method = requestSpecification method. 
+	self client 
+		webClient: clientMock;
+		requestSpecification: (self client defaultRequestSpecification);
+		sendRequest.
+	self assert: clientMock request method equals: (self client defaultRequestSpecification) method.	

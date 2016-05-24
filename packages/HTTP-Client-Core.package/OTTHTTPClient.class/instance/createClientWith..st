@@ -2,7 +2,7 @@ as yet unclassified
 createClientWith: aRequestSpecification
 
 	| client |
-	client := WebClient new initializeFromUrl: aRequestSpecification url.
+	client := self createClient initializeFromUrl: aRequestSpecification url.
 	aRequestSpecification hasAuth
 		ifTrue: [client
 					username: aRequestSpecification authUsername;
