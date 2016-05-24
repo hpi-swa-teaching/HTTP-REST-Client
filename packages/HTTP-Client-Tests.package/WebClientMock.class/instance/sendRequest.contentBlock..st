@@ -1,8 +1,11 @@
 as yet unclassified
 sendRequest: request contentBlock: contentBlock
 
-	|  response |
+	|  response contentStream |
 
+	contentStream := ReadWriteStream on: ''.
+	contentBlock value: contentStream.
+	self content: (contentStream contents).
 	self request: request.
 	
 	response := WebResponse protocol: 'HTTP/1.1' code: 200.
