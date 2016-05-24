@@ -20,6 +20,4 @@ sendRequest
 	response isSuccess
 		ifFalse: [^ self error: response status].
 	
-	self responseTime: 'Time: ', ((((Timespan starting: start ending: end) duration asNanoSeconds) / 1000000) rounded asString), 'ms'.
-	self responseData: response content.
-	self responseHeader: response.
+	self showResponse: response withLatency: ((((Timespan starting: start ending: end) duration asNanoSeconds) / 1000000) rounded asString). 
