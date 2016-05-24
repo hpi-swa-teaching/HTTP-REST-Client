@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"clientMock" ],
-	"name" : "OTTHTTPClientTest",
+		"request" ],
+	"name" : "WebClientMock",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "WebClient",
 	"type" : "normal" }
