@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTTRequestHistoryModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,6 +1,7 @@
 as yet unclassified
-showResponse: aResponse withLatency: aDuration
+showResponse: aResponse time: anInteger
+
 	self statusCode: aResponse code.
-	self responseTime: 'Time: ', aDuration , 'ms'.
+	self responseTime: 'Time: ', anInteger asString, 'ms'.
 	self responseData: aResponse content.
 	self responseHeader: aResponse.
