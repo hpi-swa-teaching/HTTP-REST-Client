@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -179,7 +179,7 @@ initializePanel
 	unnamedMorph3 borderColor: (Color black).
 	headerContainer := UiContainer new.
 	headerContainer changeTableLayout.
-	headerContainer extent: (590@38).
+	headerContainer extent: (605@38).
 	headerContainer position: (16@46).
 	headerContainer hResizing: (#spaceFill).
 	headerContainer vResizing: (#shrinkWrap).
@@ -207,7 +207,7 @@ initializePanel
 	headerContainer setProperty: #objectName toValue: 'headerContainer'.
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (582@30).
+	unnamedMorph4 extent: (597@30).
 	unnamedMorph4 position: (20@50).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#shrinkWrap).
@@ -233,7 +233,7 @@ initializePanel
 	unnamedMorph4 borderStyle2: (#simple).
 	unnamedMorph4 borderColor: (Color black).
 	unnamedMorph5 := UiLineEdit new.
-	unnamedMorph5 extent: (285@20).
+	unnamedMorph5 extent: (292@20).
 	unnamedMorph5 position: (24@55).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
@@ -270,8 +270,8 @@ initializePanel
 	unnamedMorph5 hideCursor: (true).
 	unnamedMorph4 addChild: unnamedMorph5.
 	unnamedMorph6 := UiLineEdit new.
-	unnamedMorph6 extent: (285@20).
-	unnamedMorph6 position: (313@55).
+	unnamedMorph6 extent: (293@20).
+	unnamedMorph6 position: (320@55).
 	unnamedMorph6 hResizing: (#spaceFill).
 	unnamedMorph6 vResizing: (#rigid).
 	unnamedMorph6 minWidth: (1).
@@ -308,72 +308,72 @@ initializePanel
 	unnamedMorph4 addChild: unnamedMorph6.
 	headerContainer addChild: unnamedMorph4.
 	unnamedMorph3 addChild: headerContainer.
-	addHeaderField := UiPushButton new.
-	addHeaderField changeTableLayout.
-	addHeaderField extent: (50@20).
-	addHeaderField position: (615@55).
-	addHeaderField hResizing: (#shrinkWrap).
-	addHeaderField vResizing: (#rigid).
-	addHeaderField minWidth: (1).
-	addHeaderField minHeight: (1).
-	addHeaderField cellInset: (4).
-	addHeaderField cellPositioning: (#center).
-	addHeaderField cellSpacing: (#none).
-	addHeaderField layoutInset: (2@0 corner: 2@0).
-	addHeaderField listCentering: (#topLeft).
-	addHeaderField listDirection: (#leftToRight).
-	addHeaderField listSpacing: (#none).
-	addHeaderField maxCellSize: (1073741823).
-	addHeaderField minCellSize: (0).
-	addHeaderField wrapCentering: (#topLeft).
-	addHeaderField wrapDirection: (#none).
-	addHeaderField frameFractions: (0@0 corner: 1@1).
-	addHeaderField frameOffsets: (0@0 corner: 0@0).
-	addHeaderField balloonText: ('').
-	addHeaderField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	addHeaderField enabled: (true).
-	addHeaderField setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0303Normal'.
-	addHeaderField icon: (UiDiagonaIcons icon0303Normal).
-	addHeaderField text: ('add').
-	addHeaderField color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	addHeaderField checkable: (false).
-	addHeaderField checked: (false).
-	addHeaderField autoExclusive: (false).
-	addHeaderField setProperty: #objectName toValue: 'addHeaderField'.
-	unnamedMorph3 addChild: addHeaderField.
-	removeHeaderField := UiPushButton new.
-	removeHeaderField changeTableLayout.
-	removeHeaderField extent: (35@20).
-	removeHeaderField position: (671@55).
-	removeHeaderField hResizing: (#shrinkWrap).
-	removeHeaderField vResizing: (#rigid).
-	removeHeaderField minWidth: (1).
-	removeHeaderField minHeight: (1).
-	removeHeaderField cellInset: (4).
-	removeHeaderField cellPositioning: (#center).
-	removeHeaderField cellSpacing: (#none).
-	removeHeaderField layoutInset: (2@0 corner: 2@0).
-	removeHeaderField listCentering: (#topLeft).
-	removeHeaderField listDirection: (#leftToRight).
-	removeHeaderField listSpacing: (#none).
-	removeHeaderField maxCellSize: (1073741823).
-	removeHeaderField minCellSize: (0).
-	removeHeaderField wrapCentering: (#topLeft).
-	removeHeaderField wrapDirection: (#none).
-	removeHeaderField frameFractions: (0@0 corner: 1@1).
-	removeHeaderField frameOffsets: (0@0 corner: 0@0).
-	removeHeaderField balloonText: (nil).
-	removeHeaderField balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	removeHeaderField enabled: (true).
-	removeHeaderField setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0304Normal'.
-	removeHeaderField icon: (UiDiagonaIcons icon0304Normal).
-	removeHeaderField text: ('').
-	removeHeaderField color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	removeHeaderField checkable: (false).
-	removeHeaderField checked: (false).
-	removeHeaderField autoExclusive: (false).
-	removeHeaderField setProperty: #objectName toValue: 'removeHeaderField'.
-	unnamedMorph3 addChild: removeHeaderField.
+	addHeaderButton := UiPushButton new.
+	addHeaderButton changeTableLayout.
+	addHeaderButton extent: (35@20).
+	addHeaderButton position: (630@55).
+	addHeaderButton hResizing: (#shrinkWrap).
+	addHeaderButton vResizing: (#rigid).
+	addHeaderButton minWidth: (1).
+	addHeaderButton minHeight: (1).
+	addHeaderButton cellInset: (4).
+	addHeaderButton cellPositioning: (#center).
+	addHeaderButton cellSpacing: (#none).
+	addHeaderButton layoutInset: (2@0 corner: 2@0).
+	addHeaderButton listCentering: (#topLeft).
+	addHeaderButton listDirection: (#leftToRight).
+	addHeaderButton listSpacing: (#none).
+	addHeaderButton maxCellSize: (1073741823).
+	addHeaderButton minCellSize: (0).
+	addHeaderButton wrapCentering: (#topLeft).
+	addHeaderButton wrapDirection: (#none).
+	addHeaderButton frameFractions: (0@0 corner: 1@1).
+	addHeaderButton frameOffsets: (0@0 corner: 0@0).
+	addHeaderButton balloonText: ('').
+	addHeaderButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	addHeaderButton enabled: (true).
+	addHeaderButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0303Normal'.
+	addHeaderButton icon: (UiDiagonaIcons icon0303Normal).
+	addHeaderButton text: (' ').
+	addHeaderButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	addHeaderButton checkable: (false).
+	addHeaderButton checked: (false).
+	addHeaderButton autoExclusive: (false).
+	addHeaderButton setProperty: #objectName toValue: 'addHeaderButton'.
+	unnamedMorph3 addChild: addHeaderButton.
+	removeHeaderButton := UiPushButton new.
+	removeHeaderButton changeTableLayout.
+	removeHeaderButton extent: (35@20).
+	removeHeaderButton position: (671@55).
+	removeHeaderButton hResizing: (#shrinkWrap).
+	removeHeaderButton vResizing: (#rigid).
+	removeHeaderButton minWidth: (1).
+	removeHeaderButton minHeight: (1).
+	removeHeaderButton cellInset: (4).
+	removeHeaderButton cellPositioning: (#center).
+	removeHeaderButton cellSpacing: (#none).
+	removeHeaderButton layoutInset: (2@0 corner: 2@0).
+	removeHeaderButton listCentering: (#topLeft).
+	removeHeaderButton listDirection: (#leftToRight).
+	removeHeaderButton listSpacing: (#none).
+	removeHeaderButton maxCellSize: (1073741823).
+	removeHeaderButton minCellSize: (0).
+	removeHeaderButton wrapCentering: (#topLeft).
+	removeHeaderButton wrapDirection: (#none).
+	removeHeaderButton frameFractions: (0@0 corner: 1@1).
+	removeHeaderButton frameOffsets: (0@0 corner: 0@0).
+	removeHeaderButton balloonText: (nil).
+	removeHeaderButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	removeHeaderButton enabled: (true).
+	removeHeaderButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0304Normal'.
+	removeHeaderButton icon: (UiDiagonaIcons icon0304Normal).
+	removeHeaderButton text: (' ').
+	removeHeaderButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	removeHeaderButton checkable: (false).
+	removeHeaderButton checked: (false).
+	removeHeaderButton autoExclusive: (false).
+	removeHeaderButton setProperty: #objectName toValue: 'removeHeaderButton'.
+	unnamedMorph3 addChild: removeHeaderButton.
 	unnamedMorph1 addChild: unnamedMorph3.
 	unnamedMorph7 := UiContainer new.
 	unnamedMorph7 changeTableLayout.
@@ -622,7 +622,7 @@ initializePanel
 	statusCode frameFractions: (0@0 corner: 1@1).
 	statusCode frameOffsets: (0@0 corner: 0@0).
 	statusCode balloonText: (nil).
-	statusCode balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	statusCode balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	statusCode text: ('Status: ').
 	statusCode setProperty: #formByDesigner toValue: 'nil'.
 	statusCode form: (nil).

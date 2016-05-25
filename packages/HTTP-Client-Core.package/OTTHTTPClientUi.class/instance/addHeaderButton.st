@@ -1,5 +1,5 @@
 accessing
-addHeaderField
+addHeaderButton
 	"No description given."
 	
-	^ addHeaderField
+	^ addHeaderButton
