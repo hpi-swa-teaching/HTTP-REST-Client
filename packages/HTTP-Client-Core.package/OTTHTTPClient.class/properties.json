@@ -1,7 +1,7 @@
 {
 	"category" : "HTTP-Client-Core",
 	"classinstvars" : [
-		 ],
+		"requestHistory" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

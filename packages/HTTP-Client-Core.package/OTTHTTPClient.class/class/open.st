@@ -1,4 +1,7 @@
 as yet unclassified
 open
 
-	self new openInWindowLabeled: 'HTTP Client'.
+	self basicNew
+		requestHistory: self requestHistory;
+		initialize;
+		openInWindowLabeled: 'HTTP Client'.
