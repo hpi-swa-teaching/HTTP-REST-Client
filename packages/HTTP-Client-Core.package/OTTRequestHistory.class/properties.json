@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
-		"requestHistory" ],
-	"name" : "OTTHTTPClient",
+		"requests" ],
+	"name" : "OTTRequestHistory",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

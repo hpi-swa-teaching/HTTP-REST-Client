@@ -3,6 +3,7 @@ sendRequest
 
 	| requestSpecification client request response start end responseTime |
 	requestSpecification := self requestSpecification.
+	self requestHistory addRequest: requestSpecification.
 	client := self createClientWith: requestSpecification.
 	request := self createRequestWith: requestSpecification for: client.
 	

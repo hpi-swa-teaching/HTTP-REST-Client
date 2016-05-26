@@ -2,13 +2,15 @@
 	"category" : "HTTP-Client-Core",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TUiItemModel classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"requestHistory" ],
 	"name" : "OTTRequestHistoryModel",
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TUiItemModel",
 	"type" : "normal" }

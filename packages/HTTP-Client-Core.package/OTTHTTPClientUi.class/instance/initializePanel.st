@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (719@541).
+	panel extent: (719@542).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -32,10 +32,44 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
+	requestHistory := UiTableView new.
+	requestHistory extent: (243@534).
+	requestHistory position: (4@4).
+	requestHistory hResizing: (#rigid).
+	requestHistory vResizing: (#spaceFill).
+	requestHistory minWidth: (1).
+	requestHistory minHeight: (1).
+	requestHistory cellInset: (0).
+	requestHistory cellPositioning: (#center).
+	requestHistory cellSpacing: (#none).
+	requestHistory layoutInset: (0).
+	requestHistory listCentering: (#topLeft).
+	requestHistory listDirection: (#topToBottom).
+	requestHistory listSpacing: (#none).
+	requestHistory maxCellSize: (1073741823).
+	requestHistory minCellSize: (0).
+	requestHistory wrapCentering: (#topLeft).
+	requestHistory wrapDirection: (#none).
+	requestHistory frameFractions: (0@0 corner: 1@1).
+	requestHistory frameOffsets: (0@0 corner: 0@0).
+	requestHistory balloonText: (nil).
+	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestHistory widgetResizable: (false).
+	requestHistory horizontalScrollBarPolicy: (#asNeeded).
+	requestHistory verticalScrollBarPolicy: (#asNeeded).
+	requestHistory outerBorderWidth: (0).
+	requestHistory scrollBarThickness: (9).
+	requestHistory modelClass: (nil).
+	requestHistory horizontalHeaderVisible: (false).
+	requestHistory verticalHeaderVisible: (false).
+	requestHistory selectionBehavior: (#selectRows).
+	requestHistory selectionMode: (UiViewSingleSelection).
+	requestHistory setProperty: #objectName toValue: 'requestHistory'.
+	panel addChild: requestHistory.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (711@533).
-	unnamedMorph1 position: (4@4).
+	unnamedMorph1 extent: (464@534).
+	unnamedMorph1 position: (251@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
 	unnamedMorph1 minWidth: (1).
@@ -54,15 +88,15 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (703@30).
-	unnamedMorph2 position: (8@8).
+	unnamedMorph2 extent: (456@29).
+	unnamedMorph2 position: (255@9).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (1).
@@ -87,8 +121,8 @@ initializePanel
 	unnamedMorph2 borderStyle2: (#simple).
 	unnamedMorph2 borderColor: (Color transparent).
 	requestURL := UiLineEdit new.
-	requestURL extent: (539@20).
-	requestURL position: (12@13).
+	requestURL extent: (290@20).
+	requestURL position: (259@13).
 	requestURL hResizing: (#spaceFill).
 	requestURL vResizing: (#rigid).
 	requestURL minWidth: (1).
@@ -126,7 +160,7 @@ initializePanel
 	unnamedMorph2 addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (150@20).
-	requestMethod position: (555@12).
+	requestMethod position: (555@13).
 	requestMethod hResizing: (#rigid).
 	requestMethod vResizing: (#rigid).
 	requestMethod minWidth: (1).
@@ -152,8 +186,8 @@ initializePanel
 	unnamedMorph1 addChild: unnamedMorph2.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (703@46).
-	unnamedMorph3 position: (8@42).
+	unnamedMorph3 extent: (456@46).
+	unnamedMorph3 position: (255@42).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (1).
@@ -179,8 +213,8 @@ initializePanel
 	unnamedMorph3 borderColor: (Color black).
 	headerContainer := UiContainer new.
 	headerContainer changeTableLayout.
-	headerContainer extent: (605@38).
-	headerContainer position: (16@46).
+	headerContainer extent: (358@38).
+	headerContainer position: (263@46).
 	headerContainer hResizing: (#spaceFill).
 	headerContainer vResizing: (#shrinkWrap).
 	headerContainer minWidth: (1).
@@ -207,8 +241,8 @@ initializePanel
 	headerContainer setProperty: #objectName toValue: 'headerContainer'.
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
-	unnamedMorph4 extent: (597@30).
-	unnamedMorph4 position: (20@50).
+	unnamedMorph4 extent: (350@30).
+	unnamedMorph4 position: (267@50).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#shrinkWrap).
 	unnamedMorph4 minWidth: (1).
@@ -233,8 +267,8 @@ initializePanel
 	unnamedMorph4 borderStyle2: (#simple).
 	unnamedMorph4 borderColor: (Color black).
 	unnamedMorph5 := UiLineEdit new.
-	unnamedMorph5 extent: (292@20).
-	unnamedMorph5 position: (24@55).
+	unnamedMorph5 extent: (169@20).
+	unnamedMorph5 position: (271@55).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (1).
@@ -270,8 +304,8 @@ initializePanel
 	unnamedMorph5 hideCursor: (true).
 	unnamedMorph4 addChild: unnamedMorph5.
 	unnamedMorph6 := UiLineEdit new.
-	unnamedMorph6 extent: (293@20).
-	unnamedMorph6 position: (320@55).
+	unnamedMorph6 extent: (169@20).
+	unnamedMorph6 position: (444@55).
 	unnamedMorph6 hResizing: (#spaceFill).
 	unnamedMorph6 vResizing: (#rigid).
 	unnamedMorph6 minWidth: (1).
@@ -377,8 +411,8 @@ initializePanel
 	unnamedMorph1 addChild: unnamedMorph3.
 	unnamedMorph7 := UiContainer new.
 	unnamedMorph7 changeTableLayout.
-	unnamedMorph7 extent: (703@30).
-	unnamedMorph7 position: (8@92).
+	unnamedMorph7 extent: (456@30).
+	unnamedMorph7 position: (255@92).
 	unnamedMorph7 hResizing: (#spaceFill).
 	unnamedMorph7 vResizing: (#shrinkWrap).
 	unnamedMorph7 minWidth: (1).
@@ -403,8 +437,8 @@ initializePanel
 	unnamedMorph7 borderStyle2: (#simple).
 	unnamedMorph7 borderColor: (Color black).
 	authUsername := UiLineEdit new.
-	authUsername extent: (345@20).
-	authUsername position: (12@97).
+	authUsername extent: (222@20).
+	authUsername position: (259@97).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
 	authUsername minWidth: (1).
@@ -441,8 +475,8 @@ initializePanel
 	authUsername setProperty: #objectName toValue: 'authUsername'.
 	unnamedMorph7 addChild: authUsername.
 	authPassword := UiLineEdit new.
-	authPassword extent: (346@20).
-	authPassword position: (361@97).
+	authPassword extent: (222@20).
+	authPassword position: (485@97).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -481,8 +515,8 @@ initializePanel
 	unnamedMorph1 addChild: unnamedMorph7.
 	unnamedMorph8 := UiContainer new.
 	unnamedMorph8 changeTableLayout.
-	unnamedMorph8 extent: (703@30).
-	unnamedMorph8 position: (8@126).
+	unnamedMorph8 extent: (456@30).
+	unnamedMorph8 position: (255@126).
 	unnamedMorph8 hResizing: (#spaceFill).
 	unnamedMorph8 vResizing: (#shrinkWrap).
 	unnamedMorph8 minWidth: (1).
@@ -509,7 +543,7 @@ initializePanel
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
 	sendButton extent: (92@20).
-	sendButton position: (12@130).
+	sendButton position: (259@130).
 	sendButton hResizing: (#shrinkWrap).
 	sendButton vResizing: (#shrinkWrap).
 	sendButton minWidth: (1).
@@ -542,7 +576,7 @@ initializePanel
 	resetButton := UiPushButton new.
 	resetButton changeTableLayout.
 	resetButton extent: (96@20).
-	resetButton position: (110@130).
+	resetButton position: (357@130).
 	resetButton hResizing: (#shrinkWrap).
 	resetButton vResizing: (#shrinkWrap).
 	resetButton minWidth: (1).
@@ -573,8 +607,8 @@ initializePanel
 	resetButton setProperty: #objectName toValue: 'resetButton'.
 	unnamedMorph8 addChild: resetButton.
 	unnamedMorph9 := UiSpacer new.
-	unnamedMorph9 extent: (378@20).
-	unnamedMorph9 position: (212@131).
+	unnamedMorph9 extent: (131@20).
+	unnamedMorph9 position: (459@131).
 	unnamedMorph9 hResizing: (#spaceFill).
 	unnamedMorph9 vResizing: (#rigid).
 	unnamedMorph9 minWidth: (1).
@@ -622,7 +656,7 @@ initializePanel
 	statusCode frameFractions: (0@0 corner: 1@1).
 	statusCode frameOffsets: (0@0 corner: 0@0).
 	statusCode balloonText: (nil).
-	statusCode balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	statusCode balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	statusCode text: ('Status: ').
 	statusCode setProperty: #formByDesigner toValue: 'nil'.
 	statusCode form: (nil).
@@ -658,8 +692,8 @@ initializePanel
 	unnamedMorph8 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph8.
 	postData := UiTextEdit new.
-	postData extent: (703@121).
-	postData position: (8@160).
+	postData extent: (456@122).
+	postData position: (255@160).
 	postData hResizing: (#spaceFill).
 	postData vResizing: (#spaceFill).
 	postData minWidth: (1).
@@ -694,8 +728,8 @@ initializePanel
 	postData setProperty: #objectName toValue: 'postData'.
 	unnamedMorph1 addChild: postData.
 	responseData := UiTextEdit new.
-	responseData extent: (703@122).
-	responseData position: (8@285).
+	responseData extent: (456@122).
+	responseData position: (255@286).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -730,8 +764,8 @@ initializePanel
 	responseData setProperty: #objectName toValue: 'responseData'.
 	unnamedMorph1 addChild: responseData.
 	responseHeader := UiTextEdit new.
-	responseHeader extent: (703@122).
-	responseHeader position: (8@411).
+	responseHeader extent: (456@122).
+	responseHeader position: (255@412).
 	responseHeader hResizing: (#spaceFill).
 	responseHeader vResizing: (#spaceFill).
 	responseHeader minWidth: (1).
