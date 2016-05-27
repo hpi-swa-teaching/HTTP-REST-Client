@@ -1,14 +1,14 @@
 {
-	"category" : "HTTP-Client-Core",
+	"category" : "HTTP-Client-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"maximumSize" ],
-	"name" : "OTTRequestHistory",
+		 ],
+	"name" : "OTTRequestHistoryTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

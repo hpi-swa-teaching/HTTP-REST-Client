@@ -1,4 +1,6 @@
 initialization
 initialize
 
-	self requests: OrderedCollection new.
+	self
+		maximumSize: 10;
+		requests: OrderedCollection new.

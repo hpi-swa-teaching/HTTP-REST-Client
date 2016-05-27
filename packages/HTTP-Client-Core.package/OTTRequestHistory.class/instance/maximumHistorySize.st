@@ -1,4 +1,0 @@
-accessing
-maximumHistorySize
-
-	^ 10

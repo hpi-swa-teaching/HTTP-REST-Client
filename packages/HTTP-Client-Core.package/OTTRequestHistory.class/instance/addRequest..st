@@ -7,5 +7,5 @@ addRequest: aRequestSpecification
 	self requests addFirst: aRequestSpecification.
 	self requestAddedFirst: aRequestSpecification.
 	
-	[self requests size > self maximumHistorySize]
+	[self requests size > self maximumSize]
 		whileTrue: [self requestRemovedLast: self requests removeLast].

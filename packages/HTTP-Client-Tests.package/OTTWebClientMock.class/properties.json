@@ -8,7 +8,7 @@
 	"instvars" : [
 		"request",
 		"content" ],
-	"name" : "WebClientMock",
+	"name" : "OTTWebClientMock",
 	"pools" : [
 		 ],
 	"super" : "WebClient",
