@@ -1,0 +1,4 @@
+signals
+requestsResetted
+
+	self emit.

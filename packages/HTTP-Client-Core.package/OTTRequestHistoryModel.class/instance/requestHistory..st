@@ -1,7 +1,6 @@
-item model - hierarchy
+accessing
 requestHistory: aRequestHistory
 
+	self disconnectRequestHistory.
 	requestHistory := aRequestHistory.
-	self
-		connect: aRequestHistory signal: #requestAddedFirst: toSelector: #requestAddedFirst:;
-		connect: aRequestHistory signal: #requestRemovedLast: toSelector: #requestRemovedLast:.
+	self connectRequestHistory.

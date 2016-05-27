@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 addRequest: aRequestSpecification
 
 	(self requests notEmpty and: [aRequestSpecification = self requests first])
@@ -7,5 +7,5 @@ addRequest: aRequestSpecification
 	self requests addFirst: aRequestSpecification.
 	self requestAddedFirst: aRequestSpecification.
 	
-	self requests size > self historySize
-		ifTrue: [self requestRemovedLast: self requests removeLast].
+	[self requests size > self maximumHistorySize]
+		whileTrue: [self requestRemovedLast: self requests removeLast].

@@ -1,4 +1,4 @@
-ui
-loadHistoryRequest: aNode
+ui-actions
+loadHistoryRequestFrom: aNode
 
 	self requestSpecification: aNode request.

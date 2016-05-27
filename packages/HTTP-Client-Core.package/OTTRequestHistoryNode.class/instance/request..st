@@ -1,4 +1,4 @@
-item model - signals
+accessing
 request: aRequestSpecification
 
 	request := aRequestSpecification.

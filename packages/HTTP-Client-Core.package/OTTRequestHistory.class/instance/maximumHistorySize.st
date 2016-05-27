@@ -1,0 +1,4 @@
+accessing
+maximumHistorySize
+
+	^ 10

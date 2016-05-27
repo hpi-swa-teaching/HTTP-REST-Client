@@ -3,10 +3,13 @@
 		 },
 	"instance" : {
 		"childAt:inGroup:" : "listView 5/26/2016 20:33",
+		"connectRequestHistory" : "listView 5/27/2016 13:28",
+		"disconnectRequestHistory" : "listView 5/27/2016 13:32",
 		"groups" : "listView 5/26/2016 20:31",
 		"properties" : "listView 5/26/2016 20:28",
 		"requestAddedFirst:" : "listView 5/26/2016 21:27",
 		"requestHistory" : "listView 5/26/2016 21:16",
-		"requestHistory:" : "listView 5/26/2016 21:23",
-		"requestRemovedLast:" : "listView 5/26/2016 21:27",
-		"requests" : "listView 5/26/2016 21:15" } }
+		"requestHistory:" : "listView 5/27/2016 13:29",
+		"requestRemovedLast:" : "listView 5/27/2016 13:35",
+		"requests" : "listView 5/26/2016 21:15",
+		"requestsResetted" : "listView 5/27/2016 13:02" } }

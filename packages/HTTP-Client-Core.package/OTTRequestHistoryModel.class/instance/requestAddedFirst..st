@@ -1,4 +1,4 @@
-item model - hierarchy
+request-history-handling
 requestAddedFirst: aRequestSpecification
 
 	"self childInserted: 0."

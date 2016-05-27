@@ -10,4 +10,4 @@ defaultRequestSpecification
 	^ (OTTRequestSpecification new)
 		url: 'http://google.com';
 		headers: headers;
-		yourself.
+		yourself

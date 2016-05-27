@@ -8,4 +8,4 @@ requestSpecification
 		headers: self requestHeaders;
 		authUsername: self authUsername;
 		authPassword: self authPassword;
-		yourself.
+		yourself

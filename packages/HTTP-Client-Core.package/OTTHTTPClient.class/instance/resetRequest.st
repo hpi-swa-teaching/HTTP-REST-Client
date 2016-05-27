@@ -1,4 +1,4 @@
-as yet unclassified
+ui-actions
 resetRequest
 
 	self requestSpecification: self defaultRequestSpecification.

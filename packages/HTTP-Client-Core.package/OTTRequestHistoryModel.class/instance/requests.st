@@ -1,4 +1,4 @@
-item model - signals
+accessing
 requests
 
 	^ self requestHistory requests

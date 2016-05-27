@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeSignals
 
 	self
@@ -6,4 +6,4 @@ initializeSignals
 		connect: self ui resetButton signal: #clicked: toSelector: #resetRequest;
 		connect: self ui addHeaderButton signal: #clicked: toSelector: #addHeaderField;
 		connect: self ui removeHeaderButton signal: #clicked: toSelector: #removeHeaderField;
-		connect: self ui requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequest:.
+		connect: self ui requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequestFrom:.

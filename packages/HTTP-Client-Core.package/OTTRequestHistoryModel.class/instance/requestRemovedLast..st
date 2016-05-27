@@ -1,4 +1,4 @@
-item model - hierarchy
+request-history-handling
 requestRemovedLast: aRequestSpecification
 
 	"self childRemoved: self childCount."
