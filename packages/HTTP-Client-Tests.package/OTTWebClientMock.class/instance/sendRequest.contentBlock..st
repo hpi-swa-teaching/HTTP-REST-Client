@@ -6,4 +6,4 @@ sendRequest: request contentBlock: contentBlock
 	contentBlock value: contentStream.
 	self lastContent: (contentStream contents).
 	self lastRequest: request.
-	^ self responseBlock value: self value: self lastRequest value: self lastContent
+	^ self responseBlock value: self value: (self lastRequest) value: (self lastContent)
