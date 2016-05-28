@@ -1,5 +1,8 @@
 running
 setUp
+
 	super setUp.
-	self client: OTTHTTPTestClient new.
-	self clientMock: OTTWebClientMock new. 
+	self
+		client: OTTHTTPTestClient new;
+		clientMock: OTTWebClientMock new. 
+	self client webClient: self clientMock.

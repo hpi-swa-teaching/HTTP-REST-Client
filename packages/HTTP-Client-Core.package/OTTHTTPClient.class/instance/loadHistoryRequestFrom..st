@@ -1,4 +1,4 @@
 ui-actions
 loadHistoryRequestFrom: aNode
 
-	self requestSpecification: aNode request.
+	self requestSpecification: aNode lastRequest.

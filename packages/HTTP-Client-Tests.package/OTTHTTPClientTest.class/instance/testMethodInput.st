@@ -1,8 +1,13 @@
 testing
 testMethodInput
 
-	self client 
-		webClient: clientMock;
-		requestSpecification: (self client defaultRequestSpecification);
-		sendRequest.
-	self assert: clientMock request method equals: (self client defaultRequestSpecification) method.	
+	| request |
+	request := self client defaultRequestSpecification.
+
+	OTTRequestSpecification availableRequestMethods
+		do: [:method |
+			request method: method.
+			self client
+				requestSpecification: request;
+				sendRequest.
+			self assert: clientMock lastRequest method equals: request method]

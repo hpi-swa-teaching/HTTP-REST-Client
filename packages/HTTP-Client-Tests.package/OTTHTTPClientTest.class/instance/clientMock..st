@@ -1,3 +1,4 @@
 accessing
-clientMock: anObject
-	clientMock := anObject
+clientMock: aWebClientMock
+
+	clientMock := aWebClientMock.

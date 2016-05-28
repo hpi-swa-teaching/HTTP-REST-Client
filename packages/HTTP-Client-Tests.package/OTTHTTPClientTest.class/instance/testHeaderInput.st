@@ -1,12 +1,16 @@
 testing
 testHeaderInput
 
-	| submittedHeaders |
-	self client 
-		webClient: clientMock;
-		requestSpecification: self client defaultRequestSpecification;
+	| request submittedHeaders |
+	request := self client defaultRequestSpecification.
+	request headers
+		at: 'User-Agent' put: 'OTTPClient';
+		at: 'Accept-Language' put: 'en-US'.
+	
+	self client
+		requestSpecification: request;
 		sendRequest.
 	
 	submittedHeaders := Dictionary new.
-	clientMock request headersDo: [:key :value | submittedHeaders at: key put: value].
-	self assert: self client defaultRequestSpecification headers equals: submittedHeaders.	
+	self clientMock lastRequest headersDo: [:key :value | submittedHeaders at: key put: value].
+	self assert: request headers equals: submittedHeaders.

@@ -15,10 +15,10 @@ initializeUI
 				url: 'http://mapcrafter.org').
 	
 	self ui requestHistory
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #request})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #lastRequest})
 			headerText: 'URL';
 			textConverter: [:request | request url]);
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #request})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #lastRequest})
 			headerText: 'Method Type';
 			hAlignment: #right;
 			textConverter: [:request | request method]);

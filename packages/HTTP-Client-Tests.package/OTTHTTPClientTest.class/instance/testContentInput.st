@@ -1,10 +1,15 @@
 testing
 testContentInput
 
-	| body |
-	body := 'testBody123'.
+	| request |
+	request := self client defaultRequestSpecification.
+	request
+		method: 'POST';
+		body: 'Never gonna give you up|Never gonna let you down|Never gonna run around and desert you|Never gonna make you cry|Never gonna say goodbye|Never gonna tell a lie and hurt you'.
+		
 	self client 
-		webClient: clientMock;
-		requestSpecification: ((self client defaultRequestSpecification) body: body);
+		requestSpecification: request;
 		sendRequest.
-	self assert: body equals: clientMock content.	
+	
+	self assert: request body equals: clientMock lastContent.	
+	self assert: request body size equals: (clientMock lastRequest headerAt: 'Content-Length' ifAbsent: [-1]).

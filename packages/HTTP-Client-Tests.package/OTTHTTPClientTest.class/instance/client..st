@@ -1,3 +1,4 @@
 accessing
-client: anObject
-	client := anObject.
+client: aHTTPTestClient
+
+	client := aHTTPTestClient.
