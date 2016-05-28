@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"request",
-		"content",
-		"responseBlock" ],
+		"responseBlock",
+		"lastContent",
+		"lastRequest" ],
 	"name" : "OTTWebClientMock",
 	"pools" : [
 		 ],

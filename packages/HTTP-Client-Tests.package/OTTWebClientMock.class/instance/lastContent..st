@@ -1,4 +1,4 @@
 accessing
 lastContent: aString
 
-	content := aString.
+	lastContent := aString.
