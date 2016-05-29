@@ -8,7 +8,7 @@
 	"instvars" : [
 		"client",
 		"clientMock" ],
-	"name" : "OTTHTTPClientTest",
+	"name" : "OTTWebClientTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

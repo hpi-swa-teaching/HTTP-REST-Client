@@ -1,5 +1,5 @@
 testing
-testMethodInput
+testMethod
 
 	| request |
 	request := self client defaultRequestSpecification.
@@ -10,4 +10,4 @@ testMethodInput
 			self client
 				requestSpecification: request;
 				sendRequest.
-			self assert: self clientMock lastRequest method equals: request method]
+			self assert: self clientMock lastRequest method equals: request method].

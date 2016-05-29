@@ -1,5 +1,5 @@
 testing
-testContentInput
+testContent
 
 	| request |
 	request := self client defaultRequestSpecification.
@@ -12,4 +12,4 @@ testContentInput
 		sendRequest.
 	
 	self assert: request body equals: self clientMock lastContent.	
-	self assert: request body size equals: (self clientMock lastRequest headerAt: 'Content-Length' ifAbsent: [-1]).
+	self assert: request body size equals: (self clientMock lastRequest contentLength).

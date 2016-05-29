@@ -1,5 +1,5 @@
 testing
-testHeaderInput
+testHeader
 
 	| request submittedHeaders |
 	request := self client defaultRequestSpecification.
