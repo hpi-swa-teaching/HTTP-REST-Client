@@ -1,5 +1,5 @@
-item model - signals
+accessing
 headers: anOrderedCollection
-	
+
 	headers := anOrderedCollection.
 	self modelReset.

@@ -8,8 +8,5 @@ showResponse: aResponse time: anInteger
 	self responseHeader: aResponse.
 	
 	headers := OrderedCollection new.
-	"headers add: 'Content-Type'->'text/html; charset=utf-8'."
-	"aResponse headersDo: [:header :value | headers add: header -> value]."
-	"Transcript show: headers;cr."
-	
-	self ui responseHeaderTable model headers: self headerThing.
+	aResponse headersDo: [:key :value | headers add: key -> value].
+	self ui responseHeaders model headers: headers.

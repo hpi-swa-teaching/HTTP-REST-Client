@@ -53,7 +53,7 @@ initializePanel
 	requestHistory frameFractions: (0@0 corner: 1@1).
 	requestHistory frameOffsets: (0@0 corner: 0@0).
 	requestHistory balloonText: (nil).
-	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	requestHistory widgetResizable: (false).
 	requestHistory horizontalScrollBarPolicy: (#asNeeded).
 	requestHistory verticalScrollBarPolicy: (#asNeeded).
@@ -799,39 +799,39 @@ initializePanel
 	responseHeader scrollingLimit: (10).
 	responseHeader setProperty: #objectName toValue: 'responseHeader'.
 	unnamedMorph1 addChild: responseHeader.
-	responseHeaderTable := UiTableView new.
-	responseHeaderTable extent: (456@91).
-	responseHeaderTable position: (255@443).
-	responseHeaderTable hResizing: (#spaceFill).
-	responseHeaderTable vResizing: (#spaceFill).
-	responseHeaderTable minWidth: (1).
-	responseHeaderTable minHeight: (1).
-	responseHeaderTable cellInset: (0).
-	responseHeaderTable cellPositioning: (#center).
-	responseHeaderTable cellSpacing: (#none).
-	responseHeaderTable layoutInset: (0).
-	responseHeaderTable listCentering: (#topLeft).
-	responseHeaderTable listDirection: (#topToBottom).
-	responseHeaderTable listSpacing: (#none).
-	responseHeaderTable maxCellSize: (1073741823).
-	responseHeaderTable minCellSize: (0).
-	responseHeaderTable wrapCentering: (#topLeft).
-	responseHeaderTable wrapDirection: (#none).
-	responseHeaderTable frameFractions: (0@0 corner: 1@1).
-	responseHeaderTable frameOffsets: (0@0 corner: 0@0).
-	responseHeaderTable balloonText: (nil).
-	responseHeaderTable balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
-	responseHeaderTable widgetResizable: (false).
-	responseHeaderTable horizontalScrollBarPolicy: (#asNeeded).
-	responseHeaderTable verticalScrollBarPolicy: (#asNeeded).
-	responseHeaderTable outerBorderWidth: (0).
-	responseHeaderTable scrollBarThickness: (9).
-	responseHeaderTable modelClass: (nil).
-	responseHeaderTable horizontalHeaderVisible: (false).
-	responseHeaderTable verticalHeaderVisible: (false).
-	responseHeaderTable selectionBehavior: (#selectRows).
-	responseHeaderTable selectionMode: (UiViewSingleSelection).
-	responseHeaderTable setProperty: #objectName toValue: 'responseHeaderTable'.
-	unnamedMorph1 addChild: responseHeaderTable.
+	responseHeaders := UiTableView new.
+	responseHeaders extent: (456@91).
+	responseHeaders position: (255@443).
+	responseHeaders hResizing: (#spaceFill).
+	responseHeaders vResizing: (#spaceFill).
+	responseHeaders minWidth: (1).
+	responseHeaders minHeight: (1).
+	responseHeaders cellInset: (0).
+	responseHeaders cellPositioning: (#center).
+	responseHeaders cellSpacing: (#none).
+	responseHeaders layoutInset: (0).
+	responseHeaders listCentering: (#topLeft).
+	responseHeaders listDirection: (#topToBottom).
+	responseHeaders listSpacing: (#none).
+	responseHeaders maxCellSize: (1073741823).
+	responseHeaders minCellSize: (0).
+	responseHeaders wrapCentering: (#topLeft).
+	responseHeaders wrapDirection: (#none).
+	responseHeaders frameFractions: (0@0 corner: 1@1).
+	responseHeaders frameOffsets: (0@0 corner: 0@0).
+	responseHeaders balloonText: (nil).
+	responseHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseHeaders widgetResizable: (false).
+	responseHeaders horizontalScrollBarPolicy: (#asNeeded).
+	responseHeaders verticalScrollBarPolicy: (#asNeeded).
+	responseHeaders outerBorderWidth: (0).
+	responseHeaders scrollBarThickness: (9).
+	responseHeaders modelClass: (nil).
+	responseHeaders horizontalHeaderVisible: (false).
+	responseHeaders verticalHeaderVisible: (false).
+	responseHeaders selectionBehavior: (#selectRows).
+	responseHeaders selectionMode: (UiViewSingleSelection).
+	responseHeaders setProperty: #objectName toValue: 'responseHeaders'.
+	unnamedMorph1 addChild: responseHeaders.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

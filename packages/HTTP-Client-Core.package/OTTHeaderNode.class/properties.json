@@ -7,8 +7,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"headers" ],
-	"name" : "OTTResponseHeaderModel",
+		"key",
+		"value" ],
+	"name" : "OTTHeaderNode",
 	"pools" : [
 		 ],
 	"super" : "Object",

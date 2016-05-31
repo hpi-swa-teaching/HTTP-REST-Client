@@ -21,7 +21,7 @@
 		"postData",
 		"responseData",
 		"responseHeader",
-		"responseHeaderTable" ],
+		"responseHeaders" ],
 	"name" : "OTTHTTPClientUi",
 	"pools" : [
 		 ],

@@ -1,17 +1,8 @@
 initialization
 initializeUI
-
-	| requests |
 	
 	self ui setupUi: self.
 	self ui requestMethod addTextList: OTTRequestSpecification availableRequestMethods.
-	
-	requests := OrderedCollection new.
-	requests
-		add: ((OTTRequestSpecification new)
-				url: 'http://google.com');
-		add: ((OTTRequestSpecification new)
-				url: 'http://mapcrafter.org').
 	
 	self ui requestHistory
 		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #lastRequest})
@@ -24,14 +15,13 @@ initializeUI
 		model: ((OTTRequestHistoryModel new)
 			requestHistory: self requestHistory).
 			
-	self ui responseHeaderTable
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #header})
+	self ui responseHeaders
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key})
 			headerText: 'Header';
-			textConverter: [:header | header key]);
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #header})
+			textConverter: [:header | header]);
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value})
 			headerText: 'Value';
-			hAlignment: #right;
-			textConverter: [:header | header value]);
-		model: (OTTResponseHeaderModel new headers: self headerThing).
+			hAlignment: #left);
+		model: (OTTHeaderModel new).
 	
 	self resetRequest.
