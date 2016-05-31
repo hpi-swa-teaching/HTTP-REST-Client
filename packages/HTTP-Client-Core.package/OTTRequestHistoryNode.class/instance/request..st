@@ -1,4 +1,4 @@
 accessing
-lastRequest: aRequestSpecification
+request: aRequestSpecification
 
 	request := aRequestSpecification.

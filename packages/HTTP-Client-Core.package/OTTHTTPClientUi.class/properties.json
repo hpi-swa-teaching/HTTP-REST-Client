@@ -20,7 +20,6 @@
 		"responseTime",
 		"postData",
 		"responseData",
-		"responseHeader",
 		"responseHeaders" ],
 	"name" : "OTTHTTPClientUi",
 	"pools" : [

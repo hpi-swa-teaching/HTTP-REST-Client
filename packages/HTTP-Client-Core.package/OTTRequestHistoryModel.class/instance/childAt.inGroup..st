@@ -3,4 +3,4 @@ childAt: index inGroup: groupName
 	"Return the child at the given index in the given group. Override this if you need index-based child access."
 	
 	^ OTTRequestHistoryNode new
-		lastRequest: ((self perform: groupName) at: index)
+		request: ((self perform: groupName) at: index)

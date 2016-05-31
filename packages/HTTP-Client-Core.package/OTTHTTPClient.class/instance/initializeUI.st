@@ -5,10 +5,10 @@ initializeUI
 	self ui requestMethod addTextList: OTTRequestSpecification availableRequestMethods.
 	
 	self ui requestHistory
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #lastRequest})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #request})
 			headerText: 'URL';
 			textConverter: [:request | request url]);
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #lastRequest})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #request})
 			headerText: 'Method Type';
 			hAlignment: #right;
 			textConverter: [:request | request method]);
@@ -17,11 +17,9 @@ initializeUI
 			
 	self ui responseHeaders
 		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key})
-			headerText: 'Header';
-			textConverter: [:header | header]);
+			headerText: 'Key');
 		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value})
-			headerText: 'Value';
-			hAlignment: #left);
+			headerText: 'Value');
 		model: (OTTHeaderModel new).
 	
 	self resetRequest.

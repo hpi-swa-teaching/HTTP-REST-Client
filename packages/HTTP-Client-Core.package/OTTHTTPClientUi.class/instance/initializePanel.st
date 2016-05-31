@@ -53,7 +53,7 @@ initializePanel
 	requestHistory frameFractions: (0@0 corner: 1@1).
 	requestHistory frameOffsets: (0@0 corner: 0@0).
 	requestHistory balloonText: (nil).
-	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	requestHistory widgetResizable: (false).
 	requestHistory horizontalScrollBarPolicy: (#asNeeded).
 	requestHistory verticalScrollBarPolicy: (#asNeeded).
@@ -692,7 +692,7 @@ initializePanel
 	unnamedMorph8 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph8.
 	postData := UiTextEdit new.
-	postData extent: (456@90).
+	postData extent: (456@122).
 	postData position: (255@160).
 	postData hResizing: (#spaceFill).
 	postData vResizing: (#spaceFill).
@@ -728,8 +728,8 @@ initializePanel
 	postData setProperty: #objectName toValue: 'postData'.
 	unnamedMorph1 addChild: postData.
 	responseData := UiTextEdit new.
-	responseData extent: (456@91).
-	responseData position: (255@254).
+	responseData extent: (456@122).
+	responseData position: (255@286).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -763,45 +763,9 @@ initializePanel
 	responseData scrollingLimit: (10).
 	responseData setProperty: #objectName toValue: 'responseData'.
 	unnamedMorph1 addChild: responseData.
-	responseHeader := UiTextEdit new.
-	responseHeader extent: (456@90).
-	responseHeader position: (255@349).
-	responseHeader hResizing: (#spaceFill).
-	responseHeader vResizing: (#spaceFill).
-	responseHeader minWidth: (1).
-	responseHeader minHeight: (1).
-	responseHeader cellInset: (0).
-	responseHeader cellPositioning: (#center).
-	responseHeader cellSpacing: (#none).
-	responseHeader layoutInset: (0).
-	responseHeader listCentering: (#topLeft).
-	responseHeader listDirection: (#topToBottom).
-	responseHeader listSpacing: (#none).
-	responseHeader maxCellSize: (1073741823).
-	responseHeader minCellSize: (0).
-	responseHeader wrapCentering: (#topLeft).
-	responseHeader wrapDirection: (#none).
-	responseHeader frameFractions: (0@0 corner: 1@1).
-	responseHeader frameOffsets: (0@0 corner: 0@0).
-	responseHeader balloonText: ('').
-	responseHeader balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	responseHeader widgetResizable: (true).
-	responseHeader horizontalScrollBarPolicy: (#alwaysOff).
-	responseHeader verticalScrollBarPolicy: (#asNeeded).
-	responseHeader outerBorderWidth: (1).
-	responseHeader scrollBarThickness: (9).
-	responseHeader theText: ('').
-	responseHeader readOnly: (true).
-	responseHeader autoConvert: (false).
-	responseHeader autoAccept: (false).
-	responseHeader acceptOnFocusLost: (false).
-	responseHeader scrollingMode: (#none).
-	responseHeader scrollingLimit: (10).
-	responseHeader setProperty: #objectName toValue: 'responseHeader'.
-	unnamedMorph1 addChild: responseHeader.
 	responseHeaders := UiTableView new.
-	responseHeaders extent: (456@91).
-	responseHeaders position: (255@443).
+	responseHeaders extent: (456@122).
+	responseHeaders position: (255@412).
 	responseHeaders hResizing: (#spaceFill).
 	responseHeaders vResizing: (#spaceFill).
 	responseHeaders minWidth: (1).
@@ -820,14 +784,14 @@ initializePanel
 	responseHeaders frameFractions: (0@0 corner: 1@1).
 	responseHeaders frameOffsets: (0@0 corner: 0@0).
 	responseHeaders balloonText: (nil).
-	responseHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	responseHeaders widgetResizable: (false).
 	responseHeaders horizontalScrollBarPolicy: (#asNeeded).
 	responseHeaders verticalScrollBarPolicy: (#asNeeded).
 	responseHeaders outerBorderWidth: (0).
 	responseHeaders scrollBarThickness: (9).
 	responseHeaders modelClass: (nil).
-	responseHeaders horizontalHeaderVisible: (false).
+	responseHeaders horizontalHeaderVisible: (true).
 	responseHeaders verticalHeaderVisible: (false).
 	responseHeaders selectionBehavior: (#selectRows).
 	responseHeaders selectionMode: (UiViewSingleSelection).
