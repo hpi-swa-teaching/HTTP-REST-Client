@@ -5,7 +5,6 @@ initializeUI
 	
 	self ui setupUi: self.
 	self ui requestMethod addTextList: OTTRequestSpecification availableRequestMethods.
-	self resetRequest.
 	
 	requests := OrderedCollection new.
 	requests
@@ -24,3 +23,15 @@ initializeUI
 			textConverter: [:request | request method]);
 		model: ((OTTRequestHistoryModel new)
 			requestHistory: self requestHistory).
+			
+	self ui responseHeaderTable
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #header})
+			headerText: 'Header';
+			textConverter: [:header | header key]);
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #header})
+			headerText: 'Value';
+			hAlignment: #right;
+			textConverter: [:header | header value]);
+		model: (OTTResponseHeaderModel new headers: self headerThing).
+	
+	self resetRequest.

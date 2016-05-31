@@ -53,7 +53,7 @@ initializePanel
 	requestHistory frameFractions: (0@0 corner: 1@1).
 	requestHistory frameOffsets: (0@0 corner: 0@0).
 	requestHistory balloonText: (nil).
-	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestHistory balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	requestHistory widgetResizable: (false).
 	requestHistory horizontalScrollBarPolicy: (#asNeeded).
 	requestHistory verticalScrollBarPolicy: (#asNeeded).
@@ -692,7 +692,7 @@ initializePanel
 	unnamedMorph8 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph8.
 	postData := UiTextEdit new.
-	postData extent: (456@122).
+	postData extent: (456@90).
 	postData position: (255@160).
 	postData hResizing: (#spaceFill).
 	postData vResizing: (#spaceFill).
@@ -728,8 +728,8 @@ initializePanel
 	postData setProperty: #objectName toValue: 'postData'.
 	unnamedMorph1 addChild: postData.
 	responseData := UiTextEdit new.
-	responseData extent: (456@122).
-	responseData position: (255@286).
+	responseData extent: (456@91).
+	responseData position: (255@254).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -764,8 +764,8 @@ initializePanel
 	responseData setProperty: #objectName toValue: 'responseData'.
 	unnamedMorph1 addChild: responseData.
 	responseHeader := UiTextEdit new.
-	responseHeader extent: (456@122).
-	responseHeader position: (255@412).
+	responseHeader extent: (456@90).
+	responseHeader position: (255@349).
 	responseHeader hResizing: (#spaceFill).
 	responseHeader vResizing: (#spaceFill).
 	responseHeader minWidth: (1).
@@ -799,5 +799,39 @@ initializePanel
 	responseHeader scrollingLimit: (10).
 	responseHeader setProperty: #objectName toValue: 'responseHeader'.
 	unnamedMorph1 addChild: responseHeader.
+	responseHeaderTable := UiTableView new.
+	responseHeaderTable extent: (456@91).
+	responseHeaderTable position: (255@443).
+	responseHeaderTable hResizing: (#spaceFill).
+	responseHeaderTable vResizing: (#spaceFill).
+	responseHeaderTable minWidth: (1).
+	responseHeaderTable minHeight: (1).
+	responseHeaderTable cellInset: (0).
+	responseHeaderTable cellPositioning: (#center).
+	responseHeaderTable cellSpacing: (#none).
+	responseHeaderTable layoutInset: (0).
+	responseHeaderTable listCentering: (#topLeft).
+	responseHeaderTable listDirection: (#topToBottom).
+	responseHeaderTable listSpacing: (#none).
+	responseHeaderTable maxCellSize: (1073741823).
+	responseHeaderTable minCellSize: (0).
+	responseHeaderTable wrapCentering: (#topLeft).
+	responseHeaderTable wrapDirection: (#none).
+	responseHeaderTable frameFractions: (0@0 corner: 1@1).
+	responseHeaderTable frameOffsets: (0@0 corner: 0@0).
+	responseHeaderTable balloonText: (nil).
+	responseHeaderTable balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	responseHeaderTable widgetResizable: (false).
+	responseHeaderTable horizontalScrollBarPolicy: (#asNeeded).
+	responseHeaderTable verticalScrollBarPolicy: (#asNeeded).
+	responseHeaderTable outerBorderWidth: (0).
+	responseHeaderTable scrollBarThickness: (9).
+	responseHeaderTable modelClass: (nil).
+	responseHeaderTable horizontalHeaderVisible: (false).
+	responseHeaderTable verticalHeaderVisible: (false).
+	responseHeaderTable selectionBehavior: (#selectRows).
+	responseHeaderTable selectionMode: (UiViewSingleSelection).
+	responseHeaderTable setProperty: #objectName toValue: 'responseHeaderTable'.
+	unnamedMorph1 addChild: responseHeaderTable.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

@@ -1,4 +1,5 @@
 ui
-responseHeader: aString
-
-	self ui responseHeader theText: aString.
+responseHeader: aWebresponse
+	(aWebresponse isMemberOf: OTTNullWebResponse)
+		ifFalse: [].
+	self ui responseHeader theText: aWebresponse.
