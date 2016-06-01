@@ -21,5 +21,8 @@ initializeUI
 		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value})
 			headerText: 'Value');
 		model: (OTTHeaderModel new).
+		
+	self ui postData visible: false.
+	self ui authContainer visible: false.
 	
 	self resetRequest.
