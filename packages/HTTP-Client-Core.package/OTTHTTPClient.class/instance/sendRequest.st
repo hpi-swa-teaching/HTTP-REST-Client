@@ -14,8 +14,5 @@ sendRequest
 					size: requestSpecification body size.
 	end := DateAndTime now.
 	responseTime := (Timespan starting: start ending: end) duration asMilliSeconds.
-		
-	response isSuccess
-		ifFalse: [^ self error: response status].
 	
 	self showResponse: response time: responseTime. 
