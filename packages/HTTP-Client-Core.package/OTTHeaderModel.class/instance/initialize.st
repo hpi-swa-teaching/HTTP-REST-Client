@@ -1,4 +1,4 @@
 item model - signals
 initialize
 
-	self headers: OrderedCollection new.
+	self nodes: OrderedCollection new.
