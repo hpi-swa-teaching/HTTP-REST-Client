@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testGetURL" : "MH 6/8/2016 20:46" } }
+		"doTestGetMethod:" : "MH 6/8/2016 21:06",
+		"doTestSetMethod:" : "MH 6/8/2016 21:26",
+		"testGetAuthentication" : "MH 6/8/2016 21:06",
+		"testGetMethodType" : "MH 6/8/2016 21:02",
+		"testGetPostData" : "MH 6/8/2016 21:17",
+		"testGetURL" : "MH 6/8/2016 21:06",
+		"testSetMethodType" : "MH 6/8/2016 21:22",
+		"testSetPostData" : "MH 6/8/2016 21:17",
+		"testSetURL" : "MH 6/8/2016 21:18" } }

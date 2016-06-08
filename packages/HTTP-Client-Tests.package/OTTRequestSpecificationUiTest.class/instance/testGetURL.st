@@ -7,4 +7,4 @@ testGetURL
 	
 	self subject requestSpecification: request.
 	morph := self findUiWidgetBy: 'requestURL'.
-	self assert: morph theText asString equals: request url.
+	self assert: morph theText equals: request url.
