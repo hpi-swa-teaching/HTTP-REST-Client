@@ -7,7 +7,7 @@ baseline: spec
 			spec baseline: 'Widgets' with: [	spec repository: 'github://hpi-swa/widgets:master/repository' ].
 			spec package: 'Icons' with: [ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			"Project12 = MorphicTesting"
-			spec package: 'Project12' with: [spec repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages' ].
+			spec baseline: 'Project12' with: [spec repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages' ].
 
 			spec
 				package: 'HTTP-Client-Core';
