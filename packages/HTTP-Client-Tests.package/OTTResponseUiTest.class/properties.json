@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Client-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTTResponseUiTest",
+	"pools" : [
+		 ],
+	"super" : "OTTUiTest",
+	"type" : "normal" }
