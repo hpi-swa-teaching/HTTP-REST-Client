@@ -1,7 +1,7 @@
 item model - hierarchy
 addPairAt: aStringKey value: aStringValue
 
-	self nodes add: ((OTTHeaderNode new)
+	self nodes add: ((OTTPairModelNode new)
 						parent: self;
 						key: aStringKey;
 						value: aStringValue

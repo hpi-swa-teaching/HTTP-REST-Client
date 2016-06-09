@@ -7,9 +7,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"headers",
-		"nodes" ],
-	"name" : "OTTHeaderModel",
+		"parent",
+		"key",
+		"value" ],
+	"name" : "OTTPairModelNode",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -9,5 +9,7 @@ removeNode: aNode
 				ifTrue: [removeIndex := index]].
 	removeIndex = -1
 		ifTrue: [^ self].
+		
 	self nodes removeAt: removeIndex.
 	self childRemoved: removeIndex.
+	self ensureEditableCellAvailable.

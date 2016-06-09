@@ -2,6 +2,7 @@ item model - signals
 setupColumnsFor: anUiTableView editable: aBoolean
 
 	| editableSelector menuSelector |
+	self editable: aBoolean.
 	editableSelector := aBoolean
 		ifTrue: [true]
 		ifFalse: [nil].
