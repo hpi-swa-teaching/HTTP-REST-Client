@@ -205,7 +205,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
@@ -563,7 +563,7 @@ initializePanel
 	tabPostDataButton frameFractions: (0@0 corner: 1@1).
 	tabPostDataButton frameOffsets: (0@0 corner: 0@0).
 	tabPostDataButton balloonText: (nil).
-	tabPostDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	tabPostDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	tabPostDataButton enabled: (true).
 	tabPostDataButton setProperty: #iconByDesigner toValue: 'nil'.
 	tabPostDataButton icon: (nil).
@@ -596,7 +596,7 @@ initializePanel
 	tabAuthButton frameFractions: (0@0 corner: 1@1).
 	tabAuthButton frameOffsets: (0@0 corner: 0@0).
 	tabAuthButton balloonText: (nil).
-	tabAuthButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	tabAuthButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	tabAuthButton enabled: (true).
 	tabAuthButton setProperty: #iconByDesigner toValue: 'nil'.
 	tabAuthButton icon: (nil).
@@ -629,7 +629,7 @@ initializePanel
 	tabHeadersButton frameFractions: (0@0 corner: 1@1).
 	tabHeadersButton frameOffsets: (0@0 corner: 0@0).
 	tabHeadersButton balloonText: (nil).
-	tabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	tabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	tabHeadersButton enabled: (true).
 	tabHeadersButton setProperty: #iconByDesigner toValue: 'nil'.
 	tabHeadersButton icon: (nil).
@@ -856,7 +856,7 @@ initializePanel
 	unnamedMorph7 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph7.
 	responseData := UiTextEdit new.
-	responseData extent: (456@150).
+	responseData extent: (456@98).
 	responseData position: (255@230).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
@@ -892,8 +892,8 @@ initializePanel
 	responseData setProperty: #objectName toValue: 'responseData'.
 	unnamedMorph1 addChild: responseData.
 	responseHeaders := UiTableView new.
-	responseHeaders extent: (456@150).
-	responseHeaders position: (255@384).
+	responseHeaders extent: (456@99).
+	responseHeaders position: (255@332).
 	responseHeaders hResizing: (#spaceFill).
 	responseHeaders vResizing: (#spaceFill).
 	responseHeaders minWidth: (1).
@@ -912,7 +912,7 @@ initializePanel
 	responseHeaders frameFractions: (0@0 corner: 1@1).
 	responseHeaders frameOffsets: (0@0 corner: 0@0).
 	responseHeaders balloonText: (nil).
-	responseHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseHeaders widgetResizable: (false).
 	responseHeaders horizontalScrollBarPolicy: (#asNeeded).
 	responseHeaders verticalScrollBarPolicy: (#asNeeded).
@@ -925,5 +925,39 @@ initializePanel
 	responseHeaders selectionMode: (UiViewSingleSelection).
 	responseHeaders setProperty: #objectName toValue: 'responseHeaders'.
 	unnamedMorph1 addChild: responseHeaders.
+	responseCookies := UiTableView new.
+	responseCookies extent: (456@99).
+	responseCookies position: (255@435).
+	responseCookies hResizing: (#spaceFill).
+	responseCookies vResizing: (#spaceFill).
+	responseCookies minWidth: (1).
+	responseCookies minHeight: (1).
+	responseCookies cellInset: (0).
+	responseCookies cellPositioning: (#center).
+	responseCookies cellSpacing: (#none).
+	responseCookies layoutInset: (0).
+	responseCookies listCentering: (#topLeft).
+	responseCookies listDirection: (#topToBottom).
+	responseCookies listSpacing: (#none).
+	responseCookies maxCellSize: (1073741823).
+	responseCookies minCellSize: (0).
+	responseCookies wrapCentering: (#topLeft).
+	responseCookies wrapDirection: (#none).
+	responseCookies frameFractions: (0@0 corner: 1@1).
+	responseCookies frameOffsets: (0@0 corner: 0@0).
+	responseCookies balloonText: (nil).
+	responseCookies balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	responseCookies widgetResizable: (false).
+	responseCookies horizontalScrollBarPolicy: (#asNeeded).
+	responseCookies verticalScrollBarPolicy: (#asNeeded).
+	responseCookies outerBorderWidth: (0).
+	responseCookies scrollBarThickness: (9).
+	responseCookies modelClass: (nil).
+	responseCookies horizontalHeaderVisible: (true).
+	responseCookies verticalHeaderVisible: (false).
+	responseCookies selectionBehavior: (#selectRows).
+	responseCookies selectionMode: (UiViewSingleSelection).
+	responseCookies setProperty: #objectName toValue: 'responseCookies'.
+	unnamedMorph1 addChild: responseCookies.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.
