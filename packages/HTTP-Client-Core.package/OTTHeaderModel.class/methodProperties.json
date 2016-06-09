@@ -2,19 +2,22 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addPairAt:value:" : "MH 6/9/2016 01:19",
+		"addPairAt:value:" : "MH 6/9/2016 16:43",
 		"childAt:inGroup:" : "MH 6/9/2016 00:58",
 		"groups" : "MH 6/9/2016 01:12",
 		"headers" : "MH 5/31/2016 11:23",
 		"headers:" : "MH 5/31/2016 11:23",
 		"initialize" : "MH 6/9/2016 01:13",
+		"markChanged:" : "MH 6/9/2016 11:43",
 		"modelReset" : "MH 6/9/2016 01:22",
 		"nodes" : "MH 6/9/2016 00:38",
 		"nodes:" : "MH 6/9/2016 00:38",
 		"pairAt:" : "MH 6/9/2016 01:17",
-		"pairAt:ifAbsent:" : "MH 6/9/2016 00:57",
+		"pairAt:ifAbsent:" : "MH 6/9/2016 11:51",
 		"pairAt:put:" : "MH 6/9/2016 01:19",
 		"pairsAt:do:" : "MH 6/9/2016 01:18",
 		"pairsDo:" : "MH 6/9/2016 01:16",
 		"removeAllPairs" : "MH 6/9/2016 01:23",
-		"removePairAt:" : "MH 6/9/2016 01:16" } }
+		"removeNode:" : "MH 6/9/2016 16:34",
+		"removePairAt:" : "MH 6/9/2016 01:16",
+		"setupColumnsFor:editable:" : "MH 6/9/2016 16:52" } }

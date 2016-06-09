@@ -14,20 +14,9 @@ initializeUI
 			textConverter: [:request | request method]);
 		model: ((OTTRequestHistoryModel new)
 			requestHistory: self requestHistory).
-			
-	self ui responseHeaders
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key})
-			headerText: 'Key');
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value})
-			headerText: 'Value');
-		model: (OTTHeaderModel new).
-		
-	self ui responseCookies
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key})
-			headerText: 'Key');
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value})
-			headerText: 'Value');
-		model: (OTTHeaderModel new).
+	
+	OTTHeaderModel new setupColumnsFor: self ui responseHeaders editable: true.
+	OTTHeaderModel new setupColumnsFor: self ui responseCookies editable: false.
 		
 	self ui postData visible: false.
 	self ui tabPostDataButton visible: false.

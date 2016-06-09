@@ -1,5 +1,6 @@
 item model - hierarchy
 pairAt: aStringKey ifAbsent: aBlock
 
-	self nodes do: [:each | ^ each value].
+	self nodes do: [:each | each key = aStringKey 
+		ifTrue: [^ each value]].
 	^ aBlock value
