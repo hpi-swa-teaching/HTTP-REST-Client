@@ -19,7 +19,7 @@ initializeUI
 	OTTPairModel new setupColumnsFor: self ui responseCookies editable: false.
 		
 	self ui postData visible: false.
-	self ui tabPostDataButton visible: false.
+	self ui requestTabPostDataButton visible: false.
 	self ui authContainer visible: false.
 	
 	self resetRequest.
