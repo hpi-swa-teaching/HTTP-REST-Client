@@ -21,5 +21,6 @@ initializeUI
 	self ui postData visible: false.
 	self ui requestTabPostDataButton visible: false.
 	self ui authContainer visible: false.
+	self ui authPassword font: (StrikeFont passwordFontSize: 12).
 	
 	self resetRequest.
