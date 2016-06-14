@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 unnamedMorph6 unnamedMorph7 unnamedMorph8 unnamedMorph9 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 unnamedMorph6 unnamedMorph7 unnamedMorph8 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -205,7 +205,7 @@ initializePanel
 	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph3 color: (Color transparent).
 	unnamedMorph3 borderWidth: (0).
 	unnamedMorph3 borderStyle2: (#simple).
@@ -563,7 +563,7 @@ initializePanel
 	requestTabPostDataButton frameFractions: (0@0 corner: 1@1).
 	requestTabPostDataButton frameOffsets: (0@0 corner: 0@0).
 	requestTabPostDataButton balloonText: (nil).
-	requestTabPostDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	requestTabPostDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestTabPostDataButton enabled: (true).
 	requestTabPostDataButton setProperty: #iconByDesigner toValue: 'nil'.
 	requestTabPostDataButton icon: (nil).
@@ -596,7 +596,7 @@ initializePanel
 	requestTabAuthButton frameFractions: (0@0 corner: 1@1).
 	requestTabAuthButton frameOffsets: (0@0 corner: 0@0).
 	requestTabAuthButton balloonText: (nil).
-	requestTabAuthButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	requestTabAuthButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestTabAuthButton enabled: (true).
 	requestTabAuthButton setProperty: #iconByDesigner toValue: 'nil'.
 	requestTabAuthButton icon: (nil).
@@ -629,7 +629,7 @@ initializePanel
 	requestTabHeadersButton frameFractions: (0@0 corner: 1@1).
 	requestTabHeadersButton frameOffsets: (0@0 corner: 0@0).
 	requestTabHeadersButton balloonText: (nil).
-	requestTabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	requestTabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestTabHeadersButton enabled: (true).
 	requestTabHeadersButton setProperty: #iconByDesigner toValue: 'nil'.
 	requestTabHeadersButton icon: (nil).
@@ -855,36 +855,37 @@ initializePanel
 	responseTime setProperty: #objectName toValue: 'responseTime'.
 	unnamedMorph7 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph7.
-	unnamedMorph9 := UiContainer new.
-	unnamedMorph9 extent: (459@330).
-	unnamedMorph9 position: (255@230).
-	unnamedMorph9 hResizing: (#spaceFill).
-	unnamedMorph9 vResizing: (#rigid).
-	unnamedMorph9 minWidth: (1).
-	unnamedMorph9 minHeight: (1).
-	unnamedMorph9 cellInset: (4).
-	unnamedMorph9 cellPositioning: (#center).
-	unnamedMorph9 cellSpacing: (#none).
-	unnamedMorph9 layoutInset: (4).
-	unnamedMorph9 listCentering: (#topLeft).
-	unnamedMorph9 listDirection: (#topToBottom).
-	unnamedMorph9 listSpacing: (#none).
-	unnamedMorph9 maxCellSize: (1073741823).
-	unnamedMorph9 minCellSize: (0).
-	unnamedMorph9 wrapCentering: (#topLeft).
-	unnamedMorph9 wrapDirection: (#none).
-	unnamedMorph9 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph9 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph9 balloonText: (nil).
-	unnamedMorph9 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
-	unnamedMorph9 color: (Color transparent).
-	unnamedMorph9 borderWidth: (0).
-	unnamedMorph9 borderStyle2: (#simple).
-	unnamedMorph9 borderColor: (Color black).
+	responseContainer := UiContainer new.
+	responseContainer extent: (459@330).
+	responseContainer position: (255@230).
+	responseContainer hResizing: (#spaceFill).
+	responseContainer vResizing: (#rigid).
+	responseContainer minWidth: (1).
+	responseContainer minHeight: (1).
+	responseContainer cellInset: (4).
+	responseContainer cellPositioning: (#center).
+	responseContainer cellSpacing: (#none).
+	responseContainer layoutInset: (4).
+	responseContainer listCentering: (#topLeft).
+	responseContainer listDirection: (#topToBottom).
+	responseContainer listSpacing: (#none).
+	responseContainer maxCellSize: (1073741823).
+	responseContainer minCellSize: (0).
+	responseContainer wrapCentering: (#topLeft).
+	responseContainer wrapDirection: (#none).
+	responseContainer frameFractions: (0@0 corner: 1@1).
+	responseContainer frameOffsets: (0@0 corner: 0@0).
+	responseContainer balloonText: (nil).
+	responseContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	responseContainer color: (Color transparent).
+	responseContainer borderWidth: (0).
+	responseContainer borderStyle2: (#simple).
+	responseContainer borderColor: (Color black).
+	responseContainer setProperty: #objectName toValue: 'responseContainer'.
 	responseTabCookiesButton := UiPushButton new.
 	responseTabCookiesButton changeTableLayout.
 	responseTabCookiesButton extent: (57@20).
-	responseTabCookiesButton position: (380@233).
+	responseTabCookiesButton position: (438@233).
 	responseTabCookiesButton hResizing: (#shrinkWrap).
 	responseTabCookiesButton vResizing: (#shrinkWrap).
 	responseTabCookiesButton minWidth: (1).
@@ -903,7 +904,7 @@ initializePanel
 	responseTabCookiesButton frameFractions: (0@0 corner: 1@1).
 	responseTabCookiesButton frameOffsets: (0@0 corner: 0@0).
 	responseTabCookiesButton balloonText: (nil).
-	responseTabCookiesButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseTabCookiesButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	responseTabCookiesButton enabled: (true).
 	responseTabCookiesButton setProperty: #iconByDesigner toValue: 'nil'.
 	responseTabCookiesButton icon: (nil).
@@ -913,11 +914,11 @@ initializePanel
 	responseTabCookiesButton checked: (false).
 	responseTabCookiesButton autoExclusive: (false).
 	responseTabCookiesButton setProperty: #objectName toValue: 'responseTabCookiesButton'.
-	unnamedMorph9 addChild: responseTabCookiesButton.
+	responseContainer addChild: responseTabCookiesButton.
 	responseTabHeadersButton := UiPushButton new.
 	responseTabHeadersButton changeTableLayout.
 	responseTabHeadersButton extent: (59@20).
-	responseTabHeadersButton position: (308@233).
+	responseTabHeadersButton position: (372@233).
 	responseTabHeadersButton hResizing: (#shrinkWrap).
 	responseTabHeadersButton vResizing: (#shrinkWrap).
 	responseTabHeadersButton minWidth: (1).
@@ -936,7 +937,7 @@ initializePanel
 	responseTabHeadersButton frameFractions: (0@0 corner: 1@1).
 	responseTabHeadersButton frameOffsets: (0@0 corner: 0@0).
 	responseTabHeadersButton balloonText: (nil).
-	responseTabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseTabHeadersButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	responseTabHeadersButton enabled: (true).
 	responseTabHeadersButton setProperty: #iconByDesigner toValue: 'nil'.
 	responseTabHeadersButton icon: (nil).
@@ -946,7 +947,40 @@ initializePanel
 	responseTabHeadersButton checked: (false).
 	responseTabHeadersButton autoExclusive: (false).
 	responseTabHeadersButton setProperty: #objectName toValue: 'responseTabHeadersButton'.
-	unnamedMorph9 addChild: responseTabHeadersButton.
+	responseContainer addChild: responseTabHeadersButton.
+	treeViewButton := UiPushButton new.
+	treeViewButton changeTableLayout.
+	treeViewButton extent: (64@20).
+	treeViewButton position: (301@233).
+	treeViewButton hResizing: (#shrinkWrap).
+	treeViewButton vResizing: (#shrinkWrap).
+	treeViewButton minWidth: (1).
+	treeViewButton minHeight: (1).
+	treeViewButton cellInset: (4).
+	treeViewButton cellPositioning: (#center).
+	treeViewButton cellSpacing: (#none).
+	treeViewButton layoutInset: (2@0 corner: 2@0).
+	treeViewButton listCentering: (#topLeft).
+	treeViewButton listDirection: (#leftToRight).
+	treeViewButton listSpacing: (#none).
+	treeViewButton maxCellSize: (1073741823).
+	treeViewButton minCellSize: (0).
+	treeViewButton wrapCentering: (#topLeft).
+	treeViewButton wrapDirection: (#none).
+	treeViewButton frameFractions: (0@0 corner: 1@1).
+	treeViewButton frameOffsets: (0@0 corner: 0@0).
+	treeViewButton balloonText: (nil).
+	treeViewButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	treeViewButton enabled: (true).
+	treeViewButton setProperty: #iconByDesigner toValue: 'nil'.
+	treeViewButton icon: (nil).
+	treeViewButton text: ('Treeview').
+	treeViewButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	treeViewButton checkable: (false).
+	treeViewButton checked: (false).
+	treeViewButton autoExclusive: (false).
+	treeViewButton setProperty: #objectName toValue: 'treeViewButton'.
+	responseContainer addChild: treeViewButton.
 	responseTabDataButton := UiPushButton new.
 	responseTabDataButton changeTableLayout.
 	responseTabDataButton extent: (35@20).
@@ -969,7 +1003,7 @@ initializePanel
 	responseTabDataButton frameFractions: (0@0 corner: 1@1).
 	responseTabDataButton frameOffsets: (0@0 corner: 0@0).
 	responseTabDataButton balloonText: (nil).
-	responseTabDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseTabDataButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	responseTabDataButton enabled: (true).
 	responseTabDataButton setProperty: #iconByDesigner toValue: 'nil'.
 	responseTabDataButton icon: (nil).
@@ -979,7 +1013,7 @@ initializePanel
 	responseTabDataButton checked: (false).
 	responseTabDataButton autoExclusive: (false).
 	responseTabDataButton setProperty: #objectName toValue: 'responseTabDataButton'.
-	unnamedMorph9 addChild: responseTabDataButton.
+	responseContainer addChild: responseTabDataButton.
 	responseData := UiTextEdit new.
 	responseData extent: (459@300).
 	responseData position: (255@258).
@@ -1015,7 +1049,7 @@ initializePanel
 	responseData scrollingMode: (#none).
 	responseData scrollingLimit: (10).
 	responseData setProperty: #objectName toValue: 'responseData'.
-	unnamedMorph9 addChild: responseData.
+	responseContainer addChild: responseData.
 	responseCookies := UiTableView new.
 	responseCookies extent: (459@300).
 	responseCookies position: (255@258).
@@ -1037,7 +1071,7 @@ initializePanel
 	responseCookies frameFractions: (0@0 corner: 1@1).
 	responseCookies frameOffsets: (0@0 corner: 0@0).
 	responseCookies balloonText: (nil).
-	responseCookies balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseCookies balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	responseCookies widgetResizable: (false).
 	responseCookies horizontalScrollBarPolicy: (#asNeeded).
 	responseCookies verticalScrollBarPolicy: (#asNeeded).
@@ -1049,7 +1083,7 @@ initializePanel
 	responseCookies selectionBehavior: (#selectRows).
 	responseCookies selectionMode: (UiViewSingleSelection).
 	responseCookies setProperty: #objectName toValue: 'responseCookies'.
-	unnamedMorph9 addChild: responseCookies.
+	responseContainer addChild: responseCookies.
 	responseHeaders := UiTableView new.
 	responseHeaders extent: (456@300).
 	responseHeaders position: (255@258).
@@ -1083,7 +1117,7 @@ initializePanel
 	responseHeaders selectionBehavior: (#selectRows).
 	responseHeaders selectionMode: (UiViewSingleSelection).
 	responseHeaders setProperty: #objectName toValue: 'responseHeaders'.
-	unnamedMorph9 addChild: responseHeaders.
-	unnamedMorph1 addChild: unnamedMorph9.
+	responseContainer addChild: responseHeaders.
+	unnamedMorph1 addChild: responseContainer.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

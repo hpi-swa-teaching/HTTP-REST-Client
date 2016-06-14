@@ -13,4 +13,5 @@ initializeSignals
 		connect: self ui requestTabHeadersButton signal: #clicked: toSelector: #requestTabShowHeaders;
 		connect: self ui responseTabDataButton signal: #clicked: toSelector: #responseTabShowData;
 		connect: self ui responseTabCookiesButton signal: #clicked: toSelector: #responseTabShowCookies;
-		connect: self ui responseTabHeadersButton signal: #clicked: toSelector: #responseTabShowHeaders.
+		connect: self ui responseTabHeadersButton signal: #clicked: toSelector: #responseTabShowHeaders;
+		connect: self ui treeViewButton signal: #clicked: toSelector: #treeViewForContentType.
