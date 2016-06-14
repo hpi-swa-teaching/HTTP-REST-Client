@@ -1,16 +1,16 @@
 as yet unclassified
 testUiPostHidden
 
-	| postDataMorph tabPostDataMorph requestMethodMorph index |
-	tabPostDataMorph := self findUiWidgetBy: 'tabPostDataButton'.
-	postDataMorph := self findUiWidgetBy: 'postData'.
-	requestMethodMorph := self findUiWidgetBy: 'requestMethod'.
+	| postDataEdit methodComboBox index tabPostDataButton |
+	tabPostDataButton := self findUiWidgetBy: 'requestTabPostDataButton'.
+	postDataEdit := self findUiWidgetBy: 'postData'.
+	methodComboBox := self findUiWidgetBy: 'requestMethod'.
 	
-	index := requestMethodMorph list textList indexOf: 'POST'.
-	requestMethodMorph list currentRow: index.
-	self assert: tabPostDataMorph visible equals: true.
+	index := methodComboBox list textList indexOf: 'POST'.
+	methodComboBox list currentRow: index.
+	self assert: tabPostDataButton visible equals: true.
 
-	index := requestMethodMorph list textList indexOf: 'GET'.
-	requestMethodMorph list currentRow: index.
-	self assert: tabPostDataMorph visible equals: false.
-	self assert: postDataMorph visible equals: false.
+	index := methodComboBox list textList indexOf: 'GET'.
+	methodComboBox list currentRow: index.
+	self assert: tabPostDataButton visible equals: false.
+	self assert: postDataEdit visible equals: false.
