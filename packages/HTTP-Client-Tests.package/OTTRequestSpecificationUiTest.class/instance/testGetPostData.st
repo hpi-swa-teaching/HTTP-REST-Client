@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testGetPostData
 	| request morph |
 	request := self subject defaultRequestSpecification.
