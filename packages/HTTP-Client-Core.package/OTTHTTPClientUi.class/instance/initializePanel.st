@@ -96,7 +96,7 @@ initializePanel
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
 	unnamedMorph2 extent: (428@29).
-	unnamedMorph2 position: (255@8).
+	unnamedMorph2 position: (255@9).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (1).
@@ -122,7 +122,7 @@ initializePanel
 	unnamedMorph2 borderColor: (Color transparent).
 	requestURL := UiLineEdit new.
 	requestURL extent: (262@20).
-	requestURL position: (259@12).
+	requestURL position: (259@13).
 	requestURL hResizing: (#spaceFill).
 	requestURL vResizing: (#rigid).
 	requestURL minWidth: (1).
@@ -160,7 +160,7 @@ initializePanel
 	unnamedMorph2 addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (150@20).
-	requestMethod position: (527@12).
+	requestMethod position: (527@13).
 	requestMethod hResizing: (#rigid).
 	requestMethod vResizing: (#rigid).
 	requestMethod minWidth: (1).
@@ -206,7 +206,7 @@ initializePanel
 	requestTabContainer frameFractions: (0@0 corner: 1@1).
 	requestTabContainer frameOffsets: (0@0 corner: 0@0).
 	requestTabContainer balloonText: (nil).
-	requestTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	requestTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestTabContainer color: (Color transparent).
 	requestTabContainer borderWidth: (0).
 	requestTabContainer borderStyle2: (#simple).
@@ -780,7 +780,7 @@ initializePanel
 	responseTabContainer frameFractions: (0@0 corner: 1@1).
 	responseTabContainer frameOffsets: (0@0 corner: 0@0).
 	responseTabContainer balloonText: (nil).
-	responseTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	responseTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseTabContainer color: (Color transparent).
 	responseTabContainer borderWidth: (0).
 	responseTabContainer borderStyle2: (#simple).

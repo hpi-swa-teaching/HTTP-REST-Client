@@ -31,5 +31,7 @@ initializeUI
 		'Headers' -> self ui responseHeaders.
 		'Cookies' -> self ui responseCookies.
 	}.
+	
+	self updatePostTabVisibility.
 		
 	self resetRequest.

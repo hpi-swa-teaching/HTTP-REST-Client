@@ -2,9 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"beCurrentTab" : "MH 6/15/2016 20:15",
+		"buttonContainer" : "MH 6/15/2016 20:08",
 		"container" : "MH 6/15/2016 19:35",
 		"container:" : "MH 6/15/2016 19:35",
-		"initialize" : "MH 6/15/2016 19:36",
-		"morph" : "MH 6/15/2016 19:36",
-		"morph:" : "MH 6/15/2016 19:36",
-		"showMorph" : "MH 6/15/2016 19:36" } }
+		"dontBeCurrentTab" : "MH 6/15/2016 20:14",
+		"initialize" : "MH 6/15/2016 20:11",
+		"isCurrentTab" : "MH 6/15/2016 20:06",
+		"showTab" : "MH 6/15/2016 20:10",
+		"tabMorph" : "MH 6/15/2016 20:01",
+		"tabMorph:" : "MH 6/15/2016 20:01" } }

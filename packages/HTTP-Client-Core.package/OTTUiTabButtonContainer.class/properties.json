@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"container",
-		"tabMorph",
-		"currentTab" ],
-	"name" : "OTTUiTabButton",
+		 ],
+	"name" : "OTTUiTabButtonContainer",
 	"pools" : [
 		 ],
-	"super" : "UiPushButton",
+	"super" : "UiContainer",
 	"type" : "normal" }

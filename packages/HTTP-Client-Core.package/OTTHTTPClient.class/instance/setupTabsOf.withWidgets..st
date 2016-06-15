@@ -2,7 +2,7 @@ initialization
 setupTabsOf: anUiContainer withWidgets: somePairs
 
 	| buttonContainer |
-	buttonContainer := UiContainer new.
+	buttonContainer := OTTUiTabButtonContainer new.
 	buttonContainer
 		changeTableLayout;
 		hResizing: (#spaceFill);
@@ -14,11 +14,13 @@ setupTabsOf: anUiContainer withWidgets: somePairs
 			button := OTTUiTabButton new.
 			button
 				container: anUiContainer;
-				morph: pair value;
+				tabMorph: pair value;
 				hResizing: (#shrinkWrap);
 				vResizing: (#shrinkWrap);
+				checkable: true;
+				checked: false;
 				text: pair key.
 			buttonContainer addMorphBack: button].
 		
 	anUiContainer addMorphFront: buttonContainer.
-	buttonContainer submorphs first showMorph.
+	buttonContainer buttons first showTab.
