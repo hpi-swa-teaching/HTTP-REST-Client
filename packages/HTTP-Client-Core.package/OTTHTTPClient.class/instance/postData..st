@@ -1,4 +1,4 @@
 ui
 postData: aString
 
-	self ui requestPostData theText: aString.
+	self ui requestData theText: aString.

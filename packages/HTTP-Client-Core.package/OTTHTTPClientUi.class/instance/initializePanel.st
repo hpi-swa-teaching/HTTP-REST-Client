@@ -543,42 +543,42 @@ initializePanel
 	authPassword setProperty: #objectName toValue: 'authPassword'.
 	requestAuthTabContainer addChild: authPassword.
 	requestTabContainer addChild: requestAuthTabContainer.
-	requestPostData := UiTextEdit new.
-	requestPostData extent: (420@160).
-	requestPostData position: (259@130).
-	requestPostData hResizing: (#spaceFill).
-	requestPostData vResizing: (#spaceFill).
-	requestPostData minWidth: (1).
-	requestPostData minHeight: (1).
-	requestPostData cellInset: (0).
-	requestPostData cellPositioning: (#center).
-	requestPostData cellSpacing: (#none).
-	requestPostData layoutInset: (0).
-	requestPostData listCentering: (#topLeft).
-	requestPostData listDirection: (#topToBottom).
-	requestPostData listSpacing: (#none).
-	requestPostData maxCellSize: (1073741823).
-	requestPostData minCellSize: (0).
-	requestPostData wrapCentering: (#topLeft).
-	requestPostData wrapDirection: (#none).
-	requestPostData frameFractions: (0@0 corner: 1@1).
-	requestPostData frameOffsets: (0@0 corner: 0@0).
-	requestPostData balloonText: (nil).
-	requestPostData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestPostData widgetResizable: (true).
-	requestPostData horizontalScrollBarPolicy: (#alwaysOff).
-	requestPostData verticalScrollBarPolicy: (#asNeeded).
-	requestPostData outerBorderWidth: (1).
-	requestPostData scrollBarThickness: (9).
-	requestPostData theText: ('').
-	requestPostData readOnly: (false).
-	requestPostData autoConvert: (false).
-	requestPostData autoAccept: (false).
-	requestPostData acceptOnFocusLost: (false).
-	requestPostData scrollingMode: (#none).
-	requestPostData scrollingLimit: (10).
-	requestPostData setProperty: #objectName toValue: 'requestPostData'.
-	requestTabContainer addChild: requestPostData.
+	requestData := UiTextEdit new.
+	requestData extent: (420@160).
+	requestData position: (259@130).
+	requestData hResizing: (#spaceFill).
+	requestData vResizing: (#spaceFill).
+	requestData minWidth: (1).
+	requestData minHeight: (1).
+	requestData cellInset: (0).
+	requestData cellPositioning: (#center).
+	requestData cellSpacing: (#none).
+	requestData layoutInset: (0).
+	requestData listCentering: (#topLeft).
+	requestData listDirection: (#topToBottom).
+	requestData listSpacing: (#none).
+	requestData maxCellSize: (1073741823).
+	requestData minCellSize: (0).
+	requestData wrapCentering: (#topLeft).
+	requestData wrapDirection: (#none).
+	requestData frameFractions: (0@0 corner: 1@1).
+	requestData frameOffsets: (0@0 corner: 0@0).
+	requestData balloonText: (nil).
+	requestData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	requestData widgetResizable: (true).
+	requestData horizontalScrollBarPolicy: (#alwaysOff).
+	requestData verticalScrollBarPolicy: (#asNeeded).
+	requestData outerBorderWidth: (1).
+	requestData scrollBarThickness: (9).
+	requestData theText: ('').
+	requestData readOnly: (false).
+	requestData autoConvert: (false).
+	requestData autoAccept: (false).
+	requestData acceptOnFocusLost: (false).
+	requestData scrollingMode: (#none).
+	requestData scrollingLimit: (10).
+	requestData setProperty: #objectName toValue: 'requestData'.
+	requestTabContainer addChild: requestData.
 	unnamedMorph1 addChild: requestTabContainer.
 	unnamedMorph6 := UiContainer new.
 	unnamedMorph6 changeTableLayout.

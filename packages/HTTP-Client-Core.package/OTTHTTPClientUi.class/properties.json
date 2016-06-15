@@ -17,7 +17,7 @@
 		"requestAuthTabContainer",
 		"authUsername",
 		"authPassword",
-		"requestPostData",
+		"requestData",
 		"sendButton",
 		"resetButton",
 		"statusCode",

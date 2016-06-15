@@ -1,5 +1,5 @@
 accessing
-requestPostData
+requestData
 	"No description given."
 	
-	^ requestPostData
+	^ requestData

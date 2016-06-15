@@ -23,7 +23,7 @@ initializeUI
 	self setupTabsOf: self ui requestTabContainer withWidgets: {
 		'Headers' -> self ui requestHeaderTabContainer.
 		'Auth' -> self ui requestAuthTabContainer.
-		'Post Data' -> self ui requestPostData
+		'Post Data' -> self ui requestData
 	}.
 	
 	self setupTabsOf: self ui responseTabContainer withWidgets: {
