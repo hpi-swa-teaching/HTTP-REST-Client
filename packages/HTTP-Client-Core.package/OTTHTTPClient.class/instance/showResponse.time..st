@@ -1,17 +1,25 @@
 as yet unclassified
-showResponse: aResponse time: anInteger
+showResponse: aWebResponse time: anInteger
 
-	self statusCode: aResponse code.
+	| treeView |
+
+	self statusCode: aWebResponse code.
 	self responseTime: 'Time: ', anInteger asString, 'ms'.
-	self responseData: aResponse content.
+	
+	self responseData: aWebResponse content.
+	treeView := self treeViewForResponse: aWebResponse.
+	self ui responseDataTreeContainer removeAllMorphs.
+	treeView
+		ifNil: [
+			self ui responseDataTreeContainer addMorph: ((UiLabel new)
+				text: 'No formatted data available.')]
+		ifNotNil: [
+			treeView hResizing: (#spaceFill); vResizing: (#spaceFill).
+			self ui responseDataTreeContainer addMorph: treeView].
 	
 	self ui responseCookies model removeAllPairs.
 	self ui responseHeaders model removeAllPairs.
-	self treeView ifNotNil:[
-		self treeView delete.
-		self treeView: nil].	
-	self contentType: nil.		
-	aResponse headersDo: [:key :value | 
+	
+	aWebResponse headersDo: [:key :value | 
 		self ui responseHeaders model pairAt: key put: value.
-		key = 'set-cookie' ifTrue:[ self showCookies: value].
-		key = 'content-type' ifTrue:[ self contentType: value]].
+		key = 'set-cookie' ifTrue:[ self showCookies: value]].

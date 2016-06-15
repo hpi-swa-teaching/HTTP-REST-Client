@@ -22,6 +22,7 @@
 		"responseTime",
 		"responseTabContainer",
 		"responseData",
+		"responseDataTreeContainer",
 		"responseHeaders",
 		"responseCookies" ],
 	"name" : "OTTHTTPClientUi",

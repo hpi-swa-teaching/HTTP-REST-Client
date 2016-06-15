@@ -31,6 +31,7 @@ initializeUI
 	
 	self setupTabsOf: self ui responseTabContainer withWidgets: {
 		'Data' -> self ui responseData.
+		'Formatted Data' -> self ui responseDataTreeContainer.
 		'Headers' -> self ui responseHeaders.
 		'Cookies' -> self ui responseCookies.
 	}.
