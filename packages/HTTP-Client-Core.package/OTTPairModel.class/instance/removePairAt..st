@@ -13,4 +13,5 @@ removePairAt: aStringKey
 		
 	self nodes removeAt: removeIndex.
 	self childRemoved: removeIndex.
-	self ensureEditableCellAvailable.
+	aStringKey = ''
+		ifFalse: [self ensureEditableCellAvailable].

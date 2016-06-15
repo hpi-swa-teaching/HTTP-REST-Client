@@ -1,8 +1,8 @@
 ui
-requestHeaders: aDictionary
+requestCookies: aDictionary
 
 	| model |
-	model := self ui requestHeaders model.
+	model := self ui requestCookies model.
 	model removeAllPairs.
 	aDictionary
 		keysAndValuesDo: [:key :value |

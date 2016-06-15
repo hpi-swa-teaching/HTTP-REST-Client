@@ -1,5 +1,5 @@
 accessing
-addHeaderButton
+requestCookies
 	"No description given."
 	
-	^ addHeaderButton
+	^ requestCookies

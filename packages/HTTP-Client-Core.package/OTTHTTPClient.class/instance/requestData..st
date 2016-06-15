@@ -1,4 +1,4 @@
 ui
-postData: aString
+requestData: aString
 
 	self ui requestData theText: aString.

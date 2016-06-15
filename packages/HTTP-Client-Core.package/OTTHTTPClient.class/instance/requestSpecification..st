@@ -4,7 +4,8 @@ requestSpecification: aRequestSpecification
 	self
 		requestURL: aRequestSpecification url;
 		requestMethod: aRequestSpecification method;
-		postData: aRequestSpecification body;
+		requestData: aRequestSpecification body;
 		requestHeaders: aRequestSpecification headers;
+		requestCookies: aRequestSpecification cookies;
 		authUsername: aRequestSpecification authUsername;
 		authPassword: aRequestSpecification authPassword.

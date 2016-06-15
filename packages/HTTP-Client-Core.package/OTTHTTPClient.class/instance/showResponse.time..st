@@ -15,4 +15,3 @@ showResponse: aResponse time: anInteger
 		self ui responseHeaders model pairAt: key put: value.
 		key = 'set-cookie' ifTrue:[ self showCookies: value].
 		key = 'content-type' ifTrue:[ self contentType: value]].
-	

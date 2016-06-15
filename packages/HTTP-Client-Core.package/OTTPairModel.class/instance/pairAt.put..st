@@ -1,6 +1,8 @@
 item model - hierarchy
 pairAt: aStringKey put: aStringValue
 
+	aStringKey = ''
+		ifFalse: [self removePairAt: ''].
 	1 to: self nodes size
 		do: [:index | | node |
 			node := self nodes at: index.

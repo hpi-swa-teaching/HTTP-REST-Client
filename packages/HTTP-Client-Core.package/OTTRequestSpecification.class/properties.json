@@ -10,6 +10,7 @@
 		"method",
 		"body",
 		"headers",
+		"cookies",
 		"authPassword",
 		"authUsername" ],
 	"name" : "OTTRequestSpecification",

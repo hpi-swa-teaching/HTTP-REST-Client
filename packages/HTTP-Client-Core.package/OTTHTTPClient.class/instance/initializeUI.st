@@ -15,13 +15,16 @@ initializeUI
 		model: ((OTTRequestHistoryModel new)
 			requestHistory: self requestHistory).
 	
-	OTTPairModel new setupColumnsFor: self ui responseHeaders editable: true.
+	OTTPairModel new setupColumnsFor: self ui requestHeaders editable: true.
+	OTTPairModel new setupColumnsFor: self ui requestCookies editable: true.
+	OTTPairModel new setupColumnsFor: self ui responseHeaders editable: false.
 	OTTPairModel new setupColumnsFor: self ui responseCookies editable: false.
 		
 	self ui authPassword font: (StrikeFont passwordFontSize: 12).
 	
 	self setupTabsOf: self ui requestTabContainer withWidgets: {
-		'Headers' -> self ui requestHeaderTabContainer.
+		'Headers' -> self ui requestHeaders.
+		'Cookies' -> self ui requestCookies.
 		'Auth' -> self ui requestAuthTabContainer.
 		'Post Data' -> self ui requestData
 	}.

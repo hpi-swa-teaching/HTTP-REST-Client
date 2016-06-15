@@ -1,5 +1,5 @@
 accessing
-headerContainer
+requestHeaders
 	"No description given."
 	
-	^ headerContainer
+	^ requestHeaders

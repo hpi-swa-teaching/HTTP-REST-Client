@@ -8,5 +8,6 @@ accessing
 		and: [self method = anObject method]
 		and: [self body = anObject body]
 		and: [self headers = anObject headers]
-		and: [self authUsername = anObject authUsername])
+		and: [self cookies = anObject cookies])
+		and: [self authUsername = anObject authUsername]
 		and: [self authPassword = anObject authPassword]
