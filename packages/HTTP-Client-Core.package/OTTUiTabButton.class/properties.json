@@ -1,0 +1,15 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"container",
+		"morph" ],
+	"name" : "OTTUiTabButton",
+	"pools" : [
+		 ],
+	"super" : "UiPushButton",
+	"type" : "normal" }
