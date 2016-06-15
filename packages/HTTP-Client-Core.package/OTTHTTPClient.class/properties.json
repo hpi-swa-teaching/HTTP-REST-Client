@@ -8,7 +8,8 @@
 	"instvars" : [
 		"ui",
 		"requestHistory",
-		"contentType" ],
+		"contentType",
+		"treeView" ],
 	"name" : "OTTHTTPClient",
 	"pools" : [
 		 ],
