@@ -1,4 +1,4 @@
-item model - hierarchy
+pair-accessing
 removePairAt: aStringKey
 
 	| removeIndex |

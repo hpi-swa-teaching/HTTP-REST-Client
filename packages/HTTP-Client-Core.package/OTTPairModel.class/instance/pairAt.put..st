@@ -1,4 +1,4 @@
-item model - hierarchy
+pair-accessing
 pairAt: aStringKey put: aStringValue
 
 	aStringKey = ''

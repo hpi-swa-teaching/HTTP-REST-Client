@@ -6,7 +6,6 @@
 		"childAt:inGroup:" : "MH 6/9/2016 00:58",
 		"editable" : "MH 6/9/2016 17:03",
 		"editable:" : "MH 6/9/2016 17:16",
-		"ensureEditableCellAvailable" : "MH 6/15/2016 21:56",
 		"groups" : "MH 6/9/2016 01:12",
 		"headers" : "MH 5/31/2016 11:23",
 		"headers:" : "MH 5/31/2016 11:23",
@@ -22,5 +21,4 @@
 		"pairsDo:" : "MH 6/9/2016 01:16",
 		"removeAllPairs" : "MH 6/9/2016 17:17",
 		"removeNode:" : "MH 6/9/2016 17:14",
-		"removePairAt:" : "MH 6/15/2016 22:02",
-		"setupColumnsFor:editable:" : "MH 6/9/2016 17:16" } }
+		"removePairAt:" : "MH 6/15/2016 22:02" } }

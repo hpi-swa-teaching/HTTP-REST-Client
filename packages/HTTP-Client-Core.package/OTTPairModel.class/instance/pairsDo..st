@@ -1,4 +1,4 @@
-item model - hierarchy
+pair-accessing
 pairsDo: aBlock
 
 	self nodes

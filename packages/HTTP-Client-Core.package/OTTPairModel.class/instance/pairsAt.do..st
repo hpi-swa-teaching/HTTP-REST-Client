@@ -1,4 +1,4 @@
-item model - hierarchy
+pair-accessing
 pairsAt: aStringValue do: aBlock
 
 	self nodes

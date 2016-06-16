@@ -1,4 +1,4 @@
-item model - signals
+initialization
 initialize
 
 	self nodes: OrderedCollection new.

@@ -1,4 +1,4 @@
-item model - hierarchy
+pair-accessing
 addPairAt: aStringKey value: aStringValue
 
 	self nodes add: ((OTTPairModelNode new)
