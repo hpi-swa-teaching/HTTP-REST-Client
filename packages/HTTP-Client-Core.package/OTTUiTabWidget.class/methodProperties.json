@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"isWidgetClass" : "MH 6/16/2016 23:23",
+		"widgetCategory" : "MH 6/16/2016 23:23",
+		"widgetClassName" : "MH 6/17/2016 21:52" },
+	"instance" : {
+		"disableTab:" : "MH 6/17/2016 22:46",
+		"enableTab:" : "MH 6/17/2016 22:34",
+		"getCurrentTab" : "MH 6/17/2016 22:46",
+		"initialize" : "MH 6/17/2016 22:26",
+		"initializeTabs" : "MH 6/17/2016 22:49",
+		"isTabEnabled:" : "MH 6/17/2016 22:35",
+		"removeTabMorphs" : "MH 6/17/2016 22:48",
+		"setCurrentTab:" : "MH 6/17/2016 22:34",
+		"tabButtons" : "MH 6/17/2016 22:20",
+		"tabButtons:" : "MH 6/17/2016 22:20",
+		"tabs" : "MH 6/17/2016 22:03",
+		"tabs:" : "MH 6/17/2016 22:03" } }

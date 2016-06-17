@@ -8,14 +8,14 @@ showResponse: aWebResponse time: anInteger
 	
 	self responseData: aWebResponse content.
 	treeView := self treeViewForResponse: aWebResponse.
-	self ui responseDataTreeContainer removeAllMorphs.
+	self ui responseDataTreeTab removeAllMorphs.
 	treeView
 		ifNil: [
-			self ui responseDataTreeContainer addMorph: ((UiLabel new)
+			self ui responseDataTreeTab addMorph: ((UiLabel new)
 				text: 'No formatted data available.')]
 		ifNotNil: [
 			treeView hResizing: (#spaceFill); vResizing: (#spaceFill).
-			self ui responseDataTreeContainer addMorph: treeView].
+			self ui responseDataTreeTab addMorph: treeView].
 	
 	self ui responseCookies model removeAllPairs.
 	self ui responseHeaders model removeAllPairs.

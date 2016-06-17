@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "OTTUiTabButtonContainer",
+		"tabs",
+		"tabButtons" ],
+	"name" : "OTTUiTabWidget",
 	"pools" : [
 		 ],
 	"super" : "UiContainer",

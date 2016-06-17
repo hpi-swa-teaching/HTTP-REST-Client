@@ -1,4 +1,4 @@
-as yet unclassified
-tabMorph: aMorph
+accessing
+tabMorph: anUiTabContainer
 
-	tabMorph := aMorph.
+	tabMorph := anUiTabContainer.

@@ -6,7 +6,7 @@ initializePanel
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
-	panel extent: (691@518).
+	panel extent: (890@747).
 	panel position: (0@0).
 	panel hResizing: (#shrinkWrap).
 	panel vResizing: (#shrinkWrap).
@@ -33,7 +33,7 @@ initializePanel
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	requestHistory := UiTableView new.
-	requestHistory extent: (243@510).
+	requestHistory extent: (243@739).
 	requestHistory position: (4@4).
 	requestHistory hResizing: (#rigid).
 	requestHistory vResizing: (#spaceFill).
@@ -68,7 +68,7 @@ initializePanel
 	panel addChild: requestHistory.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (436@510).
+	unnamedMorph1 extent: (635@739).
 	unnamedMorph1 position: (251@4).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#spaceFill).
@@ -95,8 +95,8 @@ initializePanel
 	unnamedMorph1 borderColor: (Color black).
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (428@29).
-	unnamedMorph2 position: (255@9).
+	unnamedMorph2 extent: (627@30).
+	unnamedMorph2 position: (255@8).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#shrinkWrap).
 	unnamedMorph2 minWidth: (1).
@@ -121,7 +121,7 @@ initializePanel
 	unnamedMorph2 borderStyle2: (#simple).
 	unnamedMorph2 borderColor: (Color transparent).
 	requestURL := UiLineEdit new.
-	requestURL extent: (262@20).
+	requestURL extent: (463@20).
 	requestURL position: (259@13).
 	requestURL hResizing: (#spaceFill).
 	requestURL vResizing: (#rigid).
@@ -160,7 +160,7 @@ initializePanel
 	unnamedMorph2 addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (150@20).
-	requestMethod position: (527@13).
+	requestMethod position: (726@12).
 	requestMethod hResizing: (#rigid).
 	requestMethod vResizing: (#rigid).
 	requestMethod minWidth: (1).
@@ -184,37 +184,66 @@ initializePanel
 	requestMethod setProperty: #objectName toValue: 'requestMethod'.
 	unnamedMorph2 addChild: requestMethod.
 	unnamedMorph1 addChild: unnamedMorph2.
-	requestTabContainer := UiContainer new.
-	requestTabContainer changeTableLayout.
-	requestTabContainer extent: (428@226).
-	requestTabContainer position: (255@42).
-	requestTabContainer hResizing: (#spaceFill).
-	requestTabContainer vResizing: (#spaceFill).
-	requestTabContainer minWidth: (1).
-	requestTabContainer minHeight: (1).
-	requestTabContainer cellInset: (4).
-	requestTabContainer cellPositioning: (#center).
-	requestTabContainer cellSpacing: (#none).
-	requestTabContainer layoutInset: (4).
-	requestTabContainer listCentering: (#topLeft).
-	requestTabContainer listDirection: (#topToBottom).
-	requestTabContainer listSpacing: (#none).
-	requestTabContainer maxCellSize: (1073741823).
-	requestTabContainer minCellSize: (0).
-	requestTabContainer wrapCentering: (#topLeft).
-	requestTabContainer wrapDirection: (#none).
-	requestTabContainer frameFractions: (0@0 corner: 1@1).
-	requestTabContainer frameOffsets: (0@0 corner: 0@0).
-	requestTabContainer balloonText: (nil).
-	requestTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestTabContainer color: (Color transparent).
-	requestTabContainer borderWidth: (0).
-	requestTabContainer borderStyle2: (#simple).
-	requestTabContainer borderColor: (Color black).
-	requestTabContainer setProperty: #objectName toValue: 'requestTabContainer'.
+	requestTabs := OTTUiTabWidget new.
+	requestTabs changeTableLayout.
+	requestTabs extent: (627@344).
+	requestTabs position: (255@42).
+	requestTabs hResizing: (#spaceFill).
+	requestTabs vResizing: (#spaceFill).
+	requestTabs minWidth: (1).
+	requestTabs minHeight: (1).
+	requestTabs cellInset: (4).
+	requestTabs cellPositioning: (#center).
+	requestTabs cellSpacing: (#none).
+	requestTabs layoutInset: (4).
+	requestTabs listCentering: (#topLeft).
+	requestTabs listDirection: (#topToBottom).
+	requestTabs listSpacing: (#none).
+	requestTabs maxCellSize: (1073741823).
+	requestTabs minCellSize: (0).
+	requestTabs wrapCentering: (#topLeft).
+	requestTabs wrapDirection: (#none).
+	requestTabs frameFractions: (0@0 corner: 1@1).
+	requestTabs frameOffsets: (0@0 corner: 0@0).
+	requestTabs balloonText: (nil).
+	requestTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestTabs color: (Color transparent).
+	requestTabs borderWidth: (0).
+	requestTabs borderStyle2: (#simple).
+	requestTabs borderColor: (Color black).
+	requestTabs setProperty: #objectName toValue: 'requestTabs'.
+	requestHeaderTab := OTTUiTabContainer new.
+	requestHeaderTab changeTableLayout.
+	requestHeaderTab extent: (619@73).
+	requestHeaderTab position: (259@46).
+	requestHeaderTab hResizing: (#spaceFill).
+	requestHeaderTab vResizing: (#spaceFill).
+	requestHeaderTab minWidth: (1).
+	requestHeaderTab minHeight: (1).
+	requestHeaderTab cellInset: (4).
+	requestHeaderTab cellPositioning: (#center).
+	requestHeaderTab cellSpacing: (#none).
+	requestHeaderTab layoutInset: (4).
+	requestHeaderTab listCentering: (#topLeft).
+	requestHeaderTab listDirection: (#topToBottom).
+	requestHeaderTab listSpacing: (#none).
+	requestHeaderTab maxCellSize: (1073741823).
+	requestHeaderTab minCellSize: (0).
+	requestHeaderTab wrapCentering: (#topLeft).
+	requestHeaderTab wrapDirection: (#none).
+	requestHeaderTab frameFractions: (0@0 corner: 1@1).
+	requestHeaderTab frameOffsets: (0@0 corner: 0@0).
+	requestHeaderTab balloonText: (nil).
+	requestHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestHeaderTab color: (Color transparent).
+	requestHeaderTab borderWidth: (0).
+	requestHeaderTab borderStyle2: (#simple).
+	requestHeaderTab borderColor: (Color black).
+	requestHeaderTab title: ('Headers').
+	requestHeaderTab setProperty: #objectName toValue: 'requestHeaderTab'.
 	requestHeaders := UiTableView new.
-	requestHeaders extent: (420@58).
-	requestHeaders position: (259@46).
+	requestHeaders extent: (611@65).
+	requestHeaders position: (263@50).
 	requestHeaders hResizing: (#spaceFill).
 	requestHeaders vResizing: (#spaceFill).
 	requestHeaders minWidth: (1).
@@ -233,7 +262,7 @@ initializePanel
 	requestHeaders frameFractions: (0@0 corner: 1@1).
 	requestHeaders frameOffsets: (0@0 corner: 0@0).
 	requestHeaders balloonText: (nil).
-	requestHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestHeaders balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	requestHeaders widgetResizable: (false).
 	requestHeaders horizontalScrollBarPolicy: (#asNeeded).
 	requestHeaders verticalScrollBarPolicy: (#asNeeded).
@@ -245,10 +274,40 @@ initializePanel
 	requestHeaders selectionBehavior: (#selectCells).
 	requestHeaders selectionMode: (UiViewSingleSelection).
 	requestHeaders setProperty: #objectName toValue: 'requestHeaders'.
-	requestTabContainer addChild: requestHeaders.
+	requestHeaderTab addChild: requestHeaders.
+	requestTabs addChild: requestHeaderTab.
+	requestCookieTab := OTTUiTabContainer new.
+	requestCookieTab changeTableLayout.
+	requestCookieTab extent: (619@74).
+	requestCookieTab position: (259@123).
+	requestCookieTab hResizing: (#spaceFill).
+	requestCookieTab vResizing: (#spaceFill).
+	requestCookieTab minWidth: (1).
+	requestCookieTab minHeight: (1).
+	requestCookieTab cellInset: (4).
+	requestCookieTab cellPositioning: (#center).
+	requestCookieTab cellSpacing: (#none).
+	requestCookieTab layoutInset: (4).
+	requestCookieTab listCentering: (#topLeft).
+	requestCookieTab listDirection: (#topToBottom).
+	requestCookieTab listSpacing: (#none).
+	requestCookieTab maxCellSize: (1073741823).
+	requestCookieTab minCellSize: (0).
+	requestCookieTab wrapCentering: (#topLeft).
+	requestCookieTab wrapDirection: (#none).
+	requestCookieTab frameFractions: (0@0 corner: 1@1).
+	requestCookieTab frameOffsets: (0@0 corner: 0@0).
+	requestCookieTab balloonText: (nil).
+	requestCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestCookieTab color: (Color transparent).
+	requestCookieTab borderWidth: (0).
+	requestCookieTab borderStyle2: (#simple).
+	requestCookieTab borderColor: (Color black).
+	requestCookieTab title: ('Cookies').
+	requestCookieTab setProperty: #objectName toValue: 'requestCookieTab'.
 	requestCookies := UiTableView new.
-	requestCookies extent: (420@59).
-	requestCookies position: (259@108).
+	requestCookies extent: (611@66).
+	requestCookies position: (263@127).
 	requestCookies hResizing: (#spaceFill).
 	requestCookies vResizing: (#spaceFill).
 	requestCookies minWidth: (1).
@@ -267,7 +326,7 @@ initializePanel
 	requestCookies frameFractions: (0@0 corner: 1@1).
 	requestCookies frameOffsets: (0@0 corner: 0@0).
 	requestCookies balloonText: (nil).
-	requestCookies balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestCookies balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	requestCookies widgetResizable: (false).
 	requestCookies horizontalScrollBarPolicy: (#asNeeded).
 	requestCookies verticalScrollBarPolicy: (#asNeeded).
@@ -279,11 +338,41 @@ initializePanel
 	requestCookies selectionBehavior: (#selectCells).
 	requestCookies selectionMode: (UiViewSingleSelection).
 	requestCookies setProperty: #objectName toValue: 'requestCookies'.
-	requestTabContainer addChild: requestCookies.
+	requestCookieTab addChild: requestCookies.
+	requestTabs addChild: requestCookieTab.
+	requestAuthContainer := OTTUiTabContainer new.
+	requestAuthContainer changeTableLayout.
+	requestAuthContainer extent: (619@103).
+	requestAuthContainer position: (259@201).
+	requestAuthContainer hResizing: (#spaceFill).
+	requestAuthContainer vResizing: (#spaceFill).
+	requestAuthContainer minWidth: (1).
+	requestAuthContainer minHeight: (1).
+	requestAuthContainer cellInset: (4).
+	requestAuthContainer cellPositioning: (#center).
+	requestAuthContainer cellSpacing: (#none).
+	requestAuthContainer layoutInset: (4).
+	requestAuthContainer listCentering: (#topLeft).
+	requestAuthContainer listDirection: (#topToBottom).
+	requestAuthContainer listSpacing: (#none).
+	requestAuthContainer maxCellSize: (1073741823).
+	requestAuthContainer minCellSize: (0).
+	requestAuthContainer wrapCentering: (#topLeft).
+	requestAuthContainer wrapDirection: (#none).
+	requestAuthContainer frameFractions: (0@0 corner: 1@1).
+	requestAuthContainer frameOffsets: (0@0 corner: 0@0).
+	requestAuthContainer balloonText: (nil).
+	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestAuthContainer color: (Color transparent).
+	requestAuthContainer borderWidth: (0).
+	requestAuthContainer borderStyle2: (#simple).
+	requestAuthContainer borderColor: (Color black).
+	requestAuthContainer title: ('Auth').
+	requestAuthContainer setProperty: #objectName toValue: 'requestAuthContainer'.
 	requestAuthTabContainer := UiContainer new.
 	requestAuthTabContainer changeTableLayout.
-	requestAuthTabContainer extent: (420@30).
-	requestAuthTabContainer position: (259@171).
+	requestAuthTabContainer extent: (611@30).
+	requestAuthTabContainer position: (263@205).
 	requestAuthTabContainer hResizing: (#spaceFill).
 	requestAuthTabContainer vResizing: (#shrinkWrap).
 	requestAuthTabContainer minWidth: (1).
@@ -309,8 +398,8 @@ initializePanel
 	requestAuthTabContainer borderColor: (Color black).
 	requestAuthTabContainer setProperty: #objectName toValue: 'requestAuthTabContainer'.
 	authUsername := UiLineEdit new.
-	authUsername extent: (204@20).
-	authUsername position: (263@176).
+	authUsername extent: (299@20).
+	authUsername position: (267@210).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
 	authUsername minWidth: (1).
@@ -347,8 +436,8 @@ initializePanel
 	authUsername setProperty: #objectName toValue: 'authUsername'.
 	requestAuthTabContainer addChild: authUsername.
 	authPassword := UiLineEdit new.
-	authPassword extent: (204@20).
-	authPassword position: (471@176).
+	authPassword extent: (300@20).
+	authPassword position: (570@210).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -384,10 +473,40 @@ initializePanel
 	authPassword hideCursor: (true).
 	authPassword setProperty: #objectName toValue: 'authPassword'.
 	requestAuthTabContainer addChild: authPassword.
-	requestTabContainer addChild: requestAuthTabContainer.
+	requestAuthContainer addChild: requestAuthTabContainer.
+	requestTabs addChild: requestAuthContainer.
+	requestDataTab := OTTUiTabContainer new.
+	requestDataTab changeTableLayout.
+	requestDataTab extent: (619@74).
+	requestDataTab position: (259@308).
+	requestDataTab hResizing: (#spaceFill).
+	requestDataTab vResizing: (#spaceFill).
+	requestDataTab minWidth: (1).
+	requestDataTab minHeight: (1).
+	requestDataTab cellInset: (4).
+	requestDataTab cellPositioning: (#center).
+	requestDataTab cellSpacing: (#none).
+	requestDataTab layoutInset: (4).
+	requestDataTab listCentering: (#topLeft).
+	requestDataTab listDirection: (#topToBottom).
+	requestDataTab listSpacing: (#none).
+	requestDataTab maxCellSize: (1073741823).
+	requestDataTab minCellSize: (0).
+	requestDataTab wrapCentering: (#topLeft).
+	requestDataTab wrapDirection: (#none).
+	requestDataTab frameFractions: (0@0 corner: 1@1).
+	requestDataTab frameOffsets: (0@0 corner: 0@0).
+	requestDataTab balloonText: (nil).
+	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestDataTab color: (Color transparent).
+	requestDataTab borderWidth: (0).
+	requestDataTab borderStyle2: (#simple).
+	requestDataTab borderColor: (Color black).
+	requestDataTab title: ('Data').
+	requestDataTab setProperty: #objectName toValue: 'requestDataTab'.
 	requestData := UiTextEdit new.
-	requestData extent: (420@59).
-	requestData position: (259@205).
+	requestData extent: (611@66).
+	requestData position: (263@312).
 	requestData hResizing: (#spaceFill).
 	requestData vResizing: (#spaceFill).
 	requestData minWidth: (1).
@@ -420,12 +539,13 @@ initializePanel
 	requestData scrollingMode: (#none).
 	requestData scrollingLimit: (10).
 	requestData setProperty: #objectName toValue: 'requestData'.
-	requestTabContainer addChild: requestData.
-	unnamedMorph1 addChild: requestTabContainer.
+	requestDataTab addChild: requestData.
+	requestTabs addChild: requestDataTab.
+	unnamedMorph1 addChild: requestTabs.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (428@30).
-	unnamedMorph3 position: (255@272).
+	unnamedMorph3 extent: (627@30).
+	unnamedMorph3 position: (255@390).
 	unnamedMorph3 hResizing: (#spaceFill).
 	unnamedMorph3 vResizing: (#shrinkWrap).
 	unnamedMorph3 minWidth: (1).
@@ -452,7 +572,7 @@ initializePanel
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
 	sendButton extent: (92@20).
-	sendButton position: (259@276).
+	sendButton position: (259@394).
 	sendButton hResizing: (#shrinkWrap).
 	sendButton vResizing: (#shrinkWrap).
 	sendButton minWidth: (1).
@@ -485,7 +605,7 @@ initializePanel
 	resetButton := UiPushButton new.
 	resetButton changeTableLayout.
 	resetButton extent: (96@20).
-	resetButton position: (357@276).
+	resetButton position: (357@394).
 	resetButton hResizing: (#shrinkWrap).
 	resetButton vResizing: (#shrinkWrap).
 	resetButton minWidth: (1).
@@ -516,8 +636,8 @@ initializePanel
 	resetButton setProperty: #objectName toValue: 'resetButton'.
 	unnamedMorph3 addChild: resetButton.
 	unnamedMorph4 := UiSpacer new.
-	unnamedMorph4 extent: (103@20).
-	unnamedMorph4 position: (459@277).
+	unnamedMorph4 extent: (302@20).
+	unnamedMorph4 position: (459@395).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
 	unnamedMorph4 minWidth: (1).
@@ -546,7 +666,7 @@ initializePanel
 	statusCode := UiLabel new.
 	statusCode changeTableLayout.
 	statusCode extent: (46@18).
-	statusCode position: (566@278).
+	statusCode position: (765@396).
 	statusCode hResizing: (#shrinkWrap).
 	statusCode vResizing: (#shrinkWrap).
 	statusCode minWidth: (1).
@@ -574,7 +694,7 @@ initializePanel
 	responseTime := UiLabel new.
 	responseTime changeTableLayout.
 	responseTime extent: (63@18).
-	responseTime position: (616@278).
+	responseTime position: (815@396).
 	responseTime hResizing: (#shrinkWrap).
 	responseTime vResizing: (#shrinkWrap).
 	responseTime minWidth: (1).
@@ -600,37 +720,66 @@ initializePanel
 	responseTime setProperty: #objectName toValue: 'responseTime'.
 	unnamedMorph3 addChild: responseTime.
 	unnamedMorph1 addChild: unnamedMorph3.
-	responseTabContainer := UiContainer new.
-	responseTabContainer changeTableLayout.
-	responseTabContainer extent: (428@204).
-	responseTabContainer position: (255@306).
-	responseTabContainer hResizing: (#spaceFill).
-	responseTabContainer vResizing: (#spaceFill).
-	responseTabContainer minWidth: (1).
-	responseTabContainer minHeight: (1).
-	responseTabContainer cellInset: (4).
-	responseTabContainer cellPositioning: (#center).
-	responseTabContainer cellSpacing: (#none).
-	responseTabContainer layoutInset: (4).
-	responseTabContainer listCentering: (#topLeft).
-	responseTabContainer listDirection: (#topToBottom).
-	responseTabContainer listSpacing: (#none).
-	responseTabContainer maxCellSize: (1073741823).
-	responseTabContainer minCellSize: (0).
-	responseTabContainer wrapCentering: (#topLeft).
-	responseTabContainer wrapDirection: (#none).
-	responseTabContainer frameFractions: (0@0 corner: 1@1).
-	responseTabContainer frameOffsets: (0@0 corner: 0@0).
-	responseTabContainer balloonText: (nil).
-	responseTabContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	responseTabContainer color: (Color transparent).
-	responseTabContainer borderWidth: (0).
-	responseTabContainer borderStyle2: (#simple).
-	responseTabContainer borderColor: (Color black).
-	responseTabContainer setProperty: #objectName toValue: 'responseTabContainer'.
+	responseTabs := OTTUiTabWidget new.
+	responseTabs changeTableLayout.
+	responseTabs extent: (627@315).
+	responseTabs position: (255@424).
+	responseTabs hResizing: (#spaceFill).
+	responseTabs vResizing: (#spaceFill).
+	responseTabs minWidth: (1).
+	responseTabs minHeight: (1).
+	responseTabs cellInset: (4).
+	responseTabs cellPositioning: (#center).
+	responseTabs cellSpacing: (#none).
+	responseTabs layoutInset: (4).
+	responseTabs listCentering: (#topLeft).
+	responseTabs listDirection: (#topToBottom).
+	responseTabs listSpacing: (#none).
+	responseTabs maxCellSize: (1073741823).
+	responseTabs minCellSize: (0).
+	responseTabs wrapCentering: (#topLeft).
+	responseTabs wrapDirection: (#none).
+	responseTabs frameFractions: (0@0 corner: 1@1).
+	responseTabs frameOffsets: (0@0 corner: 0@0).
+	responseTabs balloonText: (nil).
+	responseTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseTabs color: (Color transparent).
+	responseTabs borderWidth: (0).
+	responseTabs borderStyle2: (#simple).
+	responseTabs borderColor: (Color black).
+	responseTabs setProperty: #objectName toValue: 'responseTabs'.
+	responseDataTab := OTTUiTabContainer new.
+	responseDataTab changeTableLayout.
+	responseDataTab extent: (619@74).
+	responseDataTab position: (259@428).
+	responseDataTab hResizing: (#spaceFill).
+	responseDataTab vResizing: (#spaceFill).
+	responseDataTab minWidth: (1).
+	responseDataTab minHeight: (1).
+	responseDataTab cellInset: (4).
+	responseDataTab cellPositioning: (#center).
+	responseDataTab cellSpacing: (#none).
+	responseDataTab layoutInset: (4).
+	responseDataTab listCentering: (#topLeft).
+	responseDataTab listDirection: (#topToBottom).
+	responseDataTab listSpacing: (#none).
+	responseDataTab maxCellSize: (1073741823).
+	responseDataTab minCellSize: (0).
+	responseDataTab wrapCentering: (#topLeft).
+	responseDataTab wrapDirection: (#none).
+	responseDataTab frameFractions: (0@0 corner: 1@1).
+	responseDataTab frameOffsets: (0@0 corner: 0@0).
+	responseDataTab balloonText: (nil).
+	responseDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseDataTab color: (Color transparent).
+	responseDataTab borderWidth: (0).
+	responseDataTab borderStyle2: (#simple).
+	responseDataTab borderColor: (Color black).
+	responseDataTab title: ('Data').
+	responseDataTab setProperty: #objectName toValue: 'responseDataTab'.
 	responseData := UiTextEdit new.
-	responseData extent: (420@44).
-	responseData position: (259@310).
+	responseData extent: (611@66).
+	responseData position: (263@432).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -663,39 +812,70 @@ initializePanel
 	responseData scrollingMode: (#none).
 	responseData scrollingLimit: (10).
 	responseData setProperty: #objectName toValue: 'responseData'.
-	responseTabContainer addChild: responseData.
-	responseDataTreeContainer := UiContainer new.
-	responseDataTreeContainer changeTableLayout.
-	responseDataTreeContainer extent: (420@51).
-	responseDataTreeContainer position: (259@358).
-	responseDataTreeContainer hResizing: (#spaceFill).
-	responseDataTreeContainer vResizing: (#spaceFill).
-	responseDataTreeContainer minWidth: (1).
-	responseDataTreeContainer minHeight: (1).
-	responseDataTreeContainer cellInset: (4).
-	responseDataTreeContainer cellPositioning: (#center).
-	responseDataTreeContainer cellSpacing: (#none).
-	responseDataTreeContainer layoutInset: (4).
-	responseDataTreeContainer listCentering: (#topLeft).
-	responseDataTreeContainer listDirection: (#topToBottom).
-	responseDataTreeContainer listSpacing: (#none).
-	responseDataTreeContainer maxCellSize: (1073741823).
-	responseDataTreeContainer minCellSize: (0).
-	responseDataTreeContainer wrapCentering: (#topLeft).
-	responseDataTreeContainer wrapDirection: (#none).
-	responseDataTreeContainer frameFractions: (0@0 corner: 1@1).
-	responseDataTreeContainer frameOffsets: (0@0 corner: 0@0).
-	responseDataTreeContainer balloonText: (nil).
-	responseDataTreeContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
-	responseDataTreeContainer color: (Color transparent).
-	responseDataTreeContainer borderWidth: (0).
-	responseDataTreeContainer borderStyle2: (#simple).
-	responseDataTreeContainer borderColor: (Color black).
-	responseDataTreeContainer setProperty: #objectName toValue: 'responseDataTreeContainer'.
-	responseTabContainer addChild: responseDataTreeContainer.
+	responseDataTab addChild: responseData.
+	responseTabs addChild: responseDataTab.
+	responseDataTreeTab := OTTUiTabContainer new.
+	responseDataTreeTab changeTableLayout.
+	responseDataTreeTab extent: (619@73).
+	responseDataTreeTab position: (259@506).
+	responseDataTreeTab hResizing: (#spaceFill).
+	responseDataTreeTab vResizing: (#spaceFill).
+	responseDataTreeTab minWidth: (1).
+	responseDataTreeTab minHeight: (1).
+	responseDataTreeTab cellInset: (4).
+	responseDataTreeTab cellPositioning: (#center).
+	responseDataTreeTab cellSpacing: (#none).
+	responseDataTreeTab layoutInset: (4).
+	responseDataTreeTab listCentering: (#topLeft).
+	responseDataTreeTab listDirection: (#topToBottom).
+	responseDataTreeTab listSpacing: (#none).
+	responseDataTreeTab maxCellSize: (1073741823).
+	responseDataTreeTab minCellSize: (0).
+	responseDataTreeTab wrapCentering: (#topLeft).
+	responseDataTreeTab wrapDirection: (#none).
+	responseDataTreeTab frameFractions: (0@0 corner: 1@1).
+	responseDataTreeTab frameOffsets: (0@0 corner: 0@0).
+	responseDataTreeTab balloonText: (nil).
+	responseDataTreeTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseDataTreeTab color: (Color transparent).
+	responseDataTreeTab borderWidth: (0).
+	responseDataTreeTab borderStyle2: (#simple).
+	responseDataTreeTab borderColor: (Color black).
+	responseDataTreeTab title: ('Formatted Data').
+	responseDataTreeTab setProperty: #objectName toValue: 'responseDataTreeTab'.
+	responseTabs addChild: responseDataTreeTab.
+	responseHeaderTab := OTTUiTabContainer new.
+	responseHeaderTab changeTableLayout.
+	responseHeaderTab extent: (619@74).
+	responseHeaderTab position: (259@583).
+	responseHeaderTab hResizing: (#spaceFill).
+	responseHeaderTab vResizing: (#spaceFill).
+	responseHeaderTab minWidth: (1).
+	responseHeaderTab minHeight: (1).
+	responseHeaderTab cellInset: (4).
+	responseHeaderTab cellPositioning: (#center).
+	responseHeaderTab cellSpacing: (#none).
+	responseHeaderTab layoutInset: (4).
+	responseHeaderTab listCentering: (#topLeft).
+	responseHeaderTab listDirection: (#topToBottom).
+	responseHeaderTab listSpacing: (#none).
+	responseHeaderTab maxCellSize: (1073741823).
+	responseHeaderTab minCellSize: (0).
+	responseHeaderTab wrapCentering: (#topLeft).
+	responseHeaderTab wrapDirection: (#none).
+	responseHeaderTab frameFractions: (0@0 corner: 1@1).
+	responseHeaderTab frameOffsets: (0@0 corner: 0@0).
+	responseHeaderTab balloonText: (nil).
+	responseHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseHeaderTab color: (Color transparent).
+	responseHeaderTab borderWidth: (0).
+	responseHeaderTab borderStyle2: (#simple).
+	responseHeaderTab borderColor: (Color black).
+	responseHeaderTab title: ('Headers').
+	responseHeaderTab setProperty: #objectName toValue: 'responseHeaderTab'.
 	responseHeaders := UiTableView new.
-	responseHeaders extent: (420@44).
-	responseHeaders position: (259@413).
+	responseHeaders extent: (611@66).
+	responseHeaders position: (263@587).
 	responseHeaders hResizing: (#spaceFill).
 	responseHeaders vResizing: (#spaceFill).
 	responseHeaders minWidth: (1).
@@ -726,10 +906,40 @@ initializePanel
 	responseHeaders selectionBehavior: (#selectRows).
 	responseHeaders selectionMode: (UiViewSingleSelection).
 	responseHeaders setProperty: #objectName toValue: 'responseHeaders'.
-	responseTabContainer addChild: responseHeaders.
+	responseHeaderTab addChild: responseHeaders.
+	responseTabs addChild: responseHeaderTab.
+	responseCookieTab := OTTUiTabContainer new.
+	responseCookieTab changeTableLayout.
+	responseCookieTab extent: (619@74).
+	responseCookieTab position: (259@661).
+	responseCookieTab hResizing: (#spaceFill).
+	responseCookieTab vResizing: (#spaceFill).
+	responseCookieTab minWidth: (1).
+	responseCookieTab minHeight: (1).
+	responseCookieTab cellInset: (4).
+	responseCookieTab cellPositioning: (#center).
+	responseCookieTab cellSpacing: (#none).
+	responseCookieTab layoutInset: (4).
+	responseCookieTab listCentering: (#topLeft).
+	responseCookieTab listDirection: (#topToBottom).
+	responseCookieTab listSpacing: (#none).
+	responseCookieTab maxCellSize: (1073741823).
+	responseCookieTab minCellSize: (0).
+	responseCookieTab wrapCentering: (#topLeft).
+	responseCookieTab wrapDirection: (#none).
+	responseCookieTab frameFractions: (0@0 corner: 1@1).
+	responseCookieTab frameOffsets: (0@0 corner: 0@0).
+	responseCookieTab balloonText: (nil).
+	responseCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	responseCookieTab color: (Color transparent).
+	responseCookieTab borderWidth: (0).
+	responseCookieTab borderStyle2: (#simple).
+	responseCookieTab borderColor: (Color black).
+	responseCookieTab title: ('Cookies').
+	responseCookieTab setProperty: #objectName toValue: 'responseCookieTab'.
 	responseCookies := UiTableView new.
-	responseCookies extent: (420@45).
-	responseCookies position: (259@461).
+	responseCookies extent: (611@66).
+	responseCookies position: (263@665).
 	responseCookies hResizing: (#spaceFill).
 	responseCookies vResizing: (#spaceFill).
 	responseCookies minWidth: (1).
@@ -760,7 +970,8 @@ initializePanel
 	responseCookies selectionBehavior: (#selectRows).
 	responseCookies selectionMode: (UiViewSingleSelection).
 	responseCookies setProperty: #objectName toValue: 'responseCookies'.
-	responseTabContainer addChild: responseCookies.
-	unnamedMorph1 addChild: responseTabContainer.
+	responseCookieTab addChild: responseCookies.
+	responseTabs addChild: responseCookieTab.
+	unnamedMorph1 addChild: responseTabs.
 	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClient'.

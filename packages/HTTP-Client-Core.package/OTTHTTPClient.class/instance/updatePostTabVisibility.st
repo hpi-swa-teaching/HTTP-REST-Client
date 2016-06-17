@@ -1,10 +1,10 @@
 ui
 updatePostTabVisibility
 
-	| tabButtons tabButton |
-	tabButtons := self ui requestTabContainer submorphs first.
-	tabButton := tabButtons getButtonForTab: self ui requestData.
-	tabButton enabled: self requestMethod = 'POST'.
+	| tabs tab |
+	tabs := self ui requestTabs.
+	tab := self ui requestDataTab.
 	
-	(tabButton enabled not and: [tabButton isCurrentTab])
-		ifTrue: [tabButtons buttons first showTab].
+	self requestSpecification method = 'POST'
+		ifTrue: [tabs enableTab: tab]
+		ifFalse: [tabs disableTab: tab].

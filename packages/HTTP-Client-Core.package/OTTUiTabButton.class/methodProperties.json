@@ -1,14 +1,8 @@
 {
 	"class" : {
-		 },
+		"createFor:" : "MH 6/17/2016 22:25" },
 	"instance" : {
-		"beCurrentTab" : "MH 6/15/2016 20:15",
-		"buttonContainer" : "MH 6/15/2016 20:08",
-		"container" : "MH 6/15/2016 19:35",
-		"container:" : "MH 6/15/2016 19:35",
-		"dontBeCurrentTab" : "MH 6/15/2016 20:14",
-		"initialize" : "MH 6/15/2016 20:11",
-		"isCurrentTab" : "MH 6/15/2016 20:06",
-		"showTab" : "MH 6/15/2016 20:10",
-		"tabMorph" : "MH 6/15/2016 20:01",
-		"tabMorph:" : "MH 6/15/2016 20:01" } }
+		"initialize" : "MH 6/17/2016 22:31",
+		"setCurrentTab" : "MH 6/17/2016 22:32",
+		"tabMorph" : "MH 6/17/2016 22:16",
+		"tabMorph:" : "MH 6/17/2016 22:16" } }

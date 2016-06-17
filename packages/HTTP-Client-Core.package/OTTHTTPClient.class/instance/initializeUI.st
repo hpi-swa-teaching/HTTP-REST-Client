@@ -22,19 +22,8 @@ initializeUI
 		
 	self ui authPassword font: (StrikeFont passwordFontSize: 12).
 	
-	self setupTabsOf: self ui requestTabContainer withWidgets: {
-		'Headers' -> self ui requestHeaders.
-		'Cookies' -> self ui requestCookies.
-		'Auth' -> self ui requestAuthTabContainer.
-		'Post Data' -> self ui requestData
-	}.
-	
-	self setupTabsOf: self ui responseTabContainer withWidgets: {
-		'Data' -> self ui responseData.
-		'Formatted Data' -> self ui responseDataTreeContainer.
-		'Headers' -> self ui responseHeaders.
-		'Cookies' -> self ui responseCookies.
-	}.
+	self ui requestTabs initializeTabs.
+	self ui responseTabs initializeTabs.
 	
 	self updatePostTabVisibility.
 		
