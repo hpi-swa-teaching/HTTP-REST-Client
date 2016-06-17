@@ -7,9 +7,6 @@ testGetAuthentication
 		authUsername: 'foo';
 		authPassword: 'bar'.
 		
-	"workaround"
-	(self subject ui requestTabContainer submorphs first getButtonForTab: self subject ui requestAuthTabContainer) showTab.
-		
 	self subject requestSpecification: request.
 	morph := self findUiWidgetBy: 'authUsername'.
 	self assert: morph theText equals: request authUsername.
