@@ -22,6 +22,8 @@
 		"requestData",
 		"sendButton",
 		"resetButton",
+		"saveButton",
+		"restoreButton",
 		"statusCode",
 		"responseTime",
 		"responseTabs",
