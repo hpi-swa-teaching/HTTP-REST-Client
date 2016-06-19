@@ -206,7 +206,7 @@ initializePanel
 	requestTabs frameFractions: (0@0 corner: 1@1).
 	requestTabs frameOffsets: (0@0 corner: 0@0).
 	requestTabs balloonText: (nil).
-	requestTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestTabs color: (Color transparent).
 	requestTabs borderWidth: (0).
 	requestTabs borderStyle2: (#simple).
@@ -234,7 +234,7 @@ initializePanel
 	requestHeaderTab frameFractions: (0@0 corner: 1@1).
 	requestHeaderTab frameOffsets: (0@0 corner: 0@0).
 	requestHeaderTab balloonText: (nil).
-	requestHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestHeaderTab color: (Color transparent).
 	requestHeaderTab borderWidth: (0).
 	requestHeaderTab borderStyle2: (#simple).
@@ -298,7 +298,7 @@ initializePanel
 	requestCookieTab frameFractions: (0@0 corner: 1@1).
 	requestCookieTab frameOffsets: (0@0 corner: 0@0).
 	requestCookieTab balloonText: (nil).
-	requestCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestCookieTab color: (Color transparent).
 	requestCookieTab borderWidth: (0).
 	requestCookieTab borderStyle2: (#simple).
@@ -362,7 +362,7 @@ initializePanel
 	requestAuthContainer frameFractions: (0@0 corner: 1@1).
 	requestAuthContainer frameOffsets: (0@0 corner: 0@0).
 	requestAuthContainer balloonText: (nil).
-	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestAuthContainer color: (Color transparent).
 	requestAuthContainer borderWidth: (0).
 	requestAuthContainer borderStyle2: (#simple).
@@ -497,7 +497,7 @@ initializePanel
 	requestDataTab frameFractions: (0@0 corner: 1@1).
 	requestDataTab frameOffsets: (0@0 corner: 0@0).
 	requestDataTab balloonText: (nil).
-	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestDataTab color: (Color transparent).
 	requestDataTab borderWidth: (0).
 	requestDataTab borderStyle2: (#simple).
@@ -657,7 +657,7 @@ initializePanel
 	saveButton frameFractions: (0@0 corner: 1@1).
 	saveButton frameOffsets: (0@0 corner: 0@0).
 	saveButton balloonText: ('').
-	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	saveButton enabled: (true).
 	saveButton setProperty: #iconByDesigner toValue: 'nil'.
 	saveButton icon: (nil).
@@ -668,42 +668,42 @@ initializePanel
 	saveButton autoExclusive: (false).
 	saveButton setProperty: #objectName toValue: 'saveButton'.
 	unnamedMorph3 addChild: saveButton.
-	restoreButton := UiPushButton new.
-	restoreButton changeTableLayout.
-	restoreButton extent: (109@20).
-	restoreButton position: (556@394).
-	restoreButton hResizing: (#shrinkWrap).
-	restoreButton vResizing: (#shrinkWrap).
-	restoreButton minWidth: (1).
-	restoreButton minHeight: (1).
-	restoreButton cellInset: (4).
-	restoreButton cellPositioning: (#center).
-	restoreButton cellSpacing: (#none).
-	restoreButton layoutInset: (2@0 corner: 2@0).
-	restoreButton listCentering: (#topLeft).
-	restoreButton listDirection: (#leftToRight).
-	restoreButton listSpacing: (#none).
-	restoreButton maxCellSize: (1073741823).
-	restoreButton minCellSize: (0).
-	restoreButton wrapCentering: (#topLeft).
-	restoreButton wrapDirection: (#none).
-	restoreButton frameFractions: (0@0 corner: 1@1).
-	restoreButton frameOffsets: (0@0 corner: 0@0).
-	restoreButton balloonText: (nil).
-	restoreButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
-	restoreButton enabled: (true).
-	restoreButton setProperty: #iconByDesigner toValue: 'nil'.
-	restoreButton icon: (nil).
-	restoreButton text: ('Restore Request').
-	restoreButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	restoreButton checkable: (false).
-	restoreButton checked: (false).
-	restoreButton autoExclusive: (false).
-	restoreButton setProperty: #objectName toValue: 'restoreButton'.
-	unnamedMorph3 addChild: restoreButton.
+	loadButton := UiPushButton new.
+	loadButton changeTableLayout.
+	loadButton extent: (91@20).
+	loadButton position: (556@394).
+	loadButton hResizing: (#shrinkWrap).
+	loadButton vResizing: (#shrinkWrap).
+	loadButton minWidth: (1).
+	loadButton minHeight: (1).
+	loadButton cellInset: (4).
+	loadButton cellPositioning: (#center).
+	loadButton cellSpacing: (#none).
+	loadButton layoutInset: (2@0 corner: 2@0).
+	loadButton listCentering: (#topLeft).
+	loadButton listDirection: (#leftToRight).
+	loadButton listSpacing: (#none).
+	loadButton maxCellSize: (1073741823).
+	loadButton minCellSize: (0).
+	loadButton wrapCentering: (#topLeft).
+	loadButton wrapDirection: (#none).
+	loadButton frameFractions: (0@0 corner: 1@1).
+	loadButton frameOffsets: (0@0 corner: 0@0).
+	loadButton balloonText: (nil).
+	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	loadButton enabled: (true).
+	loadButton setProperty: #iconByDesigner toValue: 'nil'.
+	loadButton icon: (nil).
+	loadButton text: ('Load Request').
+	loadButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	loadButton checkable: (false).
+	loadButton checked: (false).
+	loadButton autoExclusive: (false).
+	loadButton setProperty: #objectName toValue: 'loadButton'.
+	unnamedMorph3 addChild: loadButton.
 	unnamedMorph4 := UiSpacer new.
-	unnamedMorph4 extent: (90@20).
-	unnamedMorph4 position: (671@395).
+	unnamedMorph4 extent: (108@20).
+	unnamedMorph4 position: (653@395).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
 	unnamedMorph4 minWidth: (1).
@@ -808,7 +808,7 @@ initializePanel
 	responseTabs frameFractions: (0@0 corner: 1@1).
 	responseTabs frameOffsets: (0@0 corner: 0@0).
 	responseTabs balloonText: (nil).
-	responseTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseTabs color: (Color transparent).
 	responseTabs borderWidth: (0).
 	responseTabs borderStyle2: (#simple).
@@ -836,7 +836,7 @@ initializePanel
 	responseDataTab frameFractions: (0@0 corner: 1@1).
 	responseDataTab frameOffsets: (0@0 corner: 0@0).
 	responseDataTab balloonText: (nil).
-	responseDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseDataTab color: (Color transparent).
 	responseDataTab borderWidth: (0).
 	responseDataTab borderStyle2: (#simple).
@@ -902,7 +902,7 @@ initializePanel
 	responseDataTreeTab frameFractions: (0@0 corner: 1@1).
 	responseDataTreeTab frameOffsets: (0@0 corner: 0@0).
 	responseDataTreeTab balloonText: (nil).
-	responseDataTreeTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseDataTreeTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseDataTreeTab color: (Color transparent).
 	responseDataTreeTab borderWidth: (0).
 	responseDataTreeTab borderStyle2: (#simple).
@@ -932,7 +932,7 @@ initializePanel
 	responseHeaderTab frameFractions: (0@0 corner: 1@1).
 	responseHeaderTab frameOffsets: (0@0 corner: 0@0).
 	responseHeaderTab balloonText: (nil).
-	responseHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseHeaderTab color: (Color transparent).
 	responseHeaderTab borderWidth: (0).
 	responseHeaderTab borderStyle2: (#simple).
@@ -996,7 +996,7 @@ initializePanel
 	responseCookieTab frameFractions: (0@0 corner: 1@1).
 	responseCookieTab frameOffsets: (0@0 corner: 0@0).
 	responseCookieTab balloonText: (nil).
-	responseCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	responseCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
 	responseCookieTab color: (Color transparent).
 	responseCookieTab borderWidth: (0).
 	responseCookieTab borderStyle2: (#simple).

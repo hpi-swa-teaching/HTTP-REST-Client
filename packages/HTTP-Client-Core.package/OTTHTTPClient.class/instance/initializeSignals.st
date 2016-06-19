@@ -7,4 +7,4 @@ initializeSignals
 		connect: self ui requestMethod signal: #currentIndexChanged:text: toSelector: #updatePostTabVisibility;
 		connect: self ui requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequestFrom:;
 		connect: self ui saveButton signal: #clicked: toSelector: #saveRequest;
-		connect: self ui restoreButton signal: #clicked: toSelector: #restoreRequest. 
+		connect: self ui loadButton signal: #clicked: toSelector: #loadRequest. 

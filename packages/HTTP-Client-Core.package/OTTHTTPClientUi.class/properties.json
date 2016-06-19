@@ -23,7 +23,7 @@
 		"sendButton",
 		"resetButton",
 		"saveButton",
-		"restoreButton",
+		"loadButton",
 		"statusCode",
 		"responseTime",
 		"responseTabs",

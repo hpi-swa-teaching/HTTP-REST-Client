@@ -1,8 +1,12 @@
 as yet unclassified
 saveRequest
 	
-	| fName |
-	fName := UIManager default request:'Please enter the filename' translated initialAnswer: 'request' externalName,'.st'.
-	fName isEmpty ifTrue:[^self].
+	| fName fl |
 	
-	FileStream forceNewFileNamed: fName do: [:out | self requestSpecification storeOn: out].
+	fl := FileList2 modalFolderSelector.
+	fl ifNil:[^self].
+	
+	fName := UIManager default request: 'Please enter the filename' translated initialAnswer: 'request' externalName, '.st'.
+	fName isEmpty ifTrue:[^self].
+
+	self saveRequestToFile: (fl pathName, '/', fName).
