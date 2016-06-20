@@ -657,7 +657,7 @@ initializePanel
 	saveButton frameFractions: (0@0 corner: 1@1).
 	saveButton frameOffsets: (0@0 corner: 0@0).
 	saveButton balloonText: ('').
-	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	saveButton enabled: (true).
 	saveButton setProperty: #iconByDesigner toValue: 'UiFugueIcons diskBlackIcon'.
 	saveButton icon: (UiFugueIcons diskBlackIcon).
@@ -690,7 +690,7 @@ initializePanel
 	loadButton frameFractions: (0@0 corner: 1@1).
 	loadButton frameOffsets: (0@0 corner: 0@0).
 	loadButton balloonText: (nil).
-	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	loadButton enabled: (true).
 	loadButton setProperty: #iconByDesigner toValue: 'UiFugueIcons folderHorizontalOpenIcon'.
 	loadButton icon: (UiFugueIcons folderHorizontalOpenIcon).
@@ -702,7 +702,7 @@ initializePanel
 	loadButton setProperty: #objectName toValue: 'loadButton'.
 	unnamedMorph3 addChild: loadButton.
 	unnamedMorph4 := UiSpacer new.
-	unnamedMorph4 extent: (204@20).
+	unnamedMorph4 extent: (210@20).
 	unnamedMorph4 position: (517@395).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
@@ -731,8 +731,8 @@ initializePanel
 	unnamedMorph3 addChild: unnamedMorph4.
 	statusCodeIcon := UiLabel new.
 	statusCodeIcon changeTableLayout.
-	statusCodeIcon extent: (16@16).
-	statusCodeIcon position: (725@397).
+	statusCodeIcon extent: (10@10).
+	statusCodeIcon position: (731@400).
 	statusCodeIcon hResizing: (#shrinkWrap).
 	statusCodeIcon vResizing: (#shrinkWrap).
 	statusCodeIcon minWidth: (1).
@@ -751,10 +751,10 @@ initializePanel
 	statusCodeIcon frameFractions: (0@0 corner: 1@1).
 	statusCodeIcon frameOffsets: (0@0 corner: 0@0).
 	statusCodeIcon balloonText: (nil).
-	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	statusCodeIcon text: ('').
-	statusCodeIcon setProperty: #formByDesigner toValue: 'UiFugueIcons statusIcon'.
-	statusCodeIcon form: (UiFugueIcons statusIcon).
+	statusCodeIcon setProperty: #formByDesigner toValue: 'UiDiagonaIcons icon0409Small'.
+	statusCodeIcon form: (UiDiagonaIcons icon0409Small).
 	statusCodeIcon setProperty: #objectName toValue: 'statusCodeIcon'.
 	unnamedMorph3 addChild: statusCodeIcon.
 	statusCode := UiLabel new.
@@ -807,7 +807,7 @@ initializePanel
 	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	unnamedMorph5 text: ('').
 	unnamedMorph5 setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
 	unnamedMorph5 form: (UiFugueIcons clockSelectIcon).

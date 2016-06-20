@@ -1,21 +1,21 @@
 status-codes
 statusCodeIcon: aString
 
-	aString ifEmpty: [^ UiFugueIcons statusOfflineIcon].
+	aString ifEmpty: [^ UiDiagonaIcons icon0409Small].
 	
 	(self statusInformational: aString)
-		ifTrue: [^ UiFugueIcons statusIcon].
+		ifTrue: [^ UiDiagonaIcons icon0403Small].
 	
 	(self statusSuccess: aString)
-		ifTrue: [^ UiFugueIcons statusIcon].
+		ifTrue: [^ UiDiagonaIcons icon0402Small].
 	
 	(self statusRedirection: aString)
-		ifTrue: [^ UiFugueIcons statusAwayIcon].
+		ifTrue: [^ UiDiagonaIcons icon0404Small].
 	
 	(self statusClientError: aString)
-		ifTrue: [^ UiFugueIcons statusBusyIcon].
+		ifTrue: [^ UiDiagonaIcons icon0401Small].
 	
 	(self statusServerError: aString)
-		ifTrue: [^ UiFugueIcons statusBusyIcon].
+		ifTrue: [^ UiDiagonaIcons icon0406Small].
 	
-	^ UiFugueIcons statusOfflineIcon.
+	^ UiDiagonaIcons icon0409Small.
