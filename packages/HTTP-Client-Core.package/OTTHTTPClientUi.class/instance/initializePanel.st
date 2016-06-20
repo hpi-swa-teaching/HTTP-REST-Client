@@ -503,7 +503,7 @@ initializePanel
 	requestBodyTab borderStyle2: (#simple).
 	requestBodyTab borderColor: (Color black).
 	requestBodyTab title: ('Body').
-	requestBodyTab setProperty: #objectName toValue: 'requestDataTab'.
+	requestBodyTab setProperty: #objectName toValue: 'requestBodyTab'.
 	requestBody := UiTextEdit new.
 	requestBody extent: (611@66).
 	requestBody position: (263@312).
@@ -538,7 +538,7 @@ initializePanel
 	requestBody acceptOnFocusLost: (false).
 	requestBody scrollingMode: (#none).
 	requestBody scrollingLimit: (10).
-	requestBody setProperty: #objectName toValue: 'requestData'.
+	requestBody setProperty: #objectName toValue: 'requestBody'.
 	requestBodyTab addChild: requestBody.
 	requestTabs addChild: requestBodyTab.
 	unnamedMorph1 addChild: requestTabs.
