@@ -4,7 +4,7 @@ requestSpecification
 	^ (OTTRequestSpecification new)
 		url: self requestURL;
 		method: self requestMethod;
-		body: self requestData;
+		body: self requestBody;
 		headers: self requestHeaders;
 		cookies: self requestCookies;
 		authUsername: self authUsername;

@@ -475,72 +475,72 @@ initializePanel
 	requestAuthTabContainer addChild: authPassword.
 	requestAuthContainer addChild: requestAuthTabContainer.
 	requestTabs addChild: requestAuthContainer.
-	requestDataTab := OTTUiTabContainer new.
-	requestDataTab changeTableLayout.
-	requestDataTab extent: (619@74).
-	requestDataTab position: (259@308).
-	requestDataTab hResizing: (#spaceFill).
-	requestDataTab vResizing: (#spaceFill).
-	requestDataTab minWidth: (1).
-	requestDataTab minHeight: (1).
-	requestDataTab cellInset: (4).
-	requestDataTab cellPositioning: (#center).
-	requestDataTab cellSpacing: (#none).
-	requestDataTab layoutInset: (4).
-	requestDataTab listCentering: (#topLeft).
-	requestDataTab listDirection: (#topToBottom).
-	requestDataTab listSpacing: (#none).
-	requestDataTab maxCellSize: (1073741823).
-	requestDataTab minCellSize: (0).
-	requestDataTab wrapCentering: (#topLeft).
-	requestDataTab wrapDirection: (#none).
-	requestDataTab frameFractions: (0@0 corner: 1@1).
-	requestDataTab frameOffsets: (0@0 corner: 0@0).
-	requestDataTab balloonText: (nil).
-	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestDataTab color: (Color transparent).
-	requestDataTab borderWidth: (0).
-	requestDataTab borderStyle2: (#simple).
-	requestDataTab borderColor: (Color black).
-	requestDataTab title: ('Body').
-	requestDataTab setProperty: #objectName toValue: 'requestDataTab'.
-	requestData := UiTextEdit new.
-	requestData extent: (611@66).
-	requestData position: (263@312).
-	requestData hResizing: (#spaceFill).
-	requestData vResizing: (#spaceFill).
-	requestData minWidth: (1).
-	requestData minHeight: (1).
-	requestData cellInset: (0).
-	requestData cellPositioning: (#center).
-	requestData cellSpacing: (#none).
-	requestData layoutInset: (0).
-	requestData listCentering: (#topLeft).
-	requestData listDirection: (#topToBottom).
-	requestData listSpacing: (#none).
-	requestData maxCellSize: (1073741823).
-	requestData minCellSize: (0).
-	requestData wrapCentering: (#topLeft).
-	requestData wrapDirection: (#none).
-	requestData frameFractions: (0@0 corner: 1@1).
-	requestData frameOffsets: (0@0 corner: 0@0).
-	requestData balloonText: (nil).
-	requestData balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestData widgetResizable: (true).
-	requestData horizontalScrollBarPolicy: (#alwaysOff).
-	requestData verticalScrollBarPolicy: (#asNeeded).
-	requestData outerBorderWidth: (1).
-	requestData scrollBarThickness: (9).
-	requestData theText: ('').
-	requestData readOnly: (false).
-	requestData autoConvert: (false).
-	requestData autoAccept: (false).
-	requestData acceptOnFocusLost: (false).
-	requestData scrollingMode: (#none).
-	requestData scrollingLimit: (10).
-	requestData setProperty: #objectName toValue: 'requestData'.
-	requestDataTab addChild: requestData.
-	requestTabs addChild: requestDataTab.
+	requestBodyTab := OTTUiTabContainer new.
+	requestBodyTab changeTableLayout.
+	requestBodyTab extent: (619@74).
+	requestBodyTab position: (259@308).
+	requestBodyTab hResizing: (#spaceFill).
+	requestBodyTab vResizing: (#spaceFill).
+	requestBodyTab minWidth: (1).
+	requestBodyTab minHeight: (1).
+	requestBodyTab cellInset: (4).
+	requestBodyTab cellPositioning: (#center).
+	requestBodyTab cellSpacing: (#none).
+	requestBodyTab layoutInset: (4).
+	requestBodyTab listCentering: (#topLeft).
+	requestBodyTab listDirection: (#topToBottom).
+	requestBodyTab listSpacing: (#none).
+	requestBodyTab maxCellSize: (1073741823).
+	requestBodyTab minCellSize: (0).
+	requestBodyTab wrapCentering: (#topLeft).
+	requestBodyTab wrapDirection: (#none).
+	requestBodyTab frameFractions: (0@0 corner: 1@1).
+	requestBodyTab frameOffsets: (0@0 corner: 0@0).
+	requestBodyTab balloonText: (nil).
+	requestBodyTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	requestBodyTab color: (Color transparent).
+	requestBodyTab borderWidth: (0).
+	requestBodyTab borderStyle2: (#simple).
+	requestBodyTab borderColor: (Color black).
+	requestBodyTab title: ('Body').
+	requestBodyTab setProperty: #objectName toValue: 'requestDataTab'.
+	requestBody := UiTextEdit new.
+	requestBody extent: (611@66).
+	requestBody position: (263@312).
+	requestBody hResizing: (#spaceFill).
+	requestBody vResizing: (#spaceFill).
+	requestBody minWidth: (1).
+	requestBody minHeight: (1).
+	requestBody cellInset: (0).
+	requestBody cellPositioning: (#center).
+	requestBody cellSpacing: (#none).
+	requestBody layoutInset: (0).
+	requestBody listCentering: (#topLeft).
+	requestBody listDirection: (#topToBottom).
+	requestBody listSpacing: (#none).
+	requestBody maxCellSize: (1073741823).
+	requestBody minCellSize: (0).
+	requestBody wrapCentering: (#topLeft).
+	requestBody wrapDirection: (#none).
+	requestBody frameFractions: (0@0 corner: 1@1).
+	requestBody frameOffsets: (0@0 corner: 0@0).
+	requestBody balloonText: (nil).
+	requestBody balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	requestBody widgetResizable: (true).
+	requestBody horizontalScrollBarPolicy: (#alwaysOff).
+	requestBody verticalScrollBarPolicy: (#asNeeded).
+	requestBody outerBorderWidth: (1).
+	requestBody scrollBarThickness: (9).
+	requestBody theText: ('').
+	requestBody readOnly: (false).
+	requestBody autoConvert: (false).
+	requestBody autoAccept: (false).
+	requestBody acceptOnFocusLost: (false).
+	requestBody scrollingMode: (#none).
+	requestBody scrollingLimit: (10).
+	requestBody setProperty: #objectName toValue: 'requestData'.
+	requestBodyTab addChild: requestBody.
+	requestTabs addChild: requestBodyTab.
 	unnamedMorph1 addChild: requestTabs.
 	unnamedMorph3 := UiContainer new.
 	unnamedMorph3 changeTableLayout.
