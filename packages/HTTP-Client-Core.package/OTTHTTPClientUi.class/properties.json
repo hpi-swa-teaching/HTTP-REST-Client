@@ -24,6 +24,7 @@
 		"resetButton",
 		"saveButton",
 		"loadButton",
+		"statusCodeIcon",
 		"statusCode",
 		"responseTime",
 		"responseTabs",

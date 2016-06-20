@@ -1,5 +1,5 @@
 accessing
-restoreButton
+statusCodeIcon
 	"No description given."
 	
-	^ restoreButton
+	^ statusCodeIcon

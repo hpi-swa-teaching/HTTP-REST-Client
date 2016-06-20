@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 |
+	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -206,7 +206,7 @@ initializePanel
 	requestTabs frameFractions: (0@0 corner: 1@1).
 	requestTabs frameOffsets: (0@0 corner: 0@0).
 	requestTabs balloonText: (nil).
-	requestTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestTabs color: (Color transparent).
 	requestTabs borderWidth: (0).
 	requestTabs borderStyle2: (#simple).
@@ -234,7 +234,7 @@ initializePanel
 	requestHeaderTab frameFractions: (0@0 corner: 1@1).
 	requestHeaderTab frameOffsets: (0@0 corner: 0@0).
 	requestHeaderTab balloonText: (nil).
-	requestHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestHeaderTab color: (Color transparent).
 	requestHeaderTab borderWidth: (0).
 	requestHeaderTab borderStyle2: (#simple).
@@ -298,7 +298,7 @@ initializePanel
 	requestCookieTab frameFractions: (0@0 corner: 1@1).
 	requestCookieTab frameOffsets: (0@0 corner: 0@0).
 	requestCookieTab balloonText: (nil).
-	requestCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestCookieTab color: (Color transparent).
 	requestCookieTab borderWidth: (0).
 	requestCookieTab borderStyle2: (#simple).
@@ -362,7 +362,7 @@ initializePanel
 	requestAuthContainer frameFractions: (0@0 corner: 1@1).
 	requestAuthContainer frameOffsets: (0@0 corner: 0@0).
 	requestAuthContainer balloonText: (nil).
-	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestAuthContainer color: (Color transparent).
 	requestAuthContainer borderWidth: (0).
 	requestAuthContainer borderStyle2: (#simple).
@@ -497,12 +497,12 @@ initializePanel
 	requestDataTab frameFractions: (0@0 corner: 1@1).
 	requestDataTab frameOffsets: (0@0 corner: 0@0).
 	requestDataTab balloonText: (nil).
-	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestDataTab color: (Color transparent).
 	requestDataTab borderWidth: (0).
 	requestDataTab borderStyle2: (#simple).
 	requestDataTab borderColor: (Color black).
-	requestDataTab title: ('Data').
+	requestDataTab title: ('Body').
 	requestDataTab setProperty: #objectName toValue: 'requestDataTab'.
 	requestData := UiTextEdit new.
 	requestData extent: (611@66).
@@ -571,7 +571,7 @@ initializePanel
 	unnamedMorph3 borderColor: (Color black).
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
-	sendButton extent: (92@20).
+	sendButton extent: (58@20).
 	sendButton position: (259@394).
 	sendButton hResizing: (#shrinkWrap).
 	sendButton vResizing: (#shrinkWrap).
@@ -590,12 +590,12 @@ initializePanel
 	sendButton wrapDirection: (#none).
 	sendButton frameFractions: (0@0 corner: 1@1).
 	sendButton frameOffsets: (0@0 corner: 0@0).
-	sendButton balloonText: (nil).
+	sendButton balloonText: ('Send').
 	sendButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	sendButton enabled: (true).
-	sendButton setProperty: #iconByDesigner toValue: 'nil'.
-	sendButton icon: (nil).
-	sendButton text: ('Send Request').
+	sendButton setProperty: #iconByDesigner toValue: 'UiFugueIcons paperPlaneArrowIcon'.
+	sendButton icon: (UiFugueIcons paperPlaneArrowIcon).
+	sendButton text: ('Send').
 	sendButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	sendButton checkable: (false).
 	sendButton checked: (false).
@@ -604,8 +604,8 @@ initializePanel
 	unnamedMorph3 addChild: sendButton.
 	resetButton := UiPushButton new.
 	resetButton changeTableLayout.
-	resetButton extent: (96@20).
-	resetButton position: (357@394).
+	resetButton extent: (62@20).
+	resetButton position: (323@394).
 	resetButton hResizing: (#shrinkWrap).
 	resetButton vResizing: (#shrinkWrap).
 	resetButton minWidth: (1).
@@ -626,9 +626,9 @@ initializePanel
 	resetButton balloonText: (nil).
 	resetButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	resetButton enabled: (true).
-	resetButton setProperty: #iconByDesigner toValue: 'nil'.
-	resetButton icon: (nil).
-	resetButton text: ('Reset Request').
+	resetButton setProperty: #iconByDesigner toValue: 'UiFugueIcons arrowReturn180LeftIcon'.
+	resetButton icon: (UiFugueIcons arrowReturn180LeftIcon).
+	resetButton text: ('Reset').
 	resetButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	resetButton checkable: (false).
 	resetButton checked: (false).
@@ -637,8 +637,8 @@ initializePanel
 	unnamedMorph3 addChild: resetButton.
 	saveButton := UiPushButton new.
 	saveButton changeTableLayout.
-	saveButton extent: (91@20).
-	saveButton position: (459@394).
+	saveButton extent: (57@20).
+	saveButton position: (391@394).
 	saveButton hResizing: (#shrinkWrap).
 	saveButton vResizing: (#shrinkWrap).
 	saveButton minWidth: (1).
@@ -657,11 +657,11 @@ initializePanel
 	saveButton frameFractions: (0@0 corner: 1@1).
 	saveButton frameOffsets: (0@0 corner: 0@0).
 	saveButton balloonText: ('').
-	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	saveButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	saveButton enabled: (true).
-	saveButton setProperty: #iconByDesigner toValue: 'nil'.
-	saveButton icon: (nil).
-	saveButton text: ('Save Request').
+	saveButton setProperty: #iconByDesigner toValue: 'UiFugueIcons diskBlackIcon'.
+	saveButton icon: (UiFugueIcons diskBlackIcon).
+	saveButton text: ('Save').
 	saveButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	saveButton checkable: (false).
 	saveButton checked: (false).
@@ -670,8 +670,8 @@ initializePanel
 	unnamedMorph3 addChild: saveButton.
 	loadButton := UiPushButton new.
 	loadButton changeTableLayout.
-	loadButton extent: (91@20).
-	loadButton position: (556@394).
+	loadButton extent: (57@20).
+	loadButton position: (454@394).
 	loadButton hResizing: (#shrinkWrap).
 	loadButton vResizing: (#shrinkWrap).
 	loadButton minWidth: (1).
@@ -690,11 +690,11 @@ initializePanel
 	loadButton frameFractions: (0@0 corner: 1@1).
 	loadButton frameOffsets: (0@0 corner: 0@0).
 	loadButton balloonText: (nil).
-	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	loadButton enabled: (true).
-	loadButton setProperty: #iconByDesigner toValue: 'nil'.
-	loadButton icon: (nil).
-	loadButton text: ('Load Request').
+	loadButton setProperty: #iconByDesigner toValue: 'UiFugueIcons folderHorizontalOpenIcon'.
+	loadButton icon: (UiFugueIcons folderHorizontalOpenIcon).
+	loadButton text: ('Load').
 	loadButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
 	loadButton checkable: (false).
 	loadButton checked: (false).
@@ -702,8 +702,8 @@ initializePanel
 	loadButton setProperty: #objectName toValue: 'loadButton'.
 	unnamedMorph3 addChild: loadButton.
 	unnamedMorph4 := UiSpacer new.
-	unnamedMorph4 extent: (108@20).
-	unnamedMorph4 position: (653@395).
+	unnamedMorph4 extent: (204@20).
+	unnamedMorph4 position: (517@395).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#rigid).
 	unnamedMorph4 minWidth: (1).
@@ -729,10 +729,38 @@ initializePanel
 	unnamedMorph4 borderColor: (Color black).
 	unnamedMorph4 orientation: (#horizontal).
 	unnamedMorph3 addChild: unnamedMorph4.
+	statusCodeIcon := UiLabel new.
+	statusCodeIcon changeTableLayout.
+	statusCodeIcon extent: (16@16).
+	statusCodeIcon position: (725@397).
+	statusCodeIcon hResizing: (#shrinkWrap).
+	statusCodeIcon vResizing: (#shrinkWrap).
+	statusCodeIcon minWidth: (1).
+	statusCodeIcon minHeight: (1).
+	statusCodeIcon cellInset: (0).
+	statusCodeIcon cellPositioning: (#center).
+	statusCodeIcon cellSpacing: (#none).
+	statusCodeIcon layoutInset: (0).
+	statusCodeIcon listCentering: (#topLeft).
+	statusCodeIcon listDirection: (#leftToRight).
+	statusCodeIcon listSpacing: (#none).
+	statusCodeIcon maxCellSize: (1073741823).
+	statusCodeIcon minCellSize: (0).
+	statusCodeIcon wrapCentering: (#topLeft).
+	statusCodeIcon wrapDirection: (#none).
+	statusCodeIcon frameFractions: (0@0 corner: 1@1).
+	statusCodeIcon frameOffsets: (0@0 corner: 0@0).
+	statusCodeIcon balloonText: (nil).
+	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	statusCodeIcon text: ('').
+	statusCodeIcon setProperty: #formByDesigner toValue: 'UiFugueIcons statusIcon'.
+	statusCodeIcon form: (UiFugueIcons statusIcon).
+	statusCodeIcon setProperty: #objectName toValue: 'statusCodeIcon'.
+	unnamedMorph3 addChild: statusCodeIcon.
 	statusCode := UiLabel new.
 	statusCode changeTableLayout.
 	statusCode extent: (46@18).
-	statusCode position: (765@396).
+	statusCode position: (745@396).
 	statusCode hResizing: (#shrinkWrap).
 	statusCode vResizing: (#shrinkWrap).
 	statusCode minWidth: (1).
@@ -757,6 +785,33 @@ initializePanel
 	statusCode form: (nil).
 	statusCode setProperty: #objectName toValue: 'statusCode'.
 	unnamedMorph3 addChild: statusCode.
+	unnamedMorph5 := UiLabel new.
+	unnamedMorph5 changeTableLayout.
+	unnamedMorph5 extent: (16@16).
+	unnamedMorph5 position: (795@397).
+	unnamedMorph5 hResizing: (#shrinkWrap).
+	unnamedMorph5 vResizing: (#shrinkWrap).
+	unnamedMorph5 minWidth: (1).
+	unnamedMorph5 minHeight: (1).
+	unnamedMorph5 cellInset: (0).
+	unnamedMorph5 cellPositioning: (#center).
+	unnamedMorph5 cellSpacing: (#none).
+	unnamedMorph5 layoutInset: (0).
+	unnamedMorph5 listCentering: (#topLeft).
+	unnamedMorph5 listDirection: (#leftToRight).
+	unnamedMorph5 listSpacing: (#none).
+	unnamedMorph5 maxCellSize: (1073741823).
+	unnamedMorph5 minCellSize: (0).
+	unnamedMorph5 wrapCentering: (#topLeft).
+	unnamedMorph5 wrapDirection: (#none).
+	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph5 balloonText: (nil).
+	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph5 text: ('').
+	unnamedMorph5 setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
+	unnamedMorph5 form: (UiFugueIcons clockSelectIcon).
+	unnamedMorph3 addChild: unnamedMorph5.
 	responseTime := UiLabel new.
 	responseTime changeTableLayout.
 	responseTime extent: (63@18).
@@ -808,7 +863,7 @@ initializePanel
 	responseTabs frameFractions: (0@0 corner: 1@1).
 	responseTabs frameOffsets: (0@0 corner: 0@0).
 	responseTabs balloonText: (nil).
-	responseTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseTabs balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseTabs color: (Color transparent).
 	responseTabs borderWidth: (0).
 	responseTabs borderStyle2: (#simple).
@@ -836,7 +891,7 @@ initializePanel
 	responseDataTab frameFractions: (0@0 corner: 1@1).
 	responseDataTab frameOffsets: (0@0 corner: 0@0).
 	responseDataTab balloonText: (nil).
-	responseDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseDataTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseDataTab color: (Color transparent).
 	responseDataTab borderWidth: (0).
 	responseDataTab borderStyle2: (#simple).
@@ -902,7 +957,7 @@ initializePanel
 	responseDataTreeTab frameFractions: (0@0 corner: 1@1).
 	responseDataTreeTab frameOffsets: (0@0 corner: 0@0).
 	responseDataTreeTab balloonText: (nil).
-	responseDataTreeTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseDataTreeTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseDataTreeTab color: (Color transparent).
 	responseDataTreeTab borderWidth: (0).
 	responseDataTreeTab borderStyle2: (#simple).
@@ -932,7 +987,7 @@ initializePanel
 	responseHeaderTab frameFractions: (0@0 corner: 1@1).
 	responseHeaderTab frameOffsets: (0@0 corner: 0@0).
 	responseHeaderTab balloonText: (nil).
-	responseHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseHeaderTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseHeaderTab color: (Color transparent).
 	responseHeaderTab borderWidth: (0).
 	responseHeaderTab borderStyle2: (#simple).
@@ -996,7 +1051,7 @@ initializePanel
 	responseCookieTab frameFractions: (0@0 corner: 1@1).
 	responseCookieTab frameOffsets: (0@0 corner: 0@0).
 	responseCookieTab balloonText: (nil).
-	responseCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	responseCookieTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	responseCookieTab color: (Color transparent).
 	responseCookieTab borderWidth: (0).
 	responseCookieTab borderStyle2: (#simple).
