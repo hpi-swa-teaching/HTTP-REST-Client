@@ -8,4 +8,4 @@ initializeSignals
 		connect: self ui requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequestFrom:;
 		connect: self ui saveButton signal: #clicked: toSelector: #saveRequest;
 		connect: self ui loadButton signal: #clicked: toSelector: #loadRequest;
-		connect: self ui resetHistoryButton signal: #clicked: toSelector: #resetHistory.
+		connect: self ui clearHistoryButton signal: #clicked: toSelector: #clearHistory.
