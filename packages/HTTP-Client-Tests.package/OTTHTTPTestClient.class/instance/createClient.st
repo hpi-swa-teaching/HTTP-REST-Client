@@ -1,5 +1,6 @@
 as yet unclassified
 createClient
 
-	webClient ifNotNil:[^self webClient].
-	^super createClient.
+	^ self webClient
+		ifNil: [super createClient]
+		ifNotNil: [self webClient]
