@@ -11,6 +11,8 @@
 		"requestURL",
 		"requestMethod",
 		"requestTabs",
+		"requestGetParamsTab",
+		"requestGetParams",
 		"requestHeaderTab",
 		"requestHeaders",
 		"requestCookieTab",

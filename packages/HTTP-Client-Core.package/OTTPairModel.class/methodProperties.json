@@ -19,6 +19,7 @@
 		"pairAt:ifAbsent:" : "MH 6/9/2016 11:51",
 		"pairAt:put:" : "MH 6/15/2016 22:02",
 		"pairsAt:do:" : "MH 6/9/2016 01:18",
+		"pairsCount" : "MH 6/22/2016 22:46",
 		"pairsDo:" : "MH 6/22/2016 20:42",
 		"removeAllPairs" : "MH 6/9/2016 17:17",
 		"removeNode:" : "MH 6/9/2016 17:14",

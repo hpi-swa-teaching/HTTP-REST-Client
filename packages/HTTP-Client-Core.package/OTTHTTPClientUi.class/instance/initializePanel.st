@@ -54,7 +54,7 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
@@ -115,7 +115,7 @@ initializePanel
 	clearHistoryButton frameFractions: (0@0 corner: 1@1).
 	clearHistoryButton frameOffsets: (0@0 corner: 0@0).
 	clearHistoryButton balloonText: (nil).
-	clearHistoryButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	clearHistoryButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	clearHistoryButton enabled: (true).
 	clearHistoryButton setProperty: #iconByDesigner toValue: 'UiFugueIcons arrowCircle225LeftIcon'.
 	clearHistoryButton icon: (UiFugueIcons arrowCircle225LeftIcon).
@@ -247,7 +247,7 @@ initializePanel
 	unnamedMorph2 addChild: unnamedMorph3.
 	requestTabs := OTTUiTabWidget new.
 	requestTabs changeTableLayout.
-	requestTabs extent: (620@345).
+	requestTabs extent: (620@351).
 	requestTabs position: (262@42).
 	requestTabs hResizing: (#spaceFill).
 	requestTabs vResizing: (#spaceFill).
@@ -273,10 +273,74 @@ initializePanel
 	requestTabs borderStyle2: (#simple).
 	requestTabs borderColor: (Color black).
 	requestTabs setProperty: #objectName toValue: 'requestTabs'.
+	requestGetParamsTab := OTTUiTabContainer new.
+	requestGetParamsTab changeTableLayout.
+	requestGetParamsTab extent: (612@59).
+	requestGetParamsTab position: (266@46).
+	requestGetParamsTab hResizing: (#spaceFill).
+	requestGetParamsTab vResizing: (#spaceFill).
+	requestGetParamsTab minWidth: (1).
+	requestGetParamsTab minHeight: (1).
+	requestGetParamsTab cellInset: (4).
+	requestGetParamsTab cellPositioning: (#center).
+	requestGetParamsTab cellSpacing: (#none).
+	requestGetParamsTab layoutInset: (4).
+	requestGetParamsTab listCentering: (#topLeft).
+	requestGetParamsTab listDirection: (#topToBottom).
+	requestGetParamsTab listSpacing: (#none).
+	requestGetParamsTab maxCellSize: (1073741823).
+	requestGetParamsTab minCellSize: (0).
+	requestGetParamsTab wrapCentering: (#topLeft).
+	requestGetParamsTab wrapDirection: (#none).
+	requestGetParamsTab frameFractions: (0@0 corner: 1@1).
+	requestGetParamsTab frameOffsets: (0@0 corner: 0@0).
+	requestGetParamsTab balloonText: (nil).
+	requestGetParamsTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestGetParamsTab color: (Color transparent).
+	requestGetParamsTab borderWidth: (0).
+	requestGetParamsTab borderStyle2: (#simple).
+	requestGetParamsTab borderColor: (Color black).
+	requestGetParamsTab title: ('GET Parameters').
+	requestGetParamsTab setProperty: #objectName toValue: 'requestGetParamsTab'.
+	requestGetParams := UiTableView new.
+	requestGetParams extent: (604@51).
+	requestGetParams position: (270@50).
+	requestGetParams hResizing: (#spaceFill).
+	requestGetParams vResizing: (#spaceFill).
+	requestGetParams minWidth: (1).
+	requestGetParams minHeight: (1).
+	requestGetParams cellInset: (0).
+	requestGetParams cellPositioning: (#center).
+	requestGetParams cellSpacing: (#none).
+	requestGetParams layoutInset: (0).
+	requestGetParams listCentering: (#topLeft).
+	requestGetParams listDirection: (#topToBottom).
+	requestGetParams listSpacing: (#none).
+	requestGetParams maxCellSize: (1073741823).
+	requestGetParams minCellSize: (0).
+	requestGetParams wrapCentering: (#topLeft).
+	requestGetParams wrapDirection: (#none).
+	requestGetParams frameFractions: (0@0 corner: 1@1).
+	requestGetParams frameOffsets: (0@0 corner: 0@0).
+	requestGetParams balloonText: (nil).
+	requestGetParams balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	requestGetParams widgetResizable: (false).
+	requestGetParams horizontalScrollBarPolicy: (#asNeeded).
+	requestGetParams verticalScrollBarPolicy: (#asNeeded).
+	requestGetParams outerBorderWidth: (0).
+	requestGetParams scrollBarThickness: (9).
+	requestGetParams modelClass: (nil).
+	requestGetParams horizontalHeaderVisible: (true).
+	requestGetParams verticalHeaderVisible: (false).
+	requestGetParams selectionBehavior: (#selectCells).
+	requestGetParams selectionMode: (UiViewSingleSelection).
+	requestGetParams setProperty: #objectName toValue: 'requestGetParams'.
+	requestGetParamsTab addChild: requestGetParams.
+	requestTabs addChild: requestGetParamsTab.
 	requestHeaderTab := OTTUiTabContainer new.
 	requestHeaderTab changeTableLayout.
-	requestHeaderTab extent: (612@74).
-	requestHeaderTab position: (266@46).
+	requestHeaderTab extent: (612@60).
+	requestHeaderTab position: (266@109).
 	requestHeaderTab hResizing: (#spaceFill).
 	requestHeaderTab vResizing: (#spaceFill).
 	requestHeaderTab minWidth: (1).
@@ -303,8 +367,8 @@ initializePanel
 	requestHeaderTab title: ('Headers').
 	requestHeaderTab setProperty: #objectName toValue: 'requestHeaderTab'.
 	requestHeaders := UiTableView new.
-	requestHeaders extent: (604@66).
-	requestHeaders position: (270@50).
+	requestHeaders extent: (604@52).
+	requestHeaders position: (270@113).
 	requestHeaders hResizing: (#spaceFill).
 	requestHeaders vResizing: (#spaceFill).
 	requestHeaders minWidth: (1).
@@ -339,8 +403,8 @@ initializePanel
 	requestTabs addChild: requestHeaderTab.
 	requestCookieTab := OTTUiTabContainer new.
 	requestCookieTab changeTableLayout.
-	requestCookieTab extent: (612@74).
-	requestCookieTab position: (266@124).
+	requestCookieTab extent: (612@59).
+	requestCookieTab position: (266@173).
 	requestCookieTab hResizing: (#spaceFill).
 	requestCookieTab vResizing: (#spaceFill).
 	requestCookieTab minWidth: (1).
@@ -367,8 +431,8 @@ initializePanel
 	requestCookieTab title: ('Cookies').
 	requestCookieTab setProperty: #objectName toValue: 'requestCookieTab'.
 	requestCookies := UiTableView new.
-	requestCookies extent: (604@66).
-	requestCookies position: (270@128).
+	requestCookies extent: (604@51).
+	requestCookies position: (270@177).
 	requestCookies hResizing: (#spaceFill).
 	requestCookies vResizing: (#spaceFill).
 	requestCookies minWidth: (1).
@@ -403,8 +467,8 @@ initializePanel
 	requestTabs addChild: requestCookieTab.
 	requestAuthContainer := OTTUiTabContainer new.
 	requestAuthContainer changeTableLayout.
-	requestAuthContainer extent: (612@103).
-	requestAuthContainer position: (266@202).
+	requestAuthContainer extent: (612@89).
+	requestAuthContainer position: (266@236).
 	requestAuthContainer hResizing: (#spaceFill).
 	requestAuthContainer vResizing: (#spaceFill).
 	requestAuthContainer minWidth: (1).
@@ -433,7 +497,7 @@ initializePanel
 	requestAuthTabContainer := UiContainer new.
 	requestAuthTabContainer changeTableLayout.
 	requestAuthTabContainer extent: (604@30).
-	requestAuthTabContainer position: (270@206).
+	requestAuthTabContainer position: (270@240).
 	requestAuthTabContainer hResizing: (#spaceFill).
 	requestAuthTabContainer vResizing: (#shrinkWrap).
 	requestAuthTabContainer minWidth: (1).
@@ -460,7 +524,7 @@ initializePanel
 	requestAuthTabContainer setProperty: #objectName toValue: 'requestAuthTabContainer'.
 	authUsername := UiLineEdit new.
 	authUsername extent: (296@20).
-	authUsername position: (274@211).
+	authUsername position: (274@245).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
 	authUsername minWidth: (1).
@@ -498,7 +562,7 @@ initializePanel
 	requestAuthTabContainer addChild: authUsername.
 	authPassword := UiLineEdit new.
 	authPassword extent: (296@20).
-	authPassword position: (574@211).
+	authPassword position: (574@245).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -538,8 +602,8 @@ initializePanel
 	requestTabs addChild: requestAuthContainer.
 	requestBodyTab := OTTUiTabContainer new.
 	requestBodyTab changeTableLayout.
-	requestBodyTab extent: (612@74).
-	requestBodyTab position: (266@309).
+	requestBodyTab extent: (612@60).
+	requestBodyTab position: (266@329).
 	requestBodyTab hResizing: (#spaceFill).
 	requestBodyTab vResizing: (#spaceFill).
 	requestBodyTab minWidth: (1).
@@ -566,8 +630,8 @@ initializePanel
 	requestBodyTab title: ('Body').
 	requestBodyTab setProperty: #objectName toValue: 'requestBodyTab'.
 	requestBody := UiTextEdit new.
-	requestBody extent: (604@66).
-	requestBody position: (270@313).
+	requestBody extent: (604@52).
+	requestBody position: (270@333).
 	requestBody hResizing: (#spaceFill).
 	requestBody vResizing: (#spaceFill).
 	requestBody minWidth: (1).
@@ -606,7 +670,7 @@ initializePanel
 	unnamedMorph4 := UiContainer new.
 	unnamedMorph4 changeTableLayout.
 	unnamedMorph4 extent: (620@30).
-	unnamedMorph4 position: (262@391).
+	unnamedMorph4 position: (262@397).
 	unnamedMorph4 hResizing: (#spaceFill).
 	unnamedMorph4 vResizing: (#shrinkWrap).
 	unnamedMorph4 minWidth: (1).
@@ -633,7 +697,7 @@ initializePanel
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
 	sendButton extent: (58@20).
-	sendButton position: (266@395).
+	sendButton position: (266@401).
 	sendButton hResizing: (#shrinkWrap).
 	sendButton vResizing: (#shrinkWrap).
 	sendButton minWidth: (1).
@@ -666,7 +730,7 @@ initializePanel
 	resetButton := UiPushButton new.
 	resetButton changeTableLayout.
 	resetButton extent: (62@20).
-	resetButton position: (330@395).
+	resetButton position: (330@401).
 	resetButton hResizing: (#shrinkWrap).
 	resetButton vResizing: (#shrinkWrap).
 	resetButton minWidth: (1).
@@ -699,7 +763,7 @@ initializePanel
 	saveButton := UiPushButton new.
 	saveButton changeTableLayout.
 	saveButton extent: (57@20).
-	saveButton position: (398@395).
+	saveButton position: (398@401).
 	saveButton hResizing: (#shrinkWrap).
 	saveButton vResizing: (#shrinkWrap).
 	saveButton minWidth: (1).
@@ -732,7 +796,7 @@ initializePanel
 	loadButton := UiPushButton new.
 	loadButton changeTableLayout.
 	loadButton extent: (57@20).
-	loadButton position: (461@395).
+	loadButton position: (461@401).
 	loadButton hResizing: (#shrinkWrap).
 	loadButton vResizing: (#shrinkWrap).
 	loadButton minWidth: (1).
@@ -764,7 +828,7 @@ initializePanel
 	unnamedMorph4 addChild: loadButton.
 	unnamedMorph5 := UiSpacer new.
 	unnamedMorph5 extent: (203@20).
-	unnamedMorph5 position: (524@396).
+	unnamedMorph5 position: (524@402).
 	unnamedMorph5 hResizing: (#spaceFill).
 	unnamedMorph5 vResizing: (#rigid).
 	unnamedMorph5 minWidth: (1).
@@ -793,7 +857,7 @@ initializePanel
 	statusCodeIcon := UiLabel new.
 	statusCodeIcon changeTableLayout.
 	statusCodeIcon extent: (10@10).
-	statusCodeIcon position: (731@401).
+	statusCodeIcon position: (731@407).
 	statusCodeIcon hResizing: (#shrinkWrap).
 	statusCodeIcon vResizing: (#shrinkWrap).
 	statusCodeIcon minWidth: (1).
@@ -812,7 +876,7 @@ initializePanel
 	statusCodeIcon frameFractions: (0@0 corner: 1@1).
 	statusCodeIcon frameOffsets: (0@0 corner: 0@0).
 	statusCodeIcon balloonText: (nil).
-	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	statusCodeIcon text: ('').
 	statusCodeIcon setProperty: #formByDesigner toValue: 'UiDiagonaIcons icon0409Small'.
 	statusCodeIcon form: (UiDiagonaIcons icon0409Small).
@@ -821,7 +885,7 @@ initializePanel
 	statusCode := UiLabel new.
 	statusCode changeTableLayout.
 	statusCode extent: (46@18).
-	statusCode position: (745@397).
+	statusCode position: (745@403).
 	statusCode hResizing: (#shrinkWrap).
 	statusCode vResizing: (#shrinkWrap).
 	statusCode minWidth: (1).
@@ -849,7 +913,7 @@ initializePanel
 	unnamedMorph6 := UiLabel new.
 	unnamedMorph6 changeTableLayout.
 	unnamedMorph6 extent: (16@16).
-	unnamedMorph6 position: (795@398).
+	unnamedMorph6 position: (795@404).
 	unnamedMorph6 hResizing: (#shrinkWrap).
 	unnamedMorph6 vResizing: (#shrinkWrap).
 	unnamedMorph6 minWidth: (1).
@@ -868,7 +932,7 @@ initializePanel
 	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
 	unnamedMorph6 text: ('').
 	unnamedMorph6 setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
 	unnamedMorph6 form: (UiFugueIcons clockSelectIcon).
@@ -876,7 +940,7 @@ initializePanel
 	responseTime := UiLabel new.
 	responseTime changeTableLayout.
 	responseTime extent: (63@18).
-	responseTime position: (815@397).
+	responseTime position: (815@403).
 	responseTime hResizing: (#shrinkWrap).
 	responseTime vResizing: (#shrinkWrap).
 	responseTime minWidth: (1).
@@ -904,8 +968,8 @@ initializePanel
 	unnamedMorph2 addChild: unnamedMorph4.
 	responseTabs := OTTUiTabWidget new.
 	responseTabs changeTableLayout.
-	responseTabs extent: (620@315).
-	responseTabs position: (262@425).
+	responseTabs extent: (620@309).
+	responseTabs position: (262@431).
 	responseTabs hResizing: (#spaceFill).
 	responseTabs vResizing: (#spaceFill).
 	responseTabs minWidth: (1).
@@ -932,8 +996,8 @@ initializePanel
 	responseTabs setProperty: #objectName toValue: 'responseTabs'.
 	responseDataTab := OTTUiTabContainer new.
 	responseDataTab changeTableLayout.
-	responseDataTab extent: (612@74).
-	responseDataTab position: (266@429).
+	responseDataTab extent: (612@72).
+	responseDataTab position: (266@435).
 	responseDataTab hResizing: (#spaceFill).
 	responseDataTab vResizing: (#spaceFill).
 	responseDataTab minWidth: (1).
@@ -960,8 +1024,8 @@ initializePanel
 	responseDataTab title: ('Data').
 	responseDataTab setProperty: #objectName toValue: 'responseDataTab'.
 	responseData := UiTextEdit new.
-	responseData extent: (604@66).
-	responseData position: (270@433).
+	responseData extent: (604@64).
+	responseData position: (270@439).
 	responseData hResizing: (#spaceFill).
 	responseData vResizing: (#spaceFill).
 	responseData minWidth: (1).
@@ -998,8 +1062,8 @@ initializePanel
 	responseTabs addChild: responseDataTab.
 	responseDataTreeTab := OTTUiTabContainer new.
 	responseDataTreeTab changeTableLayout.
-	responseDataTreeTab extent: (612@73).
-	responseDataTreeTab position: (266@507).
+	responseDataTreeTab extent: (612@72).
+	responseDataTreeTab position: (266@511).
 	responseDataTreeTab hResizing: (#spaceFill).
 	responseDataTreeTab vResizing: (#spaceFill).
 	responseDataTreeTab minWidth: (1).
@@ -1028,8 +1092,8 @@ initializePanel
 	responseTabs addChild: responseDataTreeTab.
 	responseHeaderTab := OTTUiTabContainer new.
 	responseHeaderTab changeTableLayout.
-	responseHeaderTab extent: (612@74).
-	responseHeaderTab position: (266@584).
+	responseHeaderTab extent: (612@72).
+	responseHeaderTab position: (266@587).
 	responseHeaderTab hResizing: (#spaceFill).
 	responseHeaderTab vResizing: (#spaceFill).
 	responseHeaderTab minWidth: (1).
@@ -1056,8 +1120,8 @@ initializePanel
 	responseHeaderTab title: ('Headers').
 	responseHeaderTab setProperty: #objectName toValue: 'responseHeaderTab'.
 	responseHeaders := UiTableView new.
-	responseHeaders extent: (604@66).
-	responseHeaders position: (270@588).
+	responseHeaders extent: (604@64).
+	responseHeaders position: (270@591).
 	responseHeaders hResizing: (#spaceFill).
 	responseHeaders vResizing: (#spaceFill).
 	responseHeaders minWidth: (1).
@@ -1092,8 +1156,8 @@ initializePanel
 	responseTabs addChild: responseHeaderTab.
 	responseCookieTab := OTTUiTabContainer new.
 	responseCookieTab changeTableLayout.
-	responseCookieTab extent: (612@74).
-	responseCookieTab position: (266@662).
+	responseCookieTab extent: (612@73).
+	responseCookieTab position: (266@663).
 	responseCookieTab hResizing: (#spaceFill).
 	responseCookieTab vResizing: (#spaceFill).
 	responseCookieTab minWidth: (1).
@@ -1120,8 +1184,8 @@ initializePanel
 	responseCookieTab title: ('Cookies').
 	responseCookieTab setProperty: #objectName toValue: 'responseCookieTab'.
 	responseCookies := UiTableView new.
-	responseCookies extent: (604@66).
-	responseCookies position: (270@666).
+	responseCookies extent: (604@65).
+	responseCookies position: (270@667).
 	responseCookies hResizing: (#spaceFill).
 	responseCookies vResizing: (#spaceFill).
 	responseCookies minWidth: (1).
