@@ -2,8 +2,8 @@ ui
 requestHeaders
 
 	| headers |
-	headers := Dictionary new.
+	headers := OrderedCollection new.
 	self ui requestHeaders model
 		pairsDo: [:key :value |
-			headers at: key put: value].
+			headers add: key -> value].
 	^ headers

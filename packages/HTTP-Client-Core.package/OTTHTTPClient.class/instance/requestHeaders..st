@@ -1,9 +1,8 @@
 ui
-requestHeaders: aDictionary
+requestHeaders: anOrderedCollection
 
 	| model |
 	model := self ui requestHeaders model.
 	model removeAllPairs.
-	aDictionary
-		keysAndValuesDo: [:key :value |
-			model pairAt: key put: value].
+	anOrderedCollection
+		do: [:header | model addPairAt: header key value: header value].

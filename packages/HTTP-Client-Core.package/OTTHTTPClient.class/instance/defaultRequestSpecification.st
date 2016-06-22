@@ -2,10 +2,10 @@ as yet unclassified
 defaultRequestSpecification
 
 	| headers |
-	headers := Dictionary new.
+	headers := OrderedCollection new.
 	headers
-		at: 'Accept-Language' put: 'en';
-		at: 'User-Agent' put: 'OTTPRequestClient'.
+		add: 'Accept-Language' -> 'en';
+		add: 'User-Agent' -> 'OTTPRequestClient'.
 
 	^ (OTTRequestSpecification new)
 		url: 'http://google.com';

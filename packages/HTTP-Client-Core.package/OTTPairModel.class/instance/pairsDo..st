@@ -2,4 +2,5 @@ pair-accessing
 pairsDo: aBlock
 
 	self nodes
-		do: [:node | aBlock value: node key value: node value].
+		do: [:node | node key ~= ''
+			ifTrue: [aBlock value: node key value: node value]].

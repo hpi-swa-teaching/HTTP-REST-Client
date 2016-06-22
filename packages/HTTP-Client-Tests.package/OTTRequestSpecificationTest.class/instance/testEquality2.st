@@ -15,8 +15,8 @@ testEquality2
 	self assert: request ~= requestCopy.
 	
 	requestCopy := request veryDeepCopy.
-	requestCopy headers: ((Dictionary new)
-		at: 'someOther' put: 'header').
+	requestCopy headers: ((OrderedCollection new)
+		add: 'someOther' -> 'header').
 	self assert: request ~= requestCopy.
 	
 	requestCopy := request veryDeepCopy.

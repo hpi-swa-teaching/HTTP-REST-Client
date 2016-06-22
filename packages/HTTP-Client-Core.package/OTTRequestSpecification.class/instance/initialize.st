@@ -6,7 +6,7 @@ initialize
 		url: '';
 		method: self class availableRequestMethods first;
 		body: '';
-		headers: Dictionary new;
+		headers: OrderedCollection new;
 		cookies: Dictionary new;
 		authUsername: '';
 		authPassword: ''.

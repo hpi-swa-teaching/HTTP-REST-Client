@@ -5,9 +5,10 @@ request1
 		url: 'http://mapcrafter.org';
 		method: 'POST';
 		body: 'Some random content';
-		headers: ((Dictionary new)
-			at: 'Accept-Language' put: 'de';
-			at: 'User-Agent' put: 'OTTPClient');
+		headers: ((OrderedCollection new)
+			add: 'Accept-Language' -> 'de';
+			add: 'User-Agent' -> 'OTTPClient';
+			yourself);
 		cookies: ((Dictionary new)
 			at: 'foo' put: 'bar');
 		authUsername: '';

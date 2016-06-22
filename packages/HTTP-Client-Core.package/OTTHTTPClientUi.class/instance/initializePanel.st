@@ -33,6 +33,7 @@ initializePanel
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
 	unnamedMorph1 := UiContainer new.
+	unnamedMorph1 changeTableLayout.
 	unnamedMorph1 extent: (250@740).
 	unnamedMorph1 position: (4@4).
 	unnamedMorph1 hResizing: (#rigid).
@@ -53,49 +54,16 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
-	clearHistoryButton := UiPushButton new.
-	clearHistoryButton changeTableLayout.
-	clearHistoryButton extent: (59@20).
-	clearHistoryButton position: (11@713).
-	clearHistoryButton hResizing: (#shrinkWrap).
-	clearHistoryButton vResizing: (#shrinkWrap).
-	clearHistoryButton minWidth: (1).
-	clearHistoryButton minHeight: (1).
-	clearHistoryButton cellInset: (4).
-	clearHistoryButton cellPositioning: (#center).
-	clearHistoryButton cellSpacing: (#none).
-	clearHistoryButton layoutInset: (2@0 corner: 2@0).
-	clearHistoryButton listCentering: (#topLeft).
-	clearHistoryButton listDirection: (#leftToRight).
-	clearHistoryButton listSpacing: (#none).
-	clearHistoryButton maxCellSize: (1073741823).
-	clearHistoryButton minCellSize: (0).
-	clearHistoryButton wrapCentering: (#topLeft).
-	clearHistoryButton wrapDirection: (#none).
-	clearHistoryButton frameFractions: (0@0 corner: 1@1).
-	clearHistoryButton frameOffsets: (0@0 corner: 0@0).
-	clearHistoryButton balloonText: (nil).
-	clearHistoryButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
-	clearHistoryButton enabled: (true).
-	clearHistoryButton setProperty: #iconByDesigner toValue: 'UiFugueIcons arrowCircle225LeftIcon'.
-	clearHistoryButton icon: (UiFugueIcons arrowCircle225LeftIcon).
-	clearHistoryButton text: ('Clear').
-	clearHistoryButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
-	clearHistoryButton checkable: (false).
-	clearHistoryButton checked: (false).
-	clearHistoryButton autoExclusive: (false).
-	clearHistoryButton setProperty: #objectName toValue: 'clearHistoryButton'.
-	unnamedMorph1 addChild: clearHistoryButton.
 	requestHistory := UiTableView new.
-	requestHistory extent: (243@700).
-	requestHistory position: (8@4).
+	requestHistory extent: (243@708).
+	requestHistory position: (8@8).
 	requestHistory hResizing: (#rigid).
-	requestHistory vResizing: (#rigid).
+	requestHistory vResizing: (#spaceFill).
 	requestHistory minWidth: (1).
 	requestHistory minHeight: (1).
 	requestHistory cellInset: (0).
@@ -125,6 +93,39 @@ initializePanel
 	requestHistory selectionMode: (UiViewSingleSelection).
 	requestHistory setProperty: #objectName toValue: 'requestHistory'.
 	unnamedMorph1 addChild: requestHistory.
+	clearHistoryButton := UiPushButton new.
+	clearHistoryButton changeTableLayout.
+	clearHistoryButton extent: (243@20).
+	clearHistoryButton position: (8@720).
+	clearHistoryButton hResizing: (#spaceFill).
+	clearHistoryButton vResizing: (#shrinkWrap).
+	clearHistoryButton minWidth: (1).
+	clearHistoryButton minHeight: (1).
+	clearHistoryButton cellInset: (4).
+	clearHistoryButton cellPositioning: (#center).
+	clearHistoryButton cellSpacing: (#none).
+	clearHistoryButton layoutInset: (2@0 corner: 2@0).
+	clearHistoryButton listCentering: (#topLeft).
+	clearHistoryButton listDirection: (#leftToRight).
+	clearHistoryButton listSpacing: (#none).
+	clearHistoryButton maxCellSize: (1073741823).
+	clearHistoryButton minCellSize: (0).
+	clearHistoryButton wrapCentering: (#topLeft).
+	clearHistoryButton wrapDirection: (#none).
+	clearHistoryButton frameFractions: (0@0 corner: 1@1).
+	clearHistoryButton frameOffsets: (0@0 corner: 0@0).
+	clearHistoryButton balloonText: (nil).
+	clearHistoryButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	clearHistoryButton enabled: (true).
+	clearHistoryButton setProperty: #iconByDesigner toValue: 'UiFugueIcons arrowCircle225LeftIcon'.
+	clearHistoryButton icon: (UiFugueIcons arrowCircle225LeftIcon).
+	clearHistoryButton text: ('Clear').
+	clearHistoryButton color: ((Color r: 0.8 g: 0.8 b: 0.8)).
+	clearHistoryButton checkable: (false).
+	clearHistoryButton checked: (false).
+	clearHistoryButton autoExclusive: (false).
+	clearHistoryButton setProperty: #objectName toValue: 'clearHistoryButton'.
+	unnamedMorph1 addChild: clearHistoryButton.
 	panel addChild: unnamedMorph1.
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
@@ -811,7 +812,7 @@ initializePanel
 	statusCodeIcon frameFractions: (0@0 corner: 1@1).
 	statusCodeIcon frameOffsets: (0@0 corner: 0@0).
 	statusCodeIcon balloonText: (nil).
-	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	statusCodeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	statusCodeIcon text: ('').
 	statusCodeIcon setProperty: #formByDesigner toValue: 'UiDiagonaIcons icon0409Small'.
 	statusCodeIcon form: (UiDiagonaIcons icon0409Small).
@@ -867,7 +868,7 @@ initializePanel
 	unnamedMorph6 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph6 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph6 balloonText: (nil).
-	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph6 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
 	unnamedMorph6 text: ('').
 	unnamedMorph6 setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
 	unnamedMorph6 form: (UiFugueIcons clockSelectIcon).

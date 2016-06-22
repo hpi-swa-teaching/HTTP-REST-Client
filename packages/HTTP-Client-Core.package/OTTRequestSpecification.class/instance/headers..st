@@ -1,4 +1,4 @@
 accessing
-headers: aDictionary
+headers: anOrderedCollection
 
-	headers := aDictionary.
+	headers := anOrderedCollection.

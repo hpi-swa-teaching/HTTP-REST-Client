@@ -4,13 +4,16 @@ testHeader
 	| request submittedHeaders |
 	request := self client defaultRequestSpecification.
 	request headers
-		at: 'User-Agent' put: 'OTTPClient';
-		at: 'Accept-Language' put: 'en-US'.
+		removeAll;
+		add: 'User-Agent' -> 'OTTPClient';
+		add: 'Accept-Language' -> 'en-US';
+		add: 'Accept-Blah' -> 'A';
+		add: 'Accept-Blah' -> 'AlsoB'.
 	
 	self client
 		requestSpecification: request;
 		sendRequest.
 	
-	submittedHeaders := Dictionary new.
-	self clientMock lastRequest headersDo: [:key :value | submittedHeaders at: key put: value].
+	submittedHeaders := OrderedCollection new.
+	self clientMock lastRequest headersDo: [:key :value | submittedHeaders add: key -> value].
 	self assert: request headers equals: submittedHeaders.

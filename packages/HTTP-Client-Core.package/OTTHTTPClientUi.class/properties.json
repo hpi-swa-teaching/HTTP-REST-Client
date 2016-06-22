@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clearHistoryButton",
 		"requestHistory",
+		"clearHistoryButton",
 		"requestURL",
 		"requestMethod",
 		"requestTabs",
