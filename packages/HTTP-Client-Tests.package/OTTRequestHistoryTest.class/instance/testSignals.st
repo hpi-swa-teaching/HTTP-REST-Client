@@ -6,7 +6,7 @@ testSignals
 	history maximumSize: 2.
 	self assert: history requests size equals: 0.
 	
-	spy := (SignalSpy new) addSender: history signals: {#requestAddedFirst:. #requestRemovedLast:}.
+	spy := (SignalSpy new) addSender: history signals: {#requestAddedFirst:. #requestRemovedLast:. #requestsResetted}.
 	
 	"add the first request"
 	history addRequest: self request1.
@@ -40,3 +40,10 @@ testSignals
 	history addRequest: self request1.
 	self assert: history requests size equals: 2.
 	self assert: spy queue size equals: 0.
+	
+	"clear history"
+	history requestsRemoveAll.
+	signal := spy waitForNextSignal.
+	self assert: history requests size equals: 0.
+	self assert: spy queue size equals: 	0.
+	self assert: signal first equals: #requestsResetted.
