@@ -4,6 +4,5 @@
 	"instance" : {
 		"clientMock" : "MH 6/8/2016 20:41",
 		"clientMock:" : "MH 6/8/2016 20:41",
-		"findUiWidgetBy:" : "MH 6/8/2016 20:36",
 		"setUp" : "MH 6/23/2016 16:09",
 		"wantsToTest:" : "MH 6/23/2016 15:59" } }

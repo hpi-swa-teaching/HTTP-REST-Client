@@ -1,7 +1,6 @@
 as yet unclassified
 testURLGETParameters
 
-	"
 	| urlMorph model |
 	urlMorph := self subject findByUiName: 'requestURL'.
 	model := (self subject findByUiName: 'requestGetParams') model.
@@ -21,4 +20,3 @@ testURLGETParameters
 	self assert: (model pairAt: 'foo') equals: 'bar'.
 	self assert: (model pairAt: 'hello') equals: 'world'.
 	self assert: (model pairAt: 'test') equals: 'blahlol'.
-	"
