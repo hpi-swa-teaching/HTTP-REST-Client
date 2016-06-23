@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"request1" : "MH 6/22/2016 20:33",
-		"request2" : "MH 6/22/2016 20:31",
+		"request1" : "MH 6/23/2016 16:24",
+		"request2" : "MH 6/23/2016 16:26",
 		"testAuth" : "MH 6/16/2016 13:40",
 		"testEquality1" : "MH 6/16/2016 13:45",
-		"testEquality2" : "MH 6/22/2016 20:31",
+		"testEquality2" : "MH 6/23/2016 16:25",
 		"testSaveAndLoad" : "jt 6/20/2016 18:50" } }

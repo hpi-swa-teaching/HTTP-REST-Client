@@ -9,8 +9,9 @@ request1
 			add: 'Accept-Language' -> 'de';
 			add: 'User-Agent' -> 'OTTPClient';
 			yourself);
-		cookies: ((Dictionary new)
-			at: 'foo' put: 'bar');
+		cookies: ((OrderedCollection new)
+			add: 'foo' -> 'bar';
+			yourself);
 		authUsername: '';
 		authPassword: '';
 		yourself

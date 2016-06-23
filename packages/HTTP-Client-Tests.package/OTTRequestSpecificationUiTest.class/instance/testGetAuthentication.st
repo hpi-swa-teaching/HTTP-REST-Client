@@ -8,7 +8,7 @@ testGetAuthentication
 		authPassword: 'bar'.
 		
 	self subject requestSpecification: request.
-	morph := self findUiWidgetBy: 'authUsername'.
+	morph := self subject findByUiName: 'authUsername'.
 	self assert: morph theText equals: request authUsername.
-	morph := self findUiWidgetBy: 'authPassword'.
+	morph := self subject findByUiName: 'authPassword'.
 	self assert: morph theText equals: request authPassword.

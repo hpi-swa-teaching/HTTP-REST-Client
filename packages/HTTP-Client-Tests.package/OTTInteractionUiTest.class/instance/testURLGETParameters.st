@@ -1,9 +1,10 @@
 as yet unclassified
 testURLGETParameters
 
+	"
 	| urlMorph model |
-	urlMorph := self findUiWidgetBy: 'requestURL'.
-	model := (self findUiWidgetBy: 'requestGetParams') model.
+	urlMorph := self subject findByUiName: 'requestURL'.
+	model := (self subject findByUiName: 'requestGetParams') model.
 	
 	urlMorph theText: 'http://google.com'.
 	self assert: model pairsCount equals: 0.
@@ -20,3 +21,4 @@ testURLGETParameters
 	self assert: (model pairAt: 'foo') equals: 'bar'.
 	self assert: (model pairAt: 'hello') equals: 'world'.
 	self assert: (model pairAt: 'test') equals: 'blahlol'.
+	"

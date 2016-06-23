@@ -16,7 +16,8 @@ testEquality2
 	
 	requestCopy := request veryDeepCopy.
 	requestCopy headers: ((OrderedCollection new)
-		add: 'someOther' -> 'header').
+		add: 'someOther' -> 'header';
+		yourself).
 	self assert: request ~= requestCopy.
 	
 	requestCopy := request veryDeepCopy.

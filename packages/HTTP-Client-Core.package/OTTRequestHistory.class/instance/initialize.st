@@ -2,5 +2,5 @@ initialization
 initialize
 
 	self
-		maximumSize: 10;
+		maximumSize: 20;
 		requests: OrderedCollection new.

@@ -7,9 +7,11 @@ request2
 		body: '';
 		headers: ((OrderedCollection new)
 			add: 'Accept-Language' -> 'en';
-			add: 'User-Agent' -> 'Firefox 2.0');
-		cookies: ((Dictionary new)
-			at: 'blah' put: 'foo');
+			add: 'User-Agent' -> 'Firefox 2.0';
+			yourself);
+		cookies: ((OrderedCollection new)
+			add: 'blah' -> 'foo';
+			yourself);
 		authUsername: 'fu';
 		authPassword: 'fa';
 		yourself

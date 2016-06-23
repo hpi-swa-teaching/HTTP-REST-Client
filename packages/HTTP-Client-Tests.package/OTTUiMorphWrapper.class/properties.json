@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Client-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTTUiMorphWrapper",
+	"pools" : [
+		 ],
+	"super" : "MTFMorphWrapper",
+	"type" : "normal" }

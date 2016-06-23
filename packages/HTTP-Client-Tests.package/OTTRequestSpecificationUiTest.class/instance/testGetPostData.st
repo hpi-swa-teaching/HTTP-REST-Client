@@ -5,5 +5,5 @@ testGetPostData
 	request body: 'This is some dummy test data hello foobar'.
 	
 	self subject requestSpecification: request.
-	morph := self findUiWidgetBy: 'requestBody'.
+	morph := self subject findByUiName: 'requestBody'.
 	self assert: morph theText equals: request body.

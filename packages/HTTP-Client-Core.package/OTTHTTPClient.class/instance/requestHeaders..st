@@ -5,4 +5,5 @@ requestHeaders: anOrderedCollection
 	model := self ui requestHeaders model.
 	model removeAllPairs.
 	anOrderedCollection
-		do: [:header | model addPairAt: header key value: header value].
+		do: [:pair |
+			model addPairAt: pair key value: pair value].

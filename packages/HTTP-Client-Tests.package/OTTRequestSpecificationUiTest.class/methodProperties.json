@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"doTestGetMethod:" : "MH 6/8/2016 21:06",
-		"doTestSetMethod:" : "MH 6/8/2016 21:26",
-		"testGetAuthentication" : "MH 6/17/2016 23:16",
+		"doTestGetMethod:" : "MH 6/23/2016 16:04",
+		"doTestSetMethod:" : "MH 6/23/2016 16:04",
+		"testGetAuthentication" : "MH 6/23/2016 16:03",
 		"testGetMethodType" : "MH 6/8/2016 21:02",
-		"testGetPostData" : "NS 6/20/2016 20:13",
-		"testGetURL" : "MH 6/8/2016 21:06",
-		"testSetAuthentication" : "MH 6/17/2016 23:16",
+		"testGetPostData" : "MH 6/23/2016 16:04",
+		"testGetURL" : "MH 6/23/2016 16:04",
+		"testSetAuthentication" : "MH 6/23/2016 16:04",
 		"testSetMethodType" : "MH 6/8/2016 21:22",
-		"testSetPostData" : "NS 6/20/2016 20:13",
-		"testSetURL" : "MH 6/8/2016 21:18" } }
+		"testSetPostData" : "MH 6/23/2016 16:05",
+		"testSetURL" : "MH 6/23/2016 16:05" } }
