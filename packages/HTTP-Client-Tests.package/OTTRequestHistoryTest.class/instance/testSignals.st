@@ -43,7 +43,7 @@ testSignals
 	
 	"clear history"
 	history requestsRemoveAll.
-	signal := spy waitForNextSignal.
 	self assert: history requests size equals: 0.
-	self assert: spy queue size equals: 	0.
+	signal := spy waitForNextSignal.
 	self assert: signal first equals: #requestsResetted.
+	self assert: spy queue size equals: 	0.
