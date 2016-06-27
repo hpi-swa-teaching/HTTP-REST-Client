@@ -1,5 +1,5 @@
 as yet unclassified
-testURLGETParameters
+testUpdateURLGETParameters
 
 	| urlMorph model |
 	urlMorph := self subject findByUiName: 'requestURL'.
@@ -15,7 +15,11 @@ testURLGETParameters
 	self assert: model pairsCount equals: 1.
 	self assert: (model pairAt: 'foo') equals: 'bar'.
 	
-	urlMorph theText: 'http://google.com/?foo=bar&hello=world&test=blahlol'.
+	urlMorph theText: 'http://google.com/?foo=bar2%3Ffoo=bar'.
+	self assert: model pairsCount equals: 1.
+	self assert: (model pairAt: 'foo') equals: 'bar2?foo=bar'.
+	
+	urlMorph theText: 'http://google.com/abc=bcd?foo=bar&hello=world&test=blahlol'.
 	self assert: model pairsCount equals: 3.
 	self assert: (model pairAt: 'foo') equals: 'bar'.
 	self assert: (model pairAt: 'hello') equals: 'world'.

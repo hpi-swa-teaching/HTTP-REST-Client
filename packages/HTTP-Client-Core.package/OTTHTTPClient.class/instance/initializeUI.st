@@ -15,7 +15,7 @@ initializeUI
 		model: ((OTTRequestHistoryModel new)
 			requestHistory: self requestHistory).
 	
-	OTTPairModel new setupColumnsFor: self ui requestGetParams editable: false.
+	OTTPairModel new setupColumnsFor: self ui requestGetParams editable: true.
 	OTTPairModel new setupColumnsFor: self ui requestHeaders editable: true.
 	OTTPairModel new setupColumnsFor: self ui requestCookies editable: true.
 	OTTPairModel new setupColumnsFor: self ui responseHeaders editable: false.

@@ -4,7 +4,7 @@ testURL
 	| request requestURL |
 	request := self client defaultRequestSpecification.
 	request
-		url: 'http://dontgiveup.yellow-ray.de/test?arg1=param1#fdsfsdf'.
+		url: 'http://dontgiveup.yellow-ray.de/test?arg1=param1'.
 		
 	self client 
 		requestSpecification: request;

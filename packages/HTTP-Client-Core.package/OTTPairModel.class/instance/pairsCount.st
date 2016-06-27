@@ -1,4 +1,4 @@
 pair-accessing
 pairsCount
 
-	^ self nodes size
+	^ (self nodes select: [:node | node key ~= '']) size
