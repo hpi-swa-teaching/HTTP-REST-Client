@@ -1,4 +1,4 @@
 ui
 responseData
 
-	^ self ui responseData theText asString
+	^ self uiOutput responseData theText asString

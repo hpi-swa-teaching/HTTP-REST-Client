@@ -1,4 +1,4 @@
 ui
 statusCode
 
-	^ self ui statusCode text asString
+	^ self uiBasic statusCode text asString

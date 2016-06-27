@@ -2,7 +2,7 @@ ui
 requestCookies: aDictionary
 
 	| model |
-	model := self ui requestCookies model.
+	model := self uiInput requestCookies model.
 	model removeAllPairs.
 	aDictionary
 		keysAndValuesDo: [:key :value |

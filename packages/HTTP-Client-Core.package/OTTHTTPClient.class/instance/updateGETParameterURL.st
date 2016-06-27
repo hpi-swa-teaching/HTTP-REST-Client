@@ -2,7 +2,7 @@ ui
 updateGETParameterURL
 
 	| model url index pairs |
-	model := self ui requestGetParams model.
+	model := self uiInput requestGetParams model.
 	url := self requestSpecification url.
 	index := url indexOf: $?.
 	"get url without encoded params"

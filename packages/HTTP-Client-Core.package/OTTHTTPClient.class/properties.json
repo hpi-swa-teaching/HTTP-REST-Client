@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
+		"uiBasic",
+		"uiInput",
+		"uiOutput",
 		"requestHistory" ],
 	"name" : "OTTHTTPClient",
 	"pools" : [

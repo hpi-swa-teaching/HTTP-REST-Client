@@ -1,4 +1,4 @@
 ui
 requestBody
 
-	^ self ui requestBody theText asString
+	^ self uiInput requestBody theText asString

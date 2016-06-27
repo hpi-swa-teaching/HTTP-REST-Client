@@ -2,8 +2,8 @@ ui
 updatePostTabVisibility
 
 	| tabs tab |
-	tabs := self ui requestTabs.
-	tab := self ui requestBodyTab.
+	tabs := self uiInput requestTabs.
+	tab := self uiInput requestBodyTab.
 	
 	self requestSpecification method = 'POST'
 		ifTrue: [tabs enableTab: tab]

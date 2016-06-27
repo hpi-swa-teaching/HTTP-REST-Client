@@ -3,7 +3,7 @@ requestHeaders
 
 	| headers |
 	headers := OrderedCollection new.
-	self ui requestHeaders model
+	self uiInput requestHeaders model
 		pairsDo: [:key :value |
 			headers add: key -> value].
 	^ headers

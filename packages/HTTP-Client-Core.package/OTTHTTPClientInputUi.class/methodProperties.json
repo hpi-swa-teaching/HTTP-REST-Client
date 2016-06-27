@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"authPassword" : "jt 6/27/2016 21:15",
+		"authUsername" : "jt 6/27/2016 21:15",
+		"exportCodeButton" : "jt 6/27/2016 21:15",
+		"initializePanel" : "jt 6/27/2016 21:15",
+		"loadButton" : "jt 6/27/2016 21:15",
+		"requestAuthContainer" : "jt 6/27/2016 21:15",
+		"requestAuthTabContainer" : "jt 6/27/2016 21:15",
+		"requestBody" : "jt 6/27/2016 21:15",
+		"requestBodyTab" : "jt 6/27/2016 21:15",
+		"requestCookieTab" : "jt 6/27/2016 21:15",
+		"requestCookies" : "jt 6/27/2016 21:15",
+		"requestGetParams" : "jt 6/27/2016 21:15",
+		"requestGetParamsTab" : "jt 6/27/2016 21:15",
+		"requestHeaderTab" : "jt 6/27/2016 21:15",
+		"requestHeaders" : "jt 6/27/2016 21:15",
+		"requestMethod" : "jt 6/27/2016 21:15",
+		"requestTabs" : "jt 6/27/2016 21:15",
+		"requestURL" : "jt 6/27/2016 21:15",
+		"resetButton" : "jt 6/27/2016 21:15",
+		"responseTime" : "jt 6/27/2016 21:15",
+		"saveButton" : "jt 6/27/2016 21:15",
+		"sendButton" : "jt 6/27/2016 21:15",
+		"statusCode" : "jt 6/27/2016 21:15",
+		"statusCodeIcon" : "jt 6/27/2016 21:15" } }

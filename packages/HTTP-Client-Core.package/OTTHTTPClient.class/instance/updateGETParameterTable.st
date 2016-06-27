@@ -2,7 +2,7 @@ ui
 updateGETParameterTable
 
 	| model url encodedParams index params |
-	model := self ui requestGetParams model.
+	model := self uiInput requestGetParams model.
 	url := self requestSpecification url.
 	index := url indexOf: $?.
 	"get encoded params without leading $?"

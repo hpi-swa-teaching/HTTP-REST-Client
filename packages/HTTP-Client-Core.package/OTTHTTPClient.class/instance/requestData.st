@@ -1,4 +1,4 @@
 ui
 requestData
 
-	^ self ui requestData theText asString
+	^ self uiInput requestData theText asString

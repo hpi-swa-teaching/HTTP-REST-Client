@@ -1,4 +1,4 @@
 ui
 requestMethod
 
-	^ self ui requestMethod currentText asString
+	^ self uiInput requestMethod currentText asString

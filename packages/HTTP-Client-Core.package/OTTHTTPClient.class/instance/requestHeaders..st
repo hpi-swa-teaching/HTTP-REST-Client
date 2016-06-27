@@ -2,7 +2,7 @@ ui
 requestHeaders: anOrderedCollection
 
 	| model |
-	model := self ui requestHeaders model.
+	model := self uiInput requestHeaders model.
 	model removeAllPairs.
 	anOrderedCollection
 		do: [:pair |

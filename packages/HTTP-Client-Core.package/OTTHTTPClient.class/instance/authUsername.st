@@ -1,4 +1,4 @@
 ui
 authUsername
 
-	^ self ui authUsername theText asString
+	^ self uiInput authUsername theText asString

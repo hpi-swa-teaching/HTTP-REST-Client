@@ -1,0 +1,16 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"requestHistory",
+		"clearHistoryButton",
+		"inputOutputContainer" ],
+	"name" : "OTTHTTPClientBasicUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

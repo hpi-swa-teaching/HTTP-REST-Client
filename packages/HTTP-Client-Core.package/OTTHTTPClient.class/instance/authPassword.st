@@ -1,4 +1,4 @@
 ui
 authPassword
 
-	^ self ui authPassword theText asString
+	^ self uiInput authPassword theText asString

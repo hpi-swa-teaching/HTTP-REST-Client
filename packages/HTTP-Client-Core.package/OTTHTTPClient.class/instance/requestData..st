@@ -1,4 +1,4 @@
 ui
 requestData: aString
 
-	self ui requestBody theText: aString.
+	self uiInput requestBody theText: aString.

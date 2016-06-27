@@ -1,4 +1,4 @@
 ui
 requestURL: aString
 
-	self ui requestURL theText: aString.
+	self uiInput requestURL theText: aString.

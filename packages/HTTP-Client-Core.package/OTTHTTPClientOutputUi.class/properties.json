@@ -1,0 +1,21 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"responseTabs",
+		"responseDataTab",
+		"responseData",
+		"responseDataTreeTab",
+		"responseHeaderTab",
+		"responseHeaders",
+		"responseCookieTab",
+		"responseCookies" ],
+	"name" : "OTTHTTPClientOutputUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }

@@ -8,18 +8,18 @@ showResponse: aWebResponse time: anInteger
 	
 	self responseData: aWebResponse content.
 	treeView := self treeViewForResponse: aWebResponse.
-	self ui responseDataTreeTab removeAllMorphs.
+	self uiOutput responseDataTreeTab removeAllMorphs.
 	treeView
 		ifNil: [
-			self ui responseDataTreeTab addMorph: ((UiLabel new)
+			self uiOutput responseDataTreeTab addMorph: ((UiLabel new)
 				text: 'No formatted data available.')]
 		ifNotNil: [
 			treeView hResizing: (#spaceFill); vResizing: (#spaceFill).
-			self ui responseDataTreeTab addMorph: treeView].
+			self uiOutput responseDataTreeTab addMorph: treeView].
 	
-	self ui responseCookies model removeAllPairs.
-	self ui responseHeaders model removeAllPairs.
+	self uiOutput responseCookies model removeAllPairs.
+	self uiOutput responseHeaders model removeAllPairs.
 	
 	aWebResponse headersDo: [:key :value | 
-		self ui responseHeaders model pairAt: key put: value.
+		self uiOutput responseHeaders model pairAt: key put: value.
 		key = 'set-cookie' ifTrue:[ self showCookies: value]].

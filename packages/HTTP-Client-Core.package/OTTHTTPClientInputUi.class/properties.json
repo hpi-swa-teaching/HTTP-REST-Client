@@ -1,0 +1,36 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"requestURL",
+		"requestMethod",
+		"requestTabs",
+		"requestGetParamsTab",
+		"requestGetParams",
+		"requestHeaderTab",
+		"requestHeaders",
+		"requestCookieTab",
+		"requestCookies",
+		"requestAuthContainer",
+		"requestAuthTabContainer",
+		"authUsername",
+		"authPassword",
+		"requestBodyTab",
+		"requestBody",
+		"sendButton",
+		"resetButton",
+		"saveButton",
+		"loadButton",
+		"exportCodeButton",
+		"statusCodeIcon",
+		"statusCode",
+		"responseTime" ],
+	"name" : "OTTHTTPClientInputUi",
+	"pools" : [
+		 ],
+	"super" : "UserInterface",
+	"type" : "normal" }
