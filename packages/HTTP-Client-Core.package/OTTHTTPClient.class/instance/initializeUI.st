@@ -31,3 +31,5 @@ initializeUI
 	self updatePostTabVisibility.
 		
 	self resetRequest.
+	
+	self initializeTabFeedback
