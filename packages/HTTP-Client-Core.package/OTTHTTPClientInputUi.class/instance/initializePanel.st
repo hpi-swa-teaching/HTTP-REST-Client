@@ -200,7 +200,7 @@ initializePanel
 	requestGetParamsTab frameFractions: (0@0 corner: 1@1).
 	requestGetParamsTab frameOffsets: (0@0 corner: 0@0).
 	requestGetParamsTab balloonText: (nil).
-	requestGetParamsTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestGetParamsTab balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestGetParamsTab color: (Color transparent).
 	requestGetParamsTab borderWidth: (0).
 	requestGetParamsTab borderStyle2: (#simple).
@@ -228,7 +228,7 @@ initializePanel
 	requestGetParams frameFractions: (0@0 corner: 1@1).
 	requestGetParams frameOffsets: (0@0 corner: 0@0).
 	requestGetParams balloonText: (nil).
-	requestGetParams balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.741)).
+	requestGetParams balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
 	requestGetParams widgetResizable: (false).
 	requestGetParams horizontalScrollBarPolicy: (#asNeeded).
 	requestGetParams verticalScrollBarPolicy: (#asNeeded).
@@ -721,7 +721,7 @@ initializePanel
 	loadButton frameOffsets: (0@0 corner: 0@0).
 	loadButton balloonText: (nil).
 	loadButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	loadButton enabled: (true).
+	loadButton enabled: (false).
 	loadButton setProperty: #iconByDesigner toValue: 'UiFugueIcons folderHorizontalOpenIcon'.
 	loadButton icon: (UiFugueIcons folderHorizontalOpenIcon).
 	loadButton text: ('Load').
@@ -753,7 +753,7 @@ initializePanel
 	exportCodeButton frameFractions: (0@0 corner: 1@1).
 	exportCodeButton frameOffsets: (0@0 corner: 0@0).
 	exportCodeButton balloonText: (nil).
-	exportCodeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.749)).
+	exportCodeButton balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.745)).
 	exportCodeButton enabled: (true).
 	exportCodeButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0122Normal'.
 	exportCodeButton icon: (UiDiagonaIcons icon0122Normal).
