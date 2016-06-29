@@ -1,4 +1,4 @@
 as yet unclassified
 exportToCode
 
-	((UiTextEdit new) theText: self requestSpecification exportToCode; width: 500; height: 300) openInWindowLabeled: 'Request Code'.
+	Workspace open model contents: self requestSpecification exportToCode.
