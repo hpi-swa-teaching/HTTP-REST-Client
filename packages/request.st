@@ -1,0 +1,1 @@
+(OTTRequestSpecification basicNew instVarAt: 1 put: 'http://google.com'; instVarAt: 2 put: 'GET'; instVarAt: 3 put: ''; instVarAt: 4 put: ((OrderedCollection new) add: ('Accept-Language'->'en'); add: ('User-Agent'->'OTTPRequestClient'); yourself); instVarAt: 5 put: ((Dictionary new)); instVarAt: 6 put: ''; instVarAt: 7 put: ''; yourself)
