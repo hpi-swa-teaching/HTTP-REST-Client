@@ -2,7 +2,7 @@ accessing
 exportToCode
 
 	| codeString |
-	codeString := '[| client request |
+	codeString := '| client request |
 client := WebClient new initializeFromUrl: ''', self url asString, '''.'.
 	self cookies isEmpty ifFalse:[
 	codeString := codeString, self cookies storeString, ' keysAndValuesDo: [:key :value | 
@@ -26,9 +26,9 @@ request method: #', self method asString,'.
 			codeString := codeString, 'request headerAt: ''Content-Length'' put: ', self body size asString, '.
 request headerAt: ''Content-Type'' put: ''text/plain''.'].
 	
-	codeString := codeString, 'client
+	codeString := codeString, '^ (client
 	sendRequest: request
 	content: ', self body storeString ,' readStream
-	size: ', self body size asString,'.]'.
+	size: ', self body size asString,') content.'.
 
 ^ codeString
