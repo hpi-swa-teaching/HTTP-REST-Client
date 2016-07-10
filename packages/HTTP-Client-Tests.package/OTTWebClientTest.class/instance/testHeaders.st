@@ -1,14 +1,14 @@
 testing
-testHeader
+testHeaders
 
 	| request submittedHeaders |
 	request := self client defaultRequestSpecification.
-	request headers
-		removeAll;
+	request headers: (OrderedCollection new
 		add: 'User-Agent' -> 'OTTPClient';
 		add: 'Accept-Language' -> 'en-US';
 		add: 'Accept-Blah' -> 'A';
-		add: 'Accept-Blah' -> 'AlsoB'.
+		add: 'Accept-Blah' -> 'AlsoB';
+		yourself).
 	
 	self client
 		requestSpecification: request;
