@@ -3,4 +3,4 @@ showGETParametersCount
 
 	| count |
 	count := self requestGetParams size.
-	self showCount: count for: 'GET Parameters'.
+	self showCount: count for: self uiInput requestGetParamsTab.

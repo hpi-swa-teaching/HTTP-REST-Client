@@ -1,12 +1,10 @@
 ui-feedback
-showCount: aNumber for: aString
+showCount: aNumber for: aTabContainer
 
-	| count |
-	aNumber = 0
-		ifTrue: [count := '']
-		ifFalse: [count := ' (',aNumber asString,')'].
+	| count button |
+	count := aNumber = 0
+		ifTrue: [^ '']
+		ifFalse: [^ ' (', aNumber asString, ')'].
 		
-	self uiInput requestTabs tabButtons
-				do: [ :button | 
-					(button text includesSubstring: aString)
-						ifTrue: [button text: aString, count]]
+	button := self uiInput requestTabs tabButtons at: aTabContainer.
+	button text: aTabContainer title, count

@@ -1,8 +1,7 @@
 ui-feedback
 showBodyEdited
-				
-	self uiInput requestTabs tabButtons
-				do: [:button | button text = 'Body'
-						ifTrue: [self requestBody
-								ifNotEmpty: [button icon: UiDiagonaIcons icon0403Small]
-								ifEmpty: [button icon: nil]]]
+
+	(self uiInput requestTabs tabButtons at: self uiInput requestBodyTab)
+		icon: (self requestBody
+			ifNotEmpty:  [UiDiagonaIcons icon0403Small]
+			ifEmpty: [nil]).

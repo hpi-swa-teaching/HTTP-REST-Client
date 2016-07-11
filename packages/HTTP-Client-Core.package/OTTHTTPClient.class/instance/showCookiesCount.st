@@ -3,4 +3,4 @@ showCookiesCount
 
 	| count |
 	count := self requestCookies size.
-	self showCount: count for: 'Cookies'. 
+	self showCount: count for:  self uiInput requestCookieTab. 

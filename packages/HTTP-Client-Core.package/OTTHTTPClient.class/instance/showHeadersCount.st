@@ -3,4 +3,4 @@ showHeadersCount
 
 	| count |
 	count := self requestHeaders size.
-	self showCount: count for: 'Headers'. 
+	self showCount: count for: self uiInput requestHeaderTab.
