@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getOpenWeather" : "NS 7/11/2016 15:30",
+		"getOpenWeather" : "NS 7/11/2016 16:09",
 		"handlesMouseDown:" : "NS 7/11/2016 15:40",
 		"initialize" : "NS 7/11/2016 15:30",
 		"mouseDown:" : "NS 7/11/2016 15:42",
@@ -11,7 +11,7 @@
 		"weatherPartlyCloudy" : "NS 7/11/2016 15:38",
 		"weatherRain" : "NS 7/11/2016 15:38",
 		"weatherState:" : "NS 7/11/2016 15:25",
-		"weatherStates" : "NS 7/11/2016 15:42",
+		"weatherStates" : "NS 7/11/2016 16:01",
 		"weatherSun" : "NS 7/11/2016 15:37",
 		"weatherThunder" : "NS 7/11/2016 15:38",
 		"weatherUnknown" : "NS 7/11/2016 15:39" } }
