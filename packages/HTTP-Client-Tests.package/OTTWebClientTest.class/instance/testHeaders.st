@@ -2,12 +2,14 @@ testing
 testHeaders
 
 	| request submittedHeaders |
-	request := self client defaultRequestSpecification.
-	request headers: (OrderedCollection new
-		add: 'User-Agent' -> 'OTTPClient';
-		add: 'Accept-Language' -> 'en-US';
-		add: 'Accept-Blah' -> 'A';
-		add: 'Accept-Blah' -> 'AlsoB';
+	request := (OTTRequestSpecification new
+		url: 'http://google.com';
+		headers: (OrderedCollection new
+			add: 'User-Agent' -> 'OTTPClient';
+			add: 'Accept-Language' -> 'en-US';
+			add: 'Accept-Blah' -> 'A';
+			add: 'Accept-Blah' -> 'AlsoB';
+			yourself);
 		yourself).
 	
 	self client
