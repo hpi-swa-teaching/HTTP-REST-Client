@@ -20,6 +20,6 @@ showResponse: aWebResponse time: anInteger
 	self uiOutput responseCookies model removeAllPairs.
 	self uiOutput responseHeaders model removeAllPairs.
 	
-	aWebResponse headersDo: [:key :value | 
-		self uiOutput responseHeaders model pairAt: key put: value.
-		key = 'set-cookie' ifTrue:[ self showCookies: value]].
+	aWebResponse headersDo: [:key :value | self uiOutput responseHeaders model addPairAt: key value: value].
+	aWebResponse setCookiesDo: [:cookie |
+		self uiOutput responseCookies model addPairAt: cookie name value: cookie value balloonText: (self balloonTextForCookie: cookie)].

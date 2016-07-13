@@ -9,7 +9,8 @@
 	"instvars" : [
 		"parent",
 		"key",
-		"value" ],
+		"value",
+		"balloonText" ],
 	"name" : "OTTPairModelNode",
 	"pools" : [
 		 ],

@@ -11,12 +11,12 @@ setupColumnsFor: anUiTableView editable: aBoolean
 		ifFalse: [nil].
 	
 	anUiTableView
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key. #editable -> editableSelector. #menu -> menuSelector})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #key. #editable -> editableSelector. #menu -> menuSelector. #balloonText -> #balloonText})
 			headerText: 'Key';
 			editorFinisher: [:editor :node |
 				node key: editor theText asString.
 				node parent markChanged: node]);
-		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value. #editable -> editableSelector. #menu -> menuSelector})
+		addColumn: ((UiItemViewColumnSpec newFrom: {#text -> #value. #editable -> editableSelector. #menu -> menuSelector. #balloonText -> #balloonText})
 			headerText: 'Value';
 			editorFinisher: [:editor :node |
 				node value: editor theText asString.
