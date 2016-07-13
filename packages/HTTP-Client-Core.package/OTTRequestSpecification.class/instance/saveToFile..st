@@ -1,4 +1,4 @@
 accessing
 saveToFile: aString
 
-	FileStream forceNewFileNamed: (aString) do: [:out | self storeOn: out].
+	(FileStream forceNewFileNamed: (aString)) nextPutAll: (STON toString: self).

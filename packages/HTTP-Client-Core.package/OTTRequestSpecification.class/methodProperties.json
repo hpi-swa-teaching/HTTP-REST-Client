@@ -2,7 +2,7 @@
 	"class" : {
 		"availableRequestMethods" : "MH 5/19/2016 13:42",
 		"loadFromFile:" : "MH 6/29/2016 22:36",
-		"loadFromStream:" : "MH 6/29/2016 22:33" },
+		"loadFromStream:" : "jt 7/13/2016 19:24" },
 	"instance" : {
 		"=" : "MH 6/15/2016 22:18",
 		"authPassword" : "MH 5/19/2016 13:00",
@@ -20,6 +20,6 @@
 		"initialize" : "MH 6/23/2016 16:23",
 		"method" : "MH 5/19/2016 12:57",
 		"method:" : "MH 5/19/2016 12:56",
-		"saveToFile:" : "MH 6/29/2016 22:22",
+		"saveToFile:" : "jt 7/13/2016 19:20",
 		"url" : "MH 5/19/2016 12:56",
 		"url:" : "MH 5/19/2016 12:56" } }

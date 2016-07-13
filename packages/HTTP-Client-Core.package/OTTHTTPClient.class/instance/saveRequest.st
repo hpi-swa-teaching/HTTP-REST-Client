@@ -9,4 +9,4 @@ saveRequest
 	fName := UIManager default request: 'Please enter the filename' translated initialAnswer: 'request' externalName, '.st'.
 	fName isEmpty ifTrue:[^self].
 
-	self saveRequestToFile: (fl pathName, '/', fName).
+	self requestSpecification saveToFile: (fl pathName, '/', fName).

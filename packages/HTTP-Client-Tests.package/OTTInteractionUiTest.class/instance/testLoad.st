@@ -10,6 +10,6 @@ testLoad
 		body: 'blah foo';
 		saveToFile: filename.
 	
-	self subject loadRequestFrom: (FileStream fileNamed: filename).
+	self subject requestSpecification: (OTTRequestSpecification loadFromFile: filename).
 	FileDirectory deleteFilePath: filename.
 	self assert: request1 equals: self subject requestSpecification.

@@ -9,9 +9,8 @@ testSave
 		method: 'POST';
 		body: 'blah foo'.
 	
-	self subject
-		requestSpecification: request1;
-		saveRequestToFile: filename.
+	self subject requestSpecification: request1.
+	self subject requestSpecification saveToFile: filename.
 	
 	request2 := OTTRequestSpecification loadFromFile: filename.
 	FileDirectory deleteFilePath: filename.
