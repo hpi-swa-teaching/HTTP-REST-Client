@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testLoad" : "jt 7/13/2016 19:36",
 		"testPostTabVisibility" : "MH 6/25/2016 17:36",
 		"testResetRequest" : "MH 6/25/2016 14:37",
-		"testSave" : "jt 7/13/2016 19:34",
 		"testUpdateTableGETParameters" : "MH 6/27/2016 21:14",
 		"testUpdateURLGETParameters" : "MH 6/27/2016 21:14" } }
