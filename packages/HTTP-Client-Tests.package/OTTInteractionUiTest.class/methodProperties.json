@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAddRequestToHistory" : "MH 7/13/2016 22:54",
 		"testPostTabVisibility" : "MH 6/25/2016 17:36",
+		"testResetHistory" : "MH 7/13/2016 22:40",
 		"testResetRequest" : "MH 6/25/2016 14:37",
 		"testUpdateTableGETParameters" : "MH 6/27/2016 21:14",
 		"testUpdateURLGETParameters" : "MH 6/27/2016 21:14" } }
