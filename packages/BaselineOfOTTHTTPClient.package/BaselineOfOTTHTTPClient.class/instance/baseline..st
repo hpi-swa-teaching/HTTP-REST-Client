@@ -8,7 +8,10 @@ baseline: spec
 			spec package: 'Icons' with: [ spec repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			"Project12 = MorphicTesting"
 			spec baseline: 'Project12' with: [spec repository: 'github://HPI-SWA-Teaching/Morphic-Testing-Framework:master/packages' ].
-			spec baseline: 'Ston' with: [spec repository: 'github://GsDevKit/ston:master/repository' ].
+			spec project: 'Ston' with: [spec
+				className: 'ConfigurationOfSton';
+				versionString: #'stable';
+				repository: 'github://GsDevKit/ston:gemstone/repository' ].
 
 			spec
 				package: 'HTTP-Client-Core';
