@@ -15,7 +15,8 @@ initializeUI
 			hAlignment: #right;
 			textConverter: [:request | request method]);
 		model: ((OTTRequestHistoryModel new)
-			requestHistory: self requestHistory).
+			requestHistory: self requestHistory;
+			yourself).
 	
 	OTTPairModel new setupColumnsFor: self uiInput requestGetParams editable: true.
 	OTTPairModel new setupColumnsFor: self uiInput requestHeaders editable: true.
