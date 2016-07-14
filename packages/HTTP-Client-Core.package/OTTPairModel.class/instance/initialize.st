@@ -1,5 +1,7 @@
 initialization
 initialize
 
-	self nodes: OrderedCollection new.
-	self editable: false.
+	self
+		nodes: OrderedCollection new;
+		editable: false;
+		initializeSignals.

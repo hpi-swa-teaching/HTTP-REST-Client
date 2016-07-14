@@ -4,6 +4,7 @@
 	"instance" : {
 		"addPairAt:value:" : "MH 7/12/2016 19:11",
 		"addPairAt:value:balloonText:" : "MH 7/12/2016 19:08",
+		"anythingChanged" : "MH 7/14/2016 12:14",
 		"childAt:inGroup:" : "MH 6/9/2016 00:58",
 		"editable" : "MH 6/9/2016 17:03",
 		"editable:" : "MH 6/9/2016 17:16",
@@ -11,7 +12,8 @@
 		"groups" : "MH 6/9/2016 01:12",
 		"headers" : "MH 5/31/2016 11:23",
 		"headers:" : "MH 5/31/2016 11:23",
-		"initialize" : "MH 6/9/2016 17:04",
+		"initialize" : "MH 7/14/2016 12:21",
+		"initializeSignals" : "MH 7/14/2016 12:15",
 		"markChanged:" : "MH 6/9/2016 11:43",
 		"modelReset" : "MH 6/9/2016 01:22",
 		"nodes" : "MH 6/9/2016 00:38",

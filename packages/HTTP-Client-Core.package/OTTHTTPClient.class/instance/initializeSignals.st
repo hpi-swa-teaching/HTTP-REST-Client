@@ -10,7 +10,9 @@ initializeSignals
 		connect: self uiInput saveButton signal: #clicked: toSelector: #saveRequest;
 		connect: self uiInput loadButton signal: #clicked: toSelector: #loadRequest;
 		connect: self uiInput exportCodeButton signal: #clicked: toSelector: #exportToCode;
-		connect: self uiBasic clearHistoryButton signal: #clicked: toSelector: #clearHistory.
+		connect: self uiBasic clearHistoryButton signal: #clicked: toSelector: #clearHistory;
+		
+		connect: self uiInput requestURL signal: #textChanged: toSelector: #updateGETParameterTable;
+		connect: self uiInput requestGetParams model signal: #anythingChanged toSelector: #updateGETParameterURL.
 	
 	self initializeGETParameterSignals.
-	self initializeTabFeedbackSignals.
