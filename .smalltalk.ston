@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'HTTP-Client-*' ]
+      #categories : [ 'HTTP-Client-Core' ]
     }
   }
 
