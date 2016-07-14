@@ -1,4 +1,4 @@
-ui
+ui-accessing
 statusCode: aCode
 
 	self uiInput statusCode text: 'Status: ', aCode asString.

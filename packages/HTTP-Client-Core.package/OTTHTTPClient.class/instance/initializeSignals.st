@@ -9,7 +9,7 @@ initializeSignals
 		connect: self uiBasic requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequestFrom:;
 		connect: self uiInput saveButton signal: #clicked: toSelector: #saveRequest;
 		connect: self uiInput loadButton signal: #clicked: toSelector: #loadRequest;
-		connect: self uiInput exportCodeButton signal: #clicked: toSelector: #exportToCode;
+		connect: self uiInput exportCodeButton signal: #clicked: toSelector: #exportRequest;
 		connect: self uiBasic clearHistoryButton signal: #clicked: toSelector: #clearHistory;
 		
 		connect: self uiInput requestURL signal: #textChanged: toSelector: #updateGETParameterTable;

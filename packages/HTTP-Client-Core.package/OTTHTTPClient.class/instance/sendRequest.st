@@ -1,4 +1,4 @@
-as yet unclassified
+ui-actions
 sendRequest
 
 	| requestSpecification client request response start end responseTime |

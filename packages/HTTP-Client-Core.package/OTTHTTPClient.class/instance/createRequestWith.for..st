@@ -1,4 +1,4 @@
-as yet unclassified
+request/response-handling
 createRequestWith: aRequestSpecification for: aWebClient 
 
 	| request |

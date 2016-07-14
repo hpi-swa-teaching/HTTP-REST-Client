@@ -1,4 +1,4 @@
-as yet unclassified
+request/response-handling
 createClientWith: aRequestSpecification
 
 	| client |

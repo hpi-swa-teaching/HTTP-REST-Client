@@ -1,4 +1,4 @@
-ui
+ui-feedback
 updatePostTabVisibility
 
 	| tabs tab |

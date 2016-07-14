@@ -1,4 +1,4 @@
-ui
+ui-accessing
 requestGetParams: anOrderedCollection
 
 	| model |
