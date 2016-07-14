@@ -1,4 +1,6 @@
 accessing
 saveToFile: aString
 
-	(FileStream forceNewFileNamed: aString) nextPutAll: (STON toString: self).
+	(FileStream forceNewFileNamed: aString)
+		nextPutAll: (STON toString: self);
+		close.
