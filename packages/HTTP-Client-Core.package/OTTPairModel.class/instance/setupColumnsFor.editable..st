@@ -22,3 +22,8 @@ setupColumnsFor: anUiTableView editable: aBoolean
 				node value: editor theText asString.
 				node parent markChanged: node]);
 		model: self.
+		
+		editableSelector := aBoolean
+		ifTrue: [anUiTableView addColumn: ((UiItemViewColumnSpec new)
+			headerIcon: OTTUiAddButton new;
+			morphSelector: #button)].

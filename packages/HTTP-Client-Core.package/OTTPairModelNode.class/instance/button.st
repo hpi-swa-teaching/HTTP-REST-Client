@@ -1,0 +1,4 @@
+accessing
+button
+
+	^ OTTUiRemoveButton new

@@ -1,0 +1,14 @@
+{
+	"category" : "HTTP-Client-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OTTUiRemoveButton",
+	"pools" : [
+		 ],
+	"super" : "UiPushButton",
+	"type" : "normal" }
