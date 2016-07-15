@@ -12,4 +12,3 @@ removeNode: aNode
 		
 	self nodes removeAt: removeIndex.
 	self childRemoved: removeIndex.
-	self ensureEditableCellAvailable.

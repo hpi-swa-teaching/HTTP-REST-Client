@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NS 7/11/2016 20:52",
 	"instvars" : [
-		 ],
-	"name" : "OTTUiRemoveButton",
+		"title" ],
+	"name" : "OTTWeatherWidget",
 	"pools" : [
 		 ],
-	"super" : "UiPushButton",
+	"super" : "PasteUpMorph",
 	"type" : "normal" }
