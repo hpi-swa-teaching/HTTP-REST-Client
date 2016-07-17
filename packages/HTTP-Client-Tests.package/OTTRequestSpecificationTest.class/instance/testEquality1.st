@@ -15,8 +15,4 @@ testEquality1
 	self assert: request3 ~= request3 equals: false.
 	self assert: request1 = request2 equals: false.
 	self assert: request1 ~= request2.
-	self assert: request1 = request3 equals: false.
-	self assert: request1 ~= request3.
-	self assert: request2 = request3 equals: false.
-	self assert: request2 ~= request3.
 	
