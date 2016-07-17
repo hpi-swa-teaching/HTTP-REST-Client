@@ -19,6 +19,7 @@ initializeUI
 			yourself).
 	
 	OTTPairModel new setupColumnsFor: self uiInput requestGetParams editable: true.
+	OTTPairModel new setupColumnsFor: self uiInput requestPostParams editable: true.
 	OTTPairModel new setupColumnsFor: self uiInput requestHeaders editable: true.
 	OTTPairModel new setupColumnsFor: self uiInput requestCookies editable: true.
 	OTTPairModel new setupColumnsFor: self uiOutput responseHeaders editable: false.

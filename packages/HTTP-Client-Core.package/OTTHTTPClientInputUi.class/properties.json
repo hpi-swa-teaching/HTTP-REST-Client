@@ -8,6 +8,7 @@
 	"instvars" : [
 		"requestURL",
 		"requestMethod",
+		"postParamsCheckbox",
 		"requestTabs",
 		"requestGetParamsTab",
 		"requestGetParams",
@@ -19,6 +20,8 @@
 		"requestAuthTabContainer",
 		"authUsername",
 		"authPassword",
+		"requestPostParamsTab",
+		"requestPostParams",
 		"requestBodyTab",
 		"requestBody",
 		"sendButton",

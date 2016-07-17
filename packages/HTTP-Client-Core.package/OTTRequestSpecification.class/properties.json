@@ -9,10 +9,12 @@
 		"url",
 		"method",
 		"body",
+		"postParams",
 		"headers",
 		"cookies",
 		"authPassword",
-		"authUsername" ],
+		"authUsername",
+		"postCheckbox" ],
 	"name" : "OTTRequestSpecification",
 	"pools" : [
 		 ],

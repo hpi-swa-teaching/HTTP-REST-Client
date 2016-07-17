@@ -24,7 +24,10 @@ request method: #', self method asString,'.
 	self method = 'POST'
 		ifTrue: [
 			codeString := codeString, 'request headerAt: ''Content-Length'' put: ', self body size asString, '.
-request headerAt: ''Content-Type'' put: ''text/plain''.'].
+'].
+			self postCheckbox 
+					ifTrue: [codeString := codeString, 'request headerAt: ''Content-Type'' put: ''application/x-www-form-urlencoded''.']
+					ifFalse: [codeString := codeString, 'request headerAt: ''Content-Type'' put: ''text/plain''.'].
 	
 	codeString := codeString, '^ (client
 	sendRequest: request

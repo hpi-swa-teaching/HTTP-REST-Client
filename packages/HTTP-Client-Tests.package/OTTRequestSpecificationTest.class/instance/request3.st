@@ -1,10 +1,10 @@
 as yet unclassified
-request1
+request3
 
 	^ (OTTRequestSpecification new)
 		url: 'http://mapcrafter.org';
 		method: 'POST';
-		postCheckbox: false;
+		postCheckbox: true;
 		postParams: ((OrderedCollection new)
 			add: 'Post' -> 'Key';
 			add: 'Value' -> 'Pair';

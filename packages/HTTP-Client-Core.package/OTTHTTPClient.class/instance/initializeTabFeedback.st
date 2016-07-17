@@ -6,4 +6,5 @@ initializeTabFeedback
 		showBodyEdited;
 		showHeadersCount;
 		showCookiesCount;
+		showPOSTParametersCount;
 		showGETParametersCount.
