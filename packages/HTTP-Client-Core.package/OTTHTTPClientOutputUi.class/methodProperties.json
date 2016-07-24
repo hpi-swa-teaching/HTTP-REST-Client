@@ -2,12 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "jt 6/27/2016 21:12",
-		"responseCookieTab" : "jt 6/27/2016 21:12",
-		"responseCookies" : "jt 6/27/2016 21:12",
-		"responseData" : "jt 6/27/2016 21:12",
-		"responseDataTab" : "jt 6/27/2016 21:12",
-		"responseDataTreeTab" : "jt 6/27/2016 21:12",
-		"responseHeaderTab" : "jt 6/27/2016 21:12",
-		"responseHeaders" : "jt 6/27/2016 21:12",
-		"responseTabs" : "jt 6/27/2016 21:12" } }
+		"initializePanel" : "NS 7/24/2016 18:29",
+		"outputContainer" : "NS 7/24/2016 18:29",
+		"responseCookieTab" : "NS 7/24/2016 18:29",
+		"responseCookies" : "NS 7/24/2016 18:29",
+		"responseData" : "NS 7/24/2016 18:29",
+		"responseDataTab" : "NS 7/24/2016 18:29",
+		"responseDataTreeTab" : "NS 7/24/2016 18:29",
+		"responseHeaderTab" : "NS 7/24/2016 18:29",
+		"responseHeaders" : "NS 7/24/2016 18:29",
+		"responseTabs" : "NS 7/24/2016 18:29" } }

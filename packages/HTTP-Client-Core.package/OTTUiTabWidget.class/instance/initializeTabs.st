@@ -16,6 +16,7 @@ initializeTabs
 		do: [:container | | button |
 			button := OTTUiTabButton createFor: container.
 			buttonContainer addMorphBack: button.
+			container tabButton: button.
 			self tabButtons at: container put: button].
 		
 	self addMorphFront: buttonContainer.

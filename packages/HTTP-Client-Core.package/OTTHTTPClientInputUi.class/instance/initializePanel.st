@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	| unnamedMorph1 unnamedMorph2 unnamedMorph3 unnamedMorph4 unnamedMorph5 |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -32,60 +32,62 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	unnamedMorph1 := UiContainer new.
-	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (934@740).
-	unnamedMorph1 position: (4@4).
-	unnamedMorph1 hResizing: (#spaceFill).
-	unnamedMorph1 vResizing: (#spaceFill).
-	unnamedMorph1 minWidth: (1).
-	unnamedMorph1 minHeight: (1).
-	unnamedMorph1 cellInset: (4).
-	unnamedMorph1 cellPositioning: (#center).
-	unnamedMorph1 cellSpacing: (#none).
-	unnamedMorph1 layoutInset: (4).
-	unnamedMorph1 listCentering: (#topLeft).
-	unnamedMorph1 listDirection: (#topToBottom).
-	unnamedMorph1 listSpacing: (#none).
-	unnamedMorph1 maxCellSize: (1073741823).
-	unnamedMorph1 minCellSize: (0).
-	unnamedMorph1 wrapCentering: (#topLeft).
-	unnamedMorph1 wrapDirection: (#none).
-	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph1 color: (Color transparent).
-	unnamedMorph1 borderWidth: (0).
-	unnamedMorph1 borderStyle2: (#simple).
-	unnamedMorph1 borderColor: (Color black).
-	unnamedMorph2 := UiContainer new.
-	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (926@30).
-	unnamedMorph2 position: (8@8).
-	unnamedMorph2 hResizing: (#spaceFill).
-	unnamedMorph2 vResizing: (#shrinkWrap).
-	unnamedMorph2 minWidth: (1).
-	unnamedMorph2 minHeight: (1).
-	unnamedMorph2 cellInset: (4).
-	unnamedMorph2 cellPositioning: (#center).
-	unnamedMorph2 cellSpacing: (#none).
-	unnamedMorph2 layoutInset: (4).
-	unnamedMorph2 listCentering: (#topLeft).
-	unnamedMorph2 listDirection: (#leftToRight).
-	unnamedMorph2 listSpacing: (#none).
-	unnamedMorph2 maxCellSize: (1073741823).
-	unnamedMorph2 minCellSize: (0).
-	unnamedMorph2 wrapCentering: (#topLeft).
-	unnamedMorph2 wrapDirection: (#none).
-	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph2 color: (Color transparent).
-	unnamedMorph2 borderWidth: (0).
-	unnamedMorph2 borderStyle2: (#simple).
-	unnamedMorph2 borderColor: (Color transparent).
+	inputContainer := UiContainer new.
+	inputContainer changeTableLayout.
+	inputContainer extent: (934@740).
+	inputContainer position: (4@4).
+	inputContainer hResizing: (#spaceFill).
+	inputContainer vResizing: (#spaceFill).
+	inputContainer minWidth: (1).
+	inputContainer minHeight: (1).
+	inputContainer cellInset: (4).
+	inputContainer cellPositioning: (#center).
+	inputContainer cellSpacing: (#none).
+	inputContainer layoutInset: (4).
+	inputContainer listCentering: (#topLeft).
+	inputContainer listDirection: (#topToBottom).
+	inputContainer listSpacing: (#none).
+	inputContainer maxCellSize: (1073741823).
+	inputContainer minCellSize: (0).
+	inputContainer wrapCentering: (#topLeft).
+	inputContainer wrapDirection: (#none).
+	inputContainer frameFractions: (0@0 corner: 1@1).
+	inputContainer frameOffsets: (0@0 corner: 0@0).
+	inputContainer balloonText: (nil).
+	inputContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	inputContainer color: (Color transparent).
+	inputContainer borderWidth: (0).
+	inputContainer borderStyle2: (#simple).
+	inputContainer borderColor: (Color black).
+	inputContainer setProperty: #objectName toValue: 'inputContainer'.
+	urlLineContainer := UiContainer new.
+	urlLineContainer changeTableLayout.
+	urlLineContainer extent: (926@30).
+	urlLineContainer position: (8@8).
+	urlLineContainer hResizing: (#spaceFill).
+	urlLineContainer vResizing: (#shrinkWrap).
+	urlLineContainer minWidth: (1).
+	urlLineContainer minHeight: (1).
+	urlLineContainer cellInset: (4).
+	urlLineContainer cellPositioning: (#center).
+	urlLineContainer cellSpacing: (#none).
+	urlLineContainer layoutInset: (4).
+	urlLineContainer listCentering: (#topLeft).
+	urlLineContainer listDirection: (#leftToRight).
+	urlLineContainer listSpacing: (#none).
+	urlLineContainer maxCellSize: (1073741823).
+	urlLineContainer minCellSize: (0).
+	urlLineContainer wrapCentering: (#topLeft).
+	urlLineContainer wrapDirection: (#none).
+	urlLineContainer frameFractions: (0@0 corner: 1@1).
+	urlLineContainer frameOffsets: (0@0 corner: 0@0).
+	urlLineContainer balloonText: (nil).
+	urlLineContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	urlLineContainer color: (Color transparent).
+	urlLineContainer borderWidth: (0).
+	urlLineContainer borderStyle2: (#simple).
+	urlLineContainer borderColor: (Color transparent).
+	urlLineContainer setProperty: #objectName toValue: 'urlLineContainer'.
 	requestURL := UiLineEdit new.
 	requestURL extent: (705@20).
 	requestURL position: (12@13).
@@ -123,7 +125,7 @@ initializePanel
 	requestURL helpText: ('Insert URL here...').
 	requestURL hideCursor: (true).
 	requestURL setProperty: #objectName toValue: 'requestURL'.
-	unnamedMorph2 addChild: requestURL.
+	urlLineContainer addChild: requestURL.
 	requestMethod := UiComboBox new.
 	requestMethod extent: (100@20).
 	requestMethod position: (721@12).
@@ -148,7 +150,7 @@ initializePanel
 	requestMethod balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	requestMethod readOnly: (true).
 	requestMethod setProperty: #objectName toValue: 'requestMethod'.
-	unnamedMorph2 addChild: requestMethod.
+	urlLineContainer addChild: requestMethod.
 	postParamsCheckbox := UiCheckBox new.
 	postParamsCheckbox changeTableLayout.
 	postParamsCheckbox extent: (86@20).
@@ -171,7 +173,7 @@ initializePanel
 	postParamsCheckbox frameFractions: (0@0 corner: 1@1).
 	postParamsCheckbox frameOffsets: (0@0 corner: 0@0).
 	postParamsCheckbox balloonText: (nil).
-	postParamsCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
+	postParamsCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	postParamsCheckbox enabled: (true).
 	postParamsCheckbox setProperty: #iconByDesigner toValue: 'nil'.
 	postParamsCheckbox icon: (nil).
@@ -181,8 +183,8 @@ initializePanel
 	postParamsCheckbox checked: (false).
 	postParamsCheckbox autoExclusive: (false).
 	postParamsCheckbox setProperty: #objectName toValue: 'postParamsCheckbox'.
-	unnamedMorph2 addChild: postParamsCheckbox.
-	unnamedMorph1 addChild: unnamedMorph2.
+	urlLineContainer addChild: postParamsCheckbox.
+	inputContainer addChild: urlLineContainer.
 	requestTabs := OTTUiTabWidget new.
 	requestTabs changeTableLayout.
 	requestTabs extent: (926@664).
@@ -267,7 +269,7 @@ initializePanel
 	requestGetParams verticalScrollBarPolicy: (#asNeeded).
 	requestGetParams outerBorderWidth: (0).
 	requestGetParams scrollBarThickness: (9).
-	requestGetParams modelClass: (nil).
+	requestGetParams modelClass: (OTTPairModel).
 	requestGetParams horizontalHeaderVisible: (true).
 	requestGetParams verticalHeaderVisible: (false).
 	requestGetParams selectionBehavior: (#selectCells).
@@ -331,7 +333,7 @@ initializePanel
 	requestHeaders verticalScrollBarPolicy: (#asNeeded).
 	requestHeaders outerBorderWidth: (0).
 	requestHeaders scrollBarThickness: (9).
-	requestHeaders modelClass: (nil).
+	requestHeaders modelClass: (OTTPairModel).
 	requestHeaders horizontalHeaderVisible: (true).
 	requestHeaders verticalHeaderVisible: (false).
 	requestHeaders selectionBehavior: (#selectCells).
@@ -395,7 +397,7 @@ initializePanel
 	requestCookies verticalScrollBarPolicy: (#asNeeded).
 	requestCookies outerBorderWidth: (0).
 	requestCookies scrollBarThickness: (9).
-	requestCookies modelClass: (nil).
+	requestCookies modelClass: (OTTPairModel).
 	requestCookies horizontalHeaderVisible: (true).
 	requestCookies verticalHeaderVisible: (false).
 	requestCookies selectionBehavior: (#selectCells).
@@ -403,41 +405,12 @@ initializePanel
 	requestCookies setProperty: #objectName toValue: 'requestCookies'.
 	requestCookieTab addChild: requestCookies.
 	requestTabs addChild: requestCookieTab.
-	requestAuthContainer := OTTUiTabContainer new.
-	requestAuthContainer changeTableLayout.
-	requestAuthContainer extent: (918@130).
-	requestAuthContainer position: (12@361).
-	requestAuthContainer hResizing: (#spaceFill).
-	requestAuthContainer vResizing: (#spaceFill).
-	requestAuthContainer minWidth: (1).
-	requestAuthContainer minHeight: (1).
-	requestAuthContainer cellInset: (4).
-	requestAuthContainer cellPositioning: (#center).
-	requestAuthContainer cellSpacing: (#none).
-	requestAuthContainer layoutInset: (4).
-	requestAuthContainer listCentering: (#topLeft).
-	requestAuthContainer listDirection: (#topToBottom).
-	requestAuthContainer listSpacing: (#none).
-	requestAuthContainer maxCellSize: (1073741823).
-	requestAuthContainer minCellSize: (0).
-	requestAuthContainer wrapCentering: (#topLeft).
-	requestAuthContainer wrapDirection: (#none).
-	requestAuthContainer frameFractions: (0@0 corner: 1@1).
-	requestAuthContainer frameOffsets: (0@0 corner: 0@0).
-	requestAuthContainer balloonText: (nil).
-	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestAuthContainer color: (Color transparent).
-	requestAuthContainer borderWidth: (0).
-	requestAuthContainer borderStyle2: (#simple).
-	requestAuthContainer borderColor: (Color black).
-	requestAuthContainer title: ('Auth').
-	requestAuthContainer setProperty: #objectName toValue: 'requestAuthContainer'.
-	requestAuthTabContainer := UiContainer new.
+	requestAuthTabContainer := OTTUiTabContainer new.
 	requestAuthTabContainer changeTableLayout.
-	requestAuthTabContainer extent: (910@30).
-	requestAuthTabContainer position: (16@365).
+	requestAuthTabContainer extent: (918@130).
+	requestAuthTabContainer position: (12@361).
 	requestAuthTabContainer hResizing: (#spaceFill).
-	requestAuthTabContainer vResizing: (#shrinkWrap).
+	requestAuthTabContainer vResizing: (#spaceFill).
 	requestAuthTabContainer minWidth: (1).
 	requestAuthTabContainer minHeight: (1).
 	requestAuthTabContainer cellInset: (4).
@@ -445,7 +418,7 @@ initializePanel
 	requestAuthTabContainer cellSpacing: (#none).
 	requestAuthTabContainer layoutInset: (4).
 	requestAuthTabContainer listCentering: (#topLeft).
-	requestAuthTabContainer listDirection: (#leftToRight).
+	requestAuthTabContainer listDirection: (#topToBottom).
 	requestAuthTabContainer listSpacing: (#none).
 	requestAuthTabContainer maxCellSize: (1073741823).
 	requestAuthTabContainer minCellSize: (0).
@@ -459,7 +432,36 @@ initializePanel
 	requestAuthTabContainer borderWidth: (0).
 	requestAuthTabContainer borderStyle2: (#simple).
 	requestAuthTabContainer borderColor: (Color black).
+	requestAuthTabContainer title: ('Auth').
 	requestAuthTabContainer setProperty: #objectName toValue: 'requestAuthTabContainer'.
+	requestAuthContainer := UiContainer new.
+	requestAuthContainer changeTableLayout.
+	requestAuthContainer extent: (910@30).
+	requestAuthContainer position: (16@365).
+	requestAuthContainer hResizing: (#spaceFill).
+	requestAuthContainer vResizing: (#shrinkWrap).
+	requestAuthContainer minWidth: (1).
+	requestAuthContainer minHeight: (1).
+	requestAuthContainer cellInset: (4).
+	requestAuthContainer cellPositioning: (#center).
+	requestAuthContainer cellSpacing: (#none).
+	requestAuthContainer layoutInset: (4).
+	requestAuthContainer listCentering: (#topLeft).
+	requestAuthContainer listDirection: (#leftToRight).
+	requestAuthContainer listSpacing: (#none).
+	requestAuthContainer maxCellSize: (1073741823).
+	requestAuthContainer minCellSize: (0).
+	requestAuthContainer wrapCentering: (#topLeft).
+	requestAuthContainer wrapDirection: (#none).
+	requestAuthContainer frameFractions: (0@0 corner: 1@1).
+	requestAuthContainer frameOffsets: (0@0 corner: 0@0).
+	requestAuthContainer balloonText: (nil).
+	requestAuthContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	requestAuthContainer color: (Color transparent).
+	requestAuthContainer borderWidth: (0).
+	requestAuthContainer borderStyle2: (#simple).
+	requestAuthContainer borderColor: (Color black).
+	requestAuthContainer setProperty: #objectName toValue: 'requestAuthContainer'.
 	authUsername := UiLineEdit new.
 	authUsername extent: (449@20).
 	authUsername position: (20@370).
@@ -497,7 +499,7 @@ initializePanel
 	authUsername helpText: ('Insert Basic Auth Username here...').
 	authUsername hideCursor: (true).
 	authUsername setProperty: #objectName toValue: 'authUsername'.
-	requestAuthTabContainer addChild: authUsername.
+	requestAuthContainer addChild: authUsername.
 	authPassword := UiLineEdit new.
 	authPassword extent: (449@20).
 	authPassword position: (473@370).
@@ -535,9 +537,9 @@ initializePanel
 	authPassword helpText: ('Insert Basic Auth Password here...').
 	authPassword hideCursor: (true).
 	authPassword setProperty: #objectName toValue: 'authPassword'.
-	requestAuthTabContainer addChild: authPassword.
-	requestAuthContainer addChild: requestAuthTabContainer.
-	requestTabs addChild: requestAuthContainer.
+	requestAuthContainer addChild: authPassword.
+	requestAuthTabContainer addChild: requestAuthContainer.
+	requestTabs addChild: requestAuthTabContainer.
 	requestPostParamsTab := OTTUiTabContainer new.
 	requestPostParamsTab changeTableLayout.
 	requestPostParamsTab extent: (918@101).
@@ -594,7 +596,7 @@ initializePanel
 	requestPostParams verticalScrollBarPolicy: (#asNeeded).
 	requestPostParams outerBorderWidth: (0).
 	requestPostParams scrollBarThickness: (9).
-	requestPostParams modelClass: (nil).
+	requestPostParams modelClass: (OTTPairModel).
 	requestPostParams horizontalHeaderVisible: (true).
 	requestPostParams verticalHeaderVisible: (false).
 	requestPostParams selectionBehavior: (#selectCells).
@@ -668,34 +670,34 @@ initializePanel
 	requestBody setProperty: #objectName toValue: 'requestBody'.
 	requestBodyTab addChild: requestBody.
 	requestTabs addChild: requestBodyTab.
-	unnamedMorph1 addChild: requestTabs.
-	unnamedMorph3 := UiContainer new.
-	unnamedMorph3 changeTableLayout.
-	unnamedMorph3 extent: (926@30).
-	unnamedMorph3 position: (8@710).
-	unnamedMorph3 hResizing: (#spaceFill).
-	unnamedMorph3 vResizing: (#shrinkWrap).
-	unnamedMorph3 minWidth: (1).
-	unnamedMorph3 minHeight: (1).
-	unnamedMorph3 cellInset: (4).
-	unnamedMorph3 cellPositioning: (#center).
-	unnamedMorph3 cellSpacing: (#none).
-	unnamedMorph3 layoutInset: (4).
-	unnamedMorph3 listCentering: (#topLeft).
-	unnamedMorph3 listDirection: (#leftToRight).
-	unnamedMorph3 listSpacing: (#none).
-	unnamedMorph3 maxCellSize: (1073741823).
-	unnamedMorph3 minCellSize: (0).
-	unnamedMorph3 wrapCentering: (#topLeft).
-	unnamedMorph3 wrapDirection: (#none).
-	unnamedMorph3 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph3 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph3 balloonText: (nil).
-	unnamedMorph3 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph3 color: (Color transparent).
-	unnamedMorph3 borderWidth: (0).
-	unnamedMorph3 borderStyle2: (#simple).
-	unnamedMorph3 borderColor: (Color black).
+	inputContainer addChild: requestTabs.
+	unnamedMorph1 := UiContainer new.
+	unnamedMorph1 changeTableLayout.
+	unnamedMorph1 extent: (926@30).
+	unnamedMorph1 position: (8@710).
+	unnamedMorph1 hResizing: (#spaceFill).
+	unnamedMorph1 vResizing: (#shrinkWrap).
+	unnamedMorph1 minWidth: (1).
+	unnamedMorph1 minHeight: (1).
+	unnamedMorph1 cellInset: (4).
+	unnamedMorph1 cellPositioning: (#center).
+	unnamedMorph1 cellSpacing: (#none).
+	unnamedMorph1 layoutInset: (4).
+	unnamedMorph1 listCentering: (#topLeft).
+	unnamedMorph1 listDirection: (#leftToRight).
+	unnamedMorph1 listSpacing: (#none).
+	unnamedMorph1 maxCellSize: (1073741823).
+	unnamedMorph1 minCellSize: (0).
+	unnamedMorph1 wrapCentering: (#topLeft).
+	unnamedMorph1 wrapDirection: (#none).
+	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph1 balloonText: (nil).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	unnamedMorph1 color: (Color transparent).
+	unnamedMorph1 borderWidth: (0).
+	unnamedMorph1 borderStyle2: (#simple).
+	unnamedMorph1 borderColor: (Color black).
 	sendButton := UiPushButton new.
 	sendButton changeTableLayout.
 	sendButton extent: (58@20).
@@ -728,7 +730,7 @@ initializePanel
 	sendButton checked: (false).
 	sendButton autoExclusive: (false).
 	sendButton setProperty: #objectName toValue: 'sendButton'.
-	unnamedMorph3 addChild: sendButton.
+	unnamedMorph1 addChild: sendButton.
 	resetButton := UiPushButton new.
 	resetButton changeTableLayout.
 	resetButton extent: (62@20).
@@ -761,7 +763,7 @@ initializePanel
 	resetButton checked: (false).
 	resetButton autoExclusive: (false).
 	resetButton setProperty: #objectName toValue: 'resetButton'.
-	unnamedMorph3 addChild: resetButton.
+	unnamedMorph1 addChild: resetButton.
 	saveButton := UiPushButton new.
 	saveButton changeTableLayout.
 	saveButton extent: (57@20).
@@ -794,7 +796,7 @@ initializePanel
 	saveButton checked: (false).
 	saveButton autoExclusive: (false).
 	saveButton setProperty: #objectName toValue: 'saveButton'.
-	unnamedMorph3 addChild: saveButton.
+	unnamedMorph1 addChild: saveButton.
 	loadButton := UiPushButton new.
 	loadButton changeTableLayout.
 	loadButton extent: (57@20).
@@ -827,7 +829,7 @@ initializePanel
 	loadButton checked: (false).
 	loadButton autoExclusive: (false).
 	loadButton setProperty: #objectName toValue: 'loadButton'.
-	unnamedMorph3 addChild: loadButton.
+	unnamedMorph1 addChild: loadButton.
 	exportCodeButton := UiPushButton new.
 	exportCodeButton changeTableLayout.
 	exportCodeButton extent: (104@20).
@@ -860,35 +862,36 @@ initializePanel
 	exportCodeButton checked: (false).
 	exportCodeButton autoExclusive: (false).
 	exportCodeButton setProperty: #objectName toValue: 'exportCodeButton'.
-	unnamedMorph3 addChild: exportCodeButton.
-	unnamedMorph4 := UiSpacer new.
-	unnamedMorph4 extent: (399@20).
-	unnamedMorph4 position: (380@715).
-	unnamedMorph4 hResizing: (#spaceFill).
-	unnamedMorph4 vResizing: (#rigid).
-	unnamedMorph4 minWidth: (1).
-	unnamedMorph4 minHeight: (1).
-	unnamedMorph4 cellInset: (0).
-	unnamedMorph4 cellPositioning: (#center).
-	unnamedMorph4 cellSpacing: (#none).
-	unnamedMorph4 layoutInset: (0).
-	unnamedMorph4 listCentering: (#topLeft).
-	unnamedMorph4 listDirection: (#topToBottom).
-	unnamedMorph4 listSpacing: (#none).
-	unnamedMorph4 maxCellSize: (1073741823).
-	unnamedMorph4 minCellSize: (0).
-	unnamedMorph4 wrapCentering: (#topLeft).
-	unnamedMorph4 wrapDirection: (#none).
-	unnamedMorph4 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph4 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph4 balloonText: (nil).
-	unnamedMorph4 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph4 color: (Color blue).
-	unnamedMorph4 borderWidth: (0).
-	unnamedMorph4 borderStyle2: (#simple).
-	unnamedMorph4 borderColor: (Color black).
-	unnamedMorph4 orientation: (#horizontal).
-	unnamedMorph3 addChild: unnamedMorph4.
+	unnamedMorph1 addChild: exportCodeButton.
+	spacer := UiSpacer new.
+	spacer extent: (399@20).
+	spacer position: (380@715).
+	spacer hResizing: (#spaceFill).
+	spacer vResizing: (#rigid).
+	spacer minWidth: (1).
+	spacer minHeight: (1).
+	spacer cellInset: (0).
+	spacer cellPositioning: (#center).
+	spacer cellSpacing: (#none).
+	spacer layoutInset: (0).
+	spacer listCentering: (#topLeft).
+	spacer listDirection: (#topToBottom).
+	spacer listSpacing: (#none).
+	spacer maxCellSize: (1073741823).
+	spacer minCellSize: (0).
+	spacer wrapCentering: (#topLeft).
+	spacer wrapDirection: (#none).
+	spacer frameFractions: (0@0 corner: 1@1).
+	spacer frameOffsets: (0@0 corner: 0@0).
+	spacer balloonText: (nil).
+	spacer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	spacer color: (Color blue).
+	spacer borderWidth: (0).
+	spacer borderStyle2: (#simple).
+	spacer borderColor: (Color black).
+	spacer orientation: (#horizontal).
+	spacer setProperty: #objectName toValue: 'spacer'.
+	unnamedMorph1 addChild: spacer.
 	statusCodeIcon := UiLabel new.
 	statusCodeIcon changeTableLayout.
 	statusCodeIcon extent: (10@10).
@@ -916,7 +919,7 @@ initializePanel
 	statusCodeIcon setProperty: #formByDesigner toValue: 'UiDiagonaIcons icon0409Small'.
 	statusCodeIcon form: (UiDiagonaIcons icon0409Small).
 	statusCodeIcon setProperty: #objectName toValue: 'statusCodeIcon'.
-	unnamedMorph3 addChild: statusCodeIcon.
+	unnamedMorph1 addChild: statusCodeIcon.
 	statusCode := UiLabel new.
 	statusCode changeTableLayout.
 	statusCode extent: (46@18).
@@ -944,34 +947,35 @@ initializePanel
 	statusCode setProperty: #formByDesigner toValue: 'nil'.
 	statusCode form: (nil).
 	statusCode setProperty: #objectName toValue: 'statusCode'.
-	unnamedMorph3 addChild: statusCode.
-	unnamedMorph5 := UiLabel new.
-	unnamedMorph5 changeTableLayout.
-	unnamedMorph5 extent: (16@16).
-	unnamedMorph5 position: (847@717).
-	unnamedMorph5 hResizing: (#shrinkWrap).
-	unnamedMorph5 vResizing: (#shrinkWrap).
-	unnamedMorph5 minWidth: (1).
-	unnamedMorph5 minHeight: (1).
-	unnamedMorph5 cellInset: (0).
-	unnamedMorph5 cellPositioning: (#center).
-	unnamedMorph5 cellSpacing: (#none).
-	unnamedMorph5 layoutInset: (0).
-	unnamedMorph5 listCentering: (#topLeft).
-	unnamedMorph5 listDirection: (#leftToRight).
-	unnamedMorph5 listSpacing: (#none).
-	unnamedMorph5 maxCellSize: (1073741823).
-	unnamedMorph5 minCellSize: (0).
-	unnamedMorph5 wrapCentering: (#topLeft).
-	unnamedMorph5 wrapDirection: (#none).
-	unnamedMorph5 frameFractions: (0@0 corner: 1@1).
-	unnamedMorph5 frameOffsets: (0@0 corner: 0@0).
-	unnamedMorph5 balloonText: (nil).
-	unnamedMorph5 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	unnamedMorph5 text: ('').
-	unnamedMorph5 setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
-	unnamedMorph5 form: (UiFugueIcons clockSelectIcon).
-	unnamedMorph3 addChild: unnamedMorph5.
+	unnamedMorph1 addChild: statusCode.
+	timeIcon := UiLabel new.
+	timeIcon changeTableLayout.
+	timeIcon extent: (16@16).
+	timeIcon position: (847@717).
+	timeIcon hResizing: (#shrinkWrap).
+	timeIcon vResizing: (#shrinkWrap).
+	timeIcon minWidth: (1).
+	timeIcon minHeight: (1).
+	timeIcon cellInset: (0).
+	timeIcon cellPositioning: (#center).
+	timeIcon cellSpacing: (#none).
+	timeIcon layoutInset: (0).
+	timeIcon listCentering: (#topLeft).
+	timeIcon listDirection: (#leftToRight).
+	timeIcon listSpacing: (#none).
+	timeIcon maxCellSize: (1073741823).
+	timeIcon minCellSize: (0).
+	timeIcon wrapCentering: (#topLeft).
+	timeIcon wrapDirection: (#none).
+	timeIcon frameFractions: (0@0 corner: 1@1).
+	timeIcon frameOffsets: (0@0 corner: 0@0).
+	timeIcon balloonText: (nil).
+	timeIcon balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	timeIcon text: ('').
+	timeIcon setProperty: #formByDesigner toValue: 'UiFugueIcons clockSelectIcon'.
+	timeIcon form: (UiFugueIcons clockSelectIcon).
+	timeIcon setProperty: #objectName toValue: 'timeIcon'.
+	unnamedMorph1 addChild: timeIcon.
 	responseTime := UiLabel new.
 	responseTime changeTableLayout.
 	responseTime extent: (63@18).
@@ -999,7 +1003,7 @@ initializePanel
 	responseTime setProperty: #formByDesigner toValue: 'nil'.
 	responseTime form: (nil).
 	responseTime setProperty: #objectName toValue: 'responseTime'.
-	unnamedMorph3 addChild: responseTime.
-	unnamedMorph1 addChild: unnamedMorph3.
-	panel addChild: unnamedMorph1.
+	unnamedMorph1 addChild: responseTime.
+	inputContainer addChild: unnamedMorph1.
+	panel addChild: inputContainer.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClientInput'.

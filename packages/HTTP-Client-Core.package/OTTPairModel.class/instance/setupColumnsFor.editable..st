@@ -2,7 +2,7 @@ as yet unclassified
 setupColumnsFor: anUiTableView editable: aBoolean
 
 	| editableSelector menuSelector textConverter removeColumn |
-	self editable: aBoolean.
+	anUiTableView model editable: aBoolean.
 	editableSelector := aBoolean
 		ifTrue: [true]
 		ifFalse: [nil].
@@ -24,9 +24,9 @@ setupColumnsFor: anUiTableView editable: aBoolean
 			textConverter: textConverter;
 			editorFinisher: [:editor :node |
 				node value: editor theText asString.
-				node parent markChanged: node]);
-		model: self.
+				node parent markChanged: node]).
+		"model: self."
 		
 	removeColumn := UiItemViewColumnSpec newFrom: {#selectable -> false}.
-	removeColumn headerIcon: (OTTUiPairAddButton new model: self).
+	removeColumn headerIcon: (OTTUiPairAddButton new model: anUiTableView model).
 	aBoolean ifTrue: [anUiTableView addColumn: removeColumn].

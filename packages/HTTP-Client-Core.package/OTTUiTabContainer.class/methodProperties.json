@@ -5,5 +5,10 @@
 		"widgetClassName" : "MH 6/17/2016 21:50",
 		"widgetProperties" : "MH 6/17/2016 21:51" },
 	"instance" : {
+		"addChild:" : "NS 7/24/2016 19:12",
+		"countForTable" : "NS 7/24/2016 19:13",
+		"editedText:" : "NS 7/24/2016 19:28",
+		"tabButton" : "NS 7/24/2016 19:29",
+		"tabButton:" : "NS 7/24/2016 17:49",
 		"title" : "MH 6/17/2016 21:54",
 		"title:" : "MH 6/17/2016 21:54" } }
