@@ -1,7 +1,9 @@
-as yet unclassified
+initialization
 setupColumnsFor: anUiTableView editable: aBoolean
 
 	| editableSelector menuSelector textConverter removeColumn |
+	anUiTableView model = self
+		ifFalse: [self error: 'dafuq'].
 	anUiTableView model editable: aBoolean.
 	editableSelector := aBoolean
 		ifTrue: [true]

@@ -86,7 +86,7 @@ initializePanel
 	requestHistory verticalScrollBarPolicy: (#asNeeded).
 	requestHistory outerBorderWidth: (0).
 	requestHistory scrollBarThickness: (9).
-	requestHistory modelClass: (nil).
+	requestHistory modelClass: (OTTRequestHistoryModel).
 	requestHistory horizontalHeaderVisible: (false).
 	requestHistory verticalHeaderVisible: (false).
 	requestHistory selectionBehavior: (#selectRows).
