@@ -1,4 +1,4 @@
-initialization
+accessing
 initialize
 
 	super initialize.
@@ -6,9 +6,7 @@ initialize
 		url: '';
 		method: self class availableRequestMethods first;
 		body: '';
-		postParams: Dictionary new;
 		headers: OrderedCollection new;
 		cookies: Dictionary new;
-		postCheckbox: false;
 		authUsername: '';
 		authPassword: ''.

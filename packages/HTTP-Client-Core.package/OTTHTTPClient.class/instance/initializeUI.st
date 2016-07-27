@@ -16,7 +16,9 @@ initializeUI
 		keysAndValuesDo: [:table :editable | table model setupColumnsFor: table editable: editable].
 	
 	self uiInput requestMethod addTextList: OTTRequestSpecification availableRequestMethods.	
+	self uiInput requestPostType addTextList: OTTRequestSpecification availablePostTypes. 
 	self uiInput authPassword font: (StrikeFont passwordFontSize: 12).
+	
 	
 	self updatePostTabVisibility.
 	self resetRequest.

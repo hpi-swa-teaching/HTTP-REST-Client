@@ -6,7 +6,7 @@ initializeSignals
 		connect: self uiInput resetButton signal: #clicked: toSelector: #resetRequest;
 		
 		connect: self uiInput requestMethod signal: #currentIndexChanged:text: toSelector: #updatePostTabVisibility;
-		connect: self uiInput postParamsCheckbox signal: #clicked: toSelector: #updatePostTabVisibility;
+		connect: self uiInput requestPostType signal: #currentIndexChanged:text: toSelector: #updatePostTabVisibility;
 		connect: self uiBasic requestHistory signal: #doubleClicked: toSelector: #loadHistoryRequestFrom:;
 		connect: self uiInput saveButton signal: #clicked: toSelector: #saveRequest;
 		connect: self uiInput loadButton signal: #clicked: toSelector: #loadRequest;

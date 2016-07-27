@@ -1,12 +1,9 @@
-dummy-request
+as yet unclassified
 request2
 
 	^ (OTTRequestSpecification new)
 		url: 'http://yellow-ray.de';
 		method: 'GET';
-		postCheckbox: false;
-		postParams: ((OrderedCollection new)
-			yourself);
 		body: '';
 		headers: ((OrderedCollection new)
 			add: 'Accept-Language' -> 'en';

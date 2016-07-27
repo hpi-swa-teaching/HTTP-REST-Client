@@ -7,11 +7,5 @@ createRequestWith: aRequestSpecification for: aWebClient
 	aRequestSpecification headers
 		do: [:header | request addHeader: header key value: header value].
 	aRequestSpecification method = 'POST'
-		ifTrue: [
-				request headerAt: 'Content-Length' put: aRequestSpecification body size.
-				self postParamsCheckbox 
-					ifTrue: [
-						request headerAt: 'Content-Type' put: 'application/x-www-form-urlencoded'.
-						self updatePOSTParameterBody.]
-					ifFalse: [request headerAt: 'Content-Type' put: 'text/plain']].
+		ifTrue: [request headerAt: 'Content-Length' put: aRequestSpecification body size].
 	^ request

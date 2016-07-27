@@ -1,14 +1,21 @@
 ui-accessing
 requestSpecification
 
-	^ (OTTRequestSpecification new)
+	| request |
+	request := OTTRequestSpecification new
 		url: self requestURL;
 		method: self requestMethod;
 		body: self requestBody;
-		postParams: self requestPostParams;
-		postCheckbox: self postParamsCheckbox;
 		headers: self requestHeaders;
 		cookies: self requestCookies;
 		authUsername: self authUsername;
 		authPassword: self authPassword;
-		yourself
+		yourself.
+		
+	request method = 'POST' ifTrue:[
+		self requestPostType = 'Parameters'
+			ifTrue: [request setPostParameter: self requestPostParams]
+			ifFalse: [request setPostBody].
+		].
+
+	^ request

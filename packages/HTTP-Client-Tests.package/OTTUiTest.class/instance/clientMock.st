@@ -1,4 +1,4 @@
 accessing
-client: aHTTPTestClient
+clientMock
 
-	client := aHTTPTestClient.
+	^ clientMock

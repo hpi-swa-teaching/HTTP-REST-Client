@@ -1,22 +1,19 @@
 ui-feedback
 updatePostTabVisibility
 
-	| tabs tabBody tabParams checkbox |
+	| tabs tabParams postType parameterTable bodyText|
 	tabs := self uiInput requestTabs.
-	tabBody := self uiInput requestBodyTab.
-	tabParams := self uiInput requestPostParamsTab.
-	checkbox := self uiInput postParamsCheckbox.
+	tabParams := self uiInput requestBodyTab.
+	parameterTable := self uiInput requestPostParams.
+	bodyText := self uiInput requestBody.
+	
+	postType := self uiInput requestPostType currentText asString.
 	
 	self requestSpecification method = 'POST'
 		ifTrue: [
-			checkbox enabled: true.
-			checkbox checked 
-				ifTrue: [tabs enableTab: tabParams; disableTab: tabBody]
-				ifFalse: [tabs enableTab: tabBody; disableTab: tabParams]]
+			tabs enableTab: tabParams.
+			postType = 'Parameters'
+				ifTrue: [parameterTable visible: true. bodyText visible: false]
+				ifFalse: [parameterTable visible: false. bodyText visible: true]]
 		ifFalse: [
-			checkbox 
-				checked: false;
-				enabled: false.
-			tabs 
-				disableTab: tabBody; 
-				disableTab: tabParams].
+			tabs disableTab: tabParams].

@@ -1,4 +1,4 @@
-export
+accessing
 exportRequest
 
 	| codeString |
@@ -21,14 +21,6 @@ request := client requestWithUrl: ''', self url asString, '''.
 request method: #', self method asString,'.
 ', self headers storeString, ' do: [ :header | request addHeader: header key value: header value].
 '.
-	self method = 'POST'
-		ifTrue: [
-			codeString := codeString, 'request headerAt: ''Content-Length'' put: ', self body size asString, '.
-'].
-			self postCheckbox 
-					ifTrue: [codeString := codeString, 'request headerAt: ''Content-Type'' put: ''application/x-www-form-urlencoded''.']
-					ifFalse: [codeString := codeString, 'request headerAt: ''Content-Type'' put: ''text/plain''.'].
-	
 	codeString := codeString, '^ (client
 	sendRequest: request
 	content: ', self body storeString ,' readStream

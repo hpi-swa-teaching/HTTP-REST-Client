@@ -1,10 +1,12 @@
 {
 	"class" : {
+		"availablePostTypes" : "CP 7/27/2016 15:08",
 		"availableRequestMethods" : "MH 5/19/2016 13:42",
 		"loadFromFile:" : "MH 6/29/2016 22:36",
 		"loadFromStream:" : "jt 7/13/2016 19:24" },
 	"instance" : {
 		"=" : "MH 6/15/2016 22:18",
+		"addHeader:value:" : "CP 7/27/2016 13:55",
 		"authPassword" : "MH 5/19/2016 13:00",
 		"authPassword:" : "MH 5/19/2016 13:00",
 		"authUsername" : "MH 5/19/2016 13:16",
@@ -13,11 +15,12 @@
 		"body:" : "MH 5/19/2016 13:07",
 		"cookies" : "MH 6/15/2016 22:11",
 		"cookies:" : "MH 6/15/2016 22:11",
-		"exportRequest" : "CP 7/17/2016 13:10",
+		"exportRequest" : "CP 7/27/2016 13:59",
 		"hasAuth" : "MH 6/16/2016 13:40",
+		"headerAt:put:" : "CP 7/27/2016 13:53",
 		"headers" : "MH 5/19/2016 12:57",
 		"headers:" : "MH 6/23/2016 16:17",
-		"initialize" : "CP 7/17/2016 12:17",
+		"initialize" : "CP 7/27/2016 16:06",
 		"method" : "MH 5/19/2016 12:57",
 		"method:" : "MH 5/19/2016 12:56",
 		"postCheckbox" : "CP 7/17/2016 12:16",
@@ -25,5 +28,7 @@
 		"postParams" : "CP 7/16/2016 11:49",
 		"postParams:" : "CP 7/16/2016 11:50",
 		"saveToFile:" : "MH 7/14/2016 12:07",
+		"setPostBody" : "CP 7/27/2016 16:16",
+		"setPostParameter:" : "CP 7/27/2016 16:07",
 		"url" : "MH 5/19/2016 12:56",
 		"url:" : "MH 5/19/2016 12:56" } }
