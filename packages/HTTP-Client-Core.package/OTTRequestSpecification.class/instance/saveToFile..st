@@ -1,6 +1,8 @@
 accessing
 saveToFile: aString
 
-	(FileStream forceNewFileNamed: aString)
-		nextPutAll: (STON toString: self);
-		close.
+	STON writer 
+		on: (FileStream forceNewFileNamed: aString); 
+		prettyPrint: true;
+		nextPut: self.
+		
