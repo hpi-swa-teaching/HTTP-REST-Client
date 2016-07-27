@@ -7,4 +7,4 @@ statusCodeColors
 		add: $3 -> Color cyan twiceDarker;
 		add: $4 -> Color red darker;
 		add: $5 -> Color orange twiceDarker;
-		yourself.
+		yourself

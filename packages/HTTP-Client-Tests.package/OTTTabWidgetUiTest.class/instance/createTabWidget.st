@@ -14,4 +14,4 @@ createTabWidget
 	tabWidget
 		addAllMorphs: {self tab1. self tab2. self tab3};
 		initializeTabs.
-	^ tabWidget.
+	^ tabWidget

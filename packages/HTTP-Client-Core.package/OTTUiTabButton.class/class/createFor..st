@@ -10,4 +10,4 @@ createFor: anUiTabContainer
 		checkable: true;
 		checked: false;
 		text: anUiTabContainer title.
-	^ instance.
+	^ instance

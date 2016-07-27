@@ -7,4 +7,4 @@ statusCodeIcons
 		add: $3 -> UiDiagonaIcons icon0404Small;
 		add: $4 -> UiDiagonaIcons icon0401Small;
 		add: $5 -> UiDiagonaIcons icon0406Small;
-		yourself.
+		yourself
