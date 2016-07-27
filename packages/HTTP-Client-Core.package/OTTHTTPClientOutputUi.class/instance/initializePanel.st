@@ -2,7 +2,7 @@ ui - private
 initializePanel
 	"This code is auto-generated. DO NOT modify it because another generation step will overwrite all changes."
 	
-	|  |
+	| unnamedMorph1 |
 	
 	panel := UiContainer new.
 	panel changeTableLayout.
@@ -32,34 +32,33 @@ initializePanel
 	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	outputContainer := UiContainer new.
-	outputContainer changeTableLayout.
-	outputContainer extent: (882@740).
-	outputContainer position: (4@4).
-	outputContainer hResizing: (#spaceFill).
-	outputContainer vResizing: (#spaceFill).
-	outputContainer minWidth: (1).
-	outputContainer minHeight: (1).
-	outputContainer cellInset: (0).
-	outputContainer cellPositioning: (#center).
-	outputContainer cellSpacing: (#none).
-	outputContainer layoutInset: (0).
-	outputContainer listCentering: (#topLeft).
-	outputContainer listDirection: (#topToBottom).
-	outputContainer listSpacing: (#none).
-	outputContainer maxCellSize: (1073741823).
-	outputContainer minCellSize: (0).
-	outputContainer wrapCentering: (#topLeft).
-	outputContainer wrapDirection: (#none).
-	outputContainer frameFractions: (0@0 corner: 1@1).
-	outputContainer frameOffsets: (0@0 corner: 0@0).
-	outputContainer balloonText: (nil).
-	outputContainer balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	outputContainer color: (Color transparent).
-	outputContainer borderWidth: (0).
-	outputContainer borderStyle2: (#simple).
-	outputContainer borderColor: (Color black).
-	outputContainer setProperty: #objectName toValue: 'outputContainer'.
+	unnamedMorph1 := UiContainer new.
+	unnamedMorph1 changeTableLayout.
+	unnamedMorph1 extent: (882@740).
+	unnamedMorph1 position: (4@4).
+	unnamedMorph1 hResizing: (#spaceFill).
+	unnamedMorph1 vResizing: (#spaceFill).
+	unnamedMorph1 minWidth: (1).
+	unnamedMorph1 minHeight: (1).
+	unnamedMorph1 cellInset: (0).
+	unnamedMorph1 cellPositioning: (#center).
+	unnamedMorph1 cellSpacing: (#none).
+	unnamedMorph1 layoutInset: (0).
+	unnamedMorph1 listCentering: (#topLeft).
+	unnamedMorph1 listDirection: (#topToBottom).
+	unnamedMorph1 listSpacing: (#none).
+	unnamedMorph1 maxCellSize: (1073741823).
+	unnamedMorph1 minCellSize: (0).
+	unnamedMorph1 wrapCentering: (#topLeft).
+	unnamedMorph1 wrapDirection: (#none).
+	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
+	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
+	unnamedMorph1 balloonText: (nil).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	unnamedMorph1 color: (Color transparent).
+	unnamedMorph1 borderWidth: (0).
+	unnamedMorph1 borderStyle2: (#simple).
+	unnamedMorph1 borderColor: (Color black).
 	responseTabs := OTTUiTabWidget new.
 	responseTabs changeTableLayout.
 	responseTabs extent: (882@740).
@@ -312,6 +311,6 @@ initializePanel
 	responseCookies setProperty: #objectName toValue: 'responseCookies'.
 	responseCookieTab addChild: responseCookies.
 	responseTabs addChild: responseCookieTab.
-	outputContainer addChild: responseTabs.
-	panel addChild: outputContainer.
+	unnamedMorph1 addChild: responseTabs.
+	panel addChild: unnamedMorph1.
 	panel setProperty: #uiClassName toValue: 'OTTHTTPClientOutput'.

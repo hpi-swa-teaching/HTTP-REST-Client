@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inputContainer",
-		"urlLineContainer",
 		"requestURL",
 		"requestMethod",
 		"requestTabs",
@@ -17,8 +15,7 @@
 		"requestHeaders",
 		"requestCookieTab",
 		"requestCookies",
-		"requestAuthTabContainer",
-		"requestAuthContainer",
+		"requestAuthTab",
 		"authUsername",
 		"authPassword",
 		"requestBodyTab",
