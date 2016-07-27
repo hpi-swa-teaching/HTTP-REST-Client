@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"testAddRequestToHistory" : "MH 7/13/2016 22:54",
-		"testPostTabVisibility" : "MH 6/25/2016 17:36",
+		"testPostTabVisibility" : "MH 7/27/2016 15:01",
 		"testResetHistory" : "MH 7/13/2016 22:40",
 		"testResetRequest" : "AS 7/27/2016 14:12",
-		"testResponseDataTreeTabVisibility" : "AS 7/27/2016 14:26",
+		"testResponseDataTreeTabVisibility" : "MH 7/27/2016 15:01",
 		"testUpdateTableGETParameters" : "MH 6/27/2016 21:14",
 		"testUpdateURLGETParameters" : "MH 6/27/2016 21:14" } }

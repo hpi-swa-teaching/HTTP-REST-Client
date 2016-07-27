@@ -7,7 +7,7 @@ testResponseDataTreeTabVisibility
 	(self subject findByUiName: 'responseDataTreeTab') morphs
 		do: [:morph | dataTreeTab := morph].
 	self assert: dataTreeTab ~= nil.
-	dataTreeTabButton := tabMorph tabButtons at: dataTreeTab.
+	dataTreeTabButton := tabMorph getButtonForTab: dataTreeTab.
 	
 	"make sure data tree tab is only visible if we have formatted data"
 	data := ''.
