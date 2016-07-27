@@ -7,7 +7,7 @@ testPostTabVisibility
 	tabMorph := self subject findByUiName: 'requestTabs'.
 	(self subject findByUiName: 'requestBodyTab') morphs
 		do: [:morph | postTab := morph].
-	self assert: postTab ~= nil.
+	self assert: postTab notNil.
 	postTabButton := tabMorph getButtonForTab: postTab.
 	
 	"make sure post data tab is only visible if request type is post"

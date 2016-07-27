@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAddRequestToHistory" : "MH 7/13/2016 22:54",
-		"testPostTabVisibility" : "MH 7/27/2016 15:01",
-		"testResetHistory" : "MH 7/13/2016 22:40",
+		"testAddRequestToHistory" : "jt 7/27/2016 16:26",
+		"testPostTabVisibility" : "jt 7/27/2016 16:26",
+		"testResetHistory" : "jt 7/27/2016 16:26",
 		"testResetRequest" : "AS 7/27/2016 14:12",
-		"testResponseDataTreeTabVisibility" : "MH 7/27/2016 15:01",
+		"testResponseDataTreeTabVisibility" : "jt 7/27/2016 16:27",
 		"testUpdateTableGETParameters" : "MH 6/27/2016 21:14",
 		"testUpdateURLGETParameters" : "MH 6/27/2016 21:14" } }

@@ -8,7 +8,7 @@ testResetHistory
 		method: 'GET'.
 	
 	model := (self subject findByUiName: 'requestHistory') model.
-	self assert: model ~= nil.
+	self assert: model notNil.
 
 	self subject requestSpecification: request.
 	self clickSendRequest.
