@@ -4,6 +4,9 @@ updateGETParameterURL
 	| model url index pairs |
 	model := self uiInput requestGetParams model.
 	url := self requestSpecification url.
+	"add slash if url is just the domain name"
+	(url last ~= $/ and: [(url occurrencesOf: $/) <= 2])
+		ifTrue: [url := url , '/'].
 	index := url indexOf: $?.
 	"get url without encoded params"
 	url := index = 0
