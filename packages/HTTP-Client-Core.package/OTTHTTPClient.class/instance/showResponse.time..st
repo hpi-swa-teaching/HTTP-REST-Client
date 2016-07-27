@@ -11,11 +11,11 @@ showResponse: aWebResponse time: anInteger
 	self uiOutput responseDataTreeTab removeAllMorphs.
 	treeView
 		ifNil: [
-			self uiOutput responseDataTreeTab addMorph: ((UiLabel new)
-				text: 'No formatted data available.')]
+			self uiOutput responseTabs disableTab: self uiOutput responseDataTreeTab]
 		ifNotNil: [
 			treeView hResizing: (#spaceFill); vResizing: (#spaceFill).
-			self uiOutput responseDataTreeTab addMorph: treeView].
+			self uiOutput responseDataTreeTab addMorph: treeView.
+			self uiOutput responseTabs enableTab: self uiOutput responseDataTreeTab].
 	
 	self uiOutput responseCookies model removeAllPairs.
 	self uiOutput responseHeaders model removeAllPairs.
