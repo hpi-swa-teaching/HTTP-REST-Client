@@ -6,6 +6,7 @@
 	"instance" : {
 		"disableTab:" : "MH 6/17/2016 22:46",
 		"enableTab:" : "MH 6/17/2016 22:34",
+		"getButtonForTab:" : "MH 7/27/2016 13:59",
 		"getCurrentTab" : "MH 6/17/2016 22:46",
 		"hiddenSubmorphs" : "MH 6/23/2016 16:37",
 		"initialize" : "MH 6/17/2016 22:26",
