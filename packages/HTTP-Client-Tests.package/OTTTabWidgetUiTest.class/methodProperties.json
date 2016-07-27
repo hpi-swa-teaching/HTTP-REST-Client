@@ -2,15 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createTabWidget" : "jt 7/27/2016 15:25",
+		"createTabWidget" : "NS 7/27/2016 16:17",
 		"setUp" : "MH 7/27/2016 13:17",
 		"tab1" : "MH 7/27/2016 13:32",
-		"tab1:" : "MH 7/27/2016 13:33",
+		"tab1:" : "NS 7/27/2016 15:34",
 		"tab2" : "MH 7/27/2016 13:33",
-		"tab2:" : "MH 7/27/2016 13:33",
+		"tab2:" : "NS 7/27/2016 15:34",
 		"tab3" : "MH 7/27/2016 13:33",
-		"tab3:" : "MH 7/27/2016 13:33",
+		"tab3:" : "NS 7/27/2016 15:34",
 		"test0TabsProperlyCreated" : "MH 7/27/2016 15:08",
 		"test1SelectTab" : "MH 7/27/2016 14:28",
-		"test2DisableTab" : "MH 7/27/2016 14:27",
+		"test2DisableTab" : "NS 7/27/2016 16:06",
+		"test3TabFeedback" : "NS 7/27/2016 16:13",
 		"wantsToTest:" : "MH 7/27/2016 13:17" } }

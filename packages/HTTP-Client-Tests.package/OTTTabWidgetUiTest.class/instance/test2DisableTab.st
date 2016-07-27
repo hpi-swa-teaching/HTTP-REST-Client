@@ -23,3 +23,6 @@ test2DisableTab
 	
 	"it should switch to the first tab then as it is the only one not disabled"
 	self assert: self subject getCurrentTab equals: self tab1.
+	
+	self subject enableTab: self tab2.
+	self subject enableTab: self tab3.

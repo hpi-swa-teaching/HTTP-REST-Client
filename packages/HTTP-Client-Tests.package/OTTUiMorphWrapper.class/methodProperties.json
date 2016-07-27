@@ -2,5 +2,7 @@
 	"class" : {
 		"forDeepSubMorphsOf:do:" : "MH 6/23/2016 16:06" },
 	"instance" : {
+		"createWrapperFor:" : "NS 7/27/2016 15:23",
 		"findByUiName:" : "MH 6/23/2016 15:53",
+		"firstMorph" : "NS 7/27/2016 15:24",
 		"forDeepMorphsDo:" : "MH 6/23/2016 15:53" } }

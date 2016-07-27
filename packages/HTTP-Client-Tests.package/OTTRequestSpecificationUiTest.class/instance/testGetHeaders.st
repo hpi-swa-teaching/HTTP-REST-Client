@@ -1,14 +1,19 @@
 testing-get
 testGetHeaders
 
-	| headers headerTab |
+	| headers headerTab request submittedHeaders |
 	headers := OrderedCollection new.
 	headers
 		add: 'Accept-Language' -> 'en';
+		add: 'Accept-Language' -> 'de';
 		add: 'User-Agent' -> 'OTTPRequestClient'.
 		
-		
-	headerTab := (self subject findByUiName: 'requestHeaders').
-	headers do: [:header | headerTab model pairAt: header key put: header value].
+	request := self subject defaultRequestSpecification.
+	request headers: headers.
+	self subject requestSpecification: request.
 	
-	self assert: headers = self subject requestSpecification headers.
+	headerTab := self subject findByUiName: 'requestHeaders'.
+	submittedHeaders := OrderedCollection new.
+	headerTab model
+		pairsDo: [:key :value | submittedHeaders add: key->value].
+	self assert: headers equals: submittedHeaders.

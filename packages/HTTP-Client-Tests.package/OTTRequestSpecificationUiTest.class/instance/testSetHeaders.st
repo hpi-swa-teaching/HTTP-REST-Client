@@ -2,13 +2,10 @@ testing-set
 testSetHeaders
 
 	| headers headerTab |
-	headers := OrderedCollection new.
-	headers
-		add: 'Accept-Language' -> 'en';
-		add: 'User-Agent' ->  'OTTPRequestClient'.
-		
-		
-	headerTab := (self subject findByUiName: 'requestHeaders').
-	headers do: [:header | headerTab model pairAt: header key put: header value].
+	headers := self subject defaultRequestSpecification headers.
+	headers add: 'Accept-Language' -> 'de'.
 	
-	self assert: headers = self subject requestSpecification headers.
+	headerTab := self subject findByUiName: 'requestHeaders'.
+	headerTab model addPairAt: 'Accept-Language' value: 'de'.
+	
+	self assert: headers equals: self subject requestSpecification headers.

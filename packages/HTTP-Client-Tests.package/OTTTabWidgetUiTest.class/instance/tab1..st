@@ -1,4 +1,4 @@
 accessing
-tab1: anOTTUiTableContainer
+tab1: anUiTabContainer
 
-	tab1 := anOTTUiTableContainer.
+	tab1 := anUiTabContainer.

@@ -1,18 +1,18 @@
 testing-get
 testGetCookies
 
-	| request headerTab headers gotHeaders |
-	headers := OrderedCollection new.
-	headers add: 'HttpOnly' -> 'HttpOnly';
-			add: 'path' -> '/'.
+	| request cookiesTab cookies submittedCookies |
+	cookies := Dictionary new.
+	cookies 
+			add: 'Hello' -> 'World';
+			add: 'test' -> '1'.
 		
 	request := self subject defaultRequestSpecification.
-	request headers: headers.
+	request cookies: cookies.
 	self subject requestSpecification: request.
 	
-	headerTab := (self subject findByUiName: 'requestHeaders').
-	gotHeaders := OrderedCollection new.
-	headerTab model
-		pairsDo: [:key :value |
-			gotHeaders add: key->value].
-	self assert: headers = gotHeaders.
+	cookiesTab := self subject findByUiName: 'requestCookies'.
+	submittedCookies := Dictionary new.
+	cookiesTab model
+		pairsDo: [:key :value | submittedCookies add: key->value].
+	self assert: cookies equals: submittedCookies.

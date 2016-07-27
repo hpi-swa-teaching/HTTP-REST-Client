@@ -8,7 +8,7 @@ testSetCookies
 		at: 'User-Agent' put: 'OTTPRequestClient'.
 		
 		
-	cookieTab := (self subject findByUiName: 'requestCookies').
+	cookieTab := self subject findByUiName: 'requestCookies'.
 	cookies keysAndValuesDo: [:key :value | cookieTab model pairAt: key put: value].
 	
 	self assert: cookies = self subject requestSpecification cookies.
