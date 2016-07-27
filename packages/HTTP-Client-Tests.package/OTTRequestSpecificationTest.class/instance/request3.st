@@ -1,4 +1,4 @@
-as yet unclassified
+dummy-request
 request3
 
 	^ (OTTRequestSpecification new)
