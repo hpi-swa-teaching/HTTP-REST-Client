@@ -12,10 +12,7 @@ requestSpecification
 		authPassword: self authPassword;
 		yourself.
 		
-	request method = 'POST' ifTrue:[
-		self requestPostType = 'Parameters'
-			ifTrue: [request setPostParameter: self requestPostParams]
-			ifFalse: [request setPostBody].
-		].
+	(request method = 'POST' and: [self requestPostType = 'Parameters'])
+		ifTrue: [request setPostParameters: self requestPostParams].
 
 	^ request

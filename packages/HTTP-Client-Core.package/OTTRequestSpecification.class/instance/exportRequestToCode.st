@@ -1,5 +1,5 @@
-accessing
-exportRequest
+export
+exportRequestToCode
 
 	| codeString |
 	codeString := '| client request |
@@ -26,4 +26,4 @@ request method: #', self method asString,'.
 	content: ', self body storeString ,' readStream
 	size: ', self body size asString,') content.'.
 
-^ codeString
+	^ codeString
