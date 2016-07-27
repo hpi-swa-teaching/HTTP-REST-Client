@@ -1,4 +1,4 @@
-as yet unclassified
+testing-get
 testGetPairs
 
 	| model pairsExpected pairsActual |

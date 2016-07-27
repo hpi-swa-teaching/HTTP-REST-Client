@@ -1,4 +1,4 @@
-as yet unclassified
+testing-visibility
 testPostTabVisibility
 
 	| request tabMorph postTab postTabButton |

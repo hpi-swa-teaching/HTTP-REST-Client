@@ -1,4 +1,4 @@
-accessing
+operators
 = anObject
 
 	self == anObject ifTrue: [^true].

@@ -1,4 +1,4 @@
-accessing
+export
 saveToFile: aString
 
 	STON writer 

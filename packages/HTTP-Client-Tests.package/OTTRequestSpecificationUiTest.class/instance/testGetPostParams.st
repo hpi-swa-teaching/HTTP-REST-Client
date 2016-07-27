@@ -1,4 +1,4 @@
-testing
+testing-get
 testGetPostParams
 
 	| params postParamsTab |
