@@ -2,4 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"createTabWidget" : "MH 7/27/2016 13:35",
+		"setUp" : "MH 7/27/2016 13:17",
+		"tab1" : "MH 7/27/2016 13:32",
+		"tab1:" : "MH 7/27/2016 13:33",
+		"tab2" : "MH 7/27/2016 13:33",
+		"tab2:" : "MH 7/27/2016 13:33",
+		"tab3" : "MH 7/27/2016 13:33",
+		"tab3:" : "MH 7/27/2016 13:33",
+		"test0TabsProperlyCreated" : "MH 7/27/2016 14:30",
+		"test1SelectTab" : "MH 7/27/2016 14:28",
+		"test2DisableTab" : "MH 7/27/2016 14:27",
+		"wantsToTest:" : "MH 7/27/2016 13:17" } }

@@ -1,1 +1,0 @@
-OTTRequestSpecification{#url:'http://bpt-lab.org/kie-server/services/rest/server/',#method:'GET',#body:'',#headers:OrderedCollection[Association{#key:'Accept-Language',#value:'en'},Association{#key:'User-Agent',#value:'OTTPRequestClient'}],#cookies:{},#authPassword:'HPI...531',#authUsername:'kieserver'}

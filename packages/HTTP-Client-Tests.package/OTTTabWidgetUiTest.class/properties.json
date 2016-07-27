@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"tab1",
+		"tab2",
+		"tab3" ],
 	"name" : "OTTTabWidgetUiTest",
 	"pools" : [
 		 ],
-	"super" : "OTTUiTest",
+	"super" : "MTFTestCase",
 	"type" : "normal" }
