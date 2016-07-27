@@ -10,7 +10,7 @@ test0TabsProperlyCreated
 	self assert: (self subject getButtonForTab: self tab3) text equals: 'Tab 3'.
 	self assert: (self subject getButtonForTab: self tab3) checked equals: false.
 	self assert: (self subject getButtonForTab: self tab3) enabled equals: true.
-	self assert: self subject tabButtons size size equals: 3.
+	self assert: self subject tabButtons size equals: 3.
 	
 	self assert: self subject submorphs size equals: 2.
 	self assert: ((self subject submorphs at: 1) isKindOf: UiContainer).
