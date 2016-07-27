@@ -16,9 +16,7 @@ testResetRequest
 	morph := self subject findByUiName: 'responseData'.
 	self assert: morph theText equals: ''.
 	morph := self subject findByUiName: 'responseDataTreeTab'.
-	"make sure here is just the label that says 'no formatted data!'"
-	self assert: morph submorphs size equals: 1.
-	self assert: (morph submorphs first isKindOf: UiLabel).
+	self assert: morph submorphs size equals: 0.
 	morph := self subject findByUiName: 'responseHeaders'.
 	self assert: morph model pairsCount equals: 0.
 	morph := self subject findByUiName: 'responseCookies'.
