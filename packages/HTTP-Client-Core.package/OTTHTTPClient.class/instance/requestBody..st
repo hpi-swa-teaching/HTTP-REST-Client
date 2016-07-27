@@ -1,5 +1,5 @@
 ui-accessing
 requestBody: aString
 
-	self requestPostType: 'Text'.
+	self disableRequestPostParameters.
 	self uiInput requestBody theText: aString.

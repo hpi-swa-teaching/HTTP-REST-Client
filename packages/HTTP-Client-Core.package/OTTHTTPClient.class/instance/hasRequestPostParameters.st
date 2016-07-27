@@ -1,0 +1,4 @@
+accessing
+hasRequestPostParameters
+
+	^ self uiInput requestPostParametersCheckbox checked

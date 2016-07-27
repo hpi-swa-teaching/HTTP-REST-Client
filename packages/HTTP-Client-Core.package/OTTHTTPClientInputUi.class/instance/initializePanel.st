@@ -182,7 +182,7 @@ initializePanel
 	requestTabs setProperty: #objectName toValue: 'requestTabs'.
 	requestGetParamsTab := OTTUiTabContainer new.
 	requestGetParamsTab changeTableLayout.
-	requestGetParamsTab extent: (918@113).
+	requestGetParamsTab extent: (918@114).
 	requestGetParamsTab position: (12@46).
 	requestGetParamsTab hResizing: (#spaceFill).
 	requestGetParamsTab vResizing: (#spaceFill).
@@ -210,7 +210,7 @@ initializePanel
 	requestGetParamsTab title: ('GET Parameters').
 	requestGetParamsTab setProperty: #objectName toValue: 'requestGetParamsTab'.
 	requestGetParams := UiTableView new.
-	requestGetParams extent: (910@105).
+	requestGetParams extent: (910@106).
 	requestGetParams position: (16@50).
 	requestGetParams hResizing: (#spaceFill).
 	requestGetParams vResizing: (#spaceFill).
@@ -247,7 +247,7 @@ initializePanel
 	requestHeaderTab := OTTUiTabContainer new.
 	requestHeaderTab changeTableLayout.
 	requestHeaderTab extent: (918@114).
-	requestHeaderTab position: (12@163).
+	requestHeaderTab position: (12@164).
 	requestHeaderTab hResizing: (#spaceFill).
 	requestHeaderTab vResizing: (#spaceFill).
 	requestHeaderTab minWidth: (1).
@@ -275,7 +275,7 @@ initializePanel
 	requestHeaderTab setProperty: #objectName toValue: 'requestHeaderTab'.
 	requestHeaders := UiTableView new.
 	requestHeaders extent: (910@106).
-	requestHeaders position: (16@167).
+	requestHeaders position: (16@168).
 	requestHeaders hResizing: (#spaceFill).
 	requestHeaders vResizing: (#spaceFill).
 	requestHeaders minWidth: (1).
@@ -311,7 +311,7 @@ initializePanel
 	requestCookieTab := OTTUiTabContainer new.
 	requestCookieTab changeTableLayout.
 	requestCookieTab extent: (918@114).
-	requestCookieTab position: (12@281).
+	requestCookieTab position: (12@282).
 	requestCookieTab hResizing: (#spaceFill).
 	requestCookieTab vResizing: (#spaceFill).
 	requestCookieTab minWidth: (1).
@@ -339,7 +339,7 @@ initializePanel
 	requestCookieTab setProperty: #objectName toValue: 'requestCookieTab'.
 	requestCookies := UiTableView new.
 	requestCookies extent: (910@106).
-	requestCookies position: (16@285).
+	requestCookies position: (16@286).
 	requestCookies hResizing: (#spaceFill).
 	requestCookies vResizing: (#spaceFill).
 	requestCookies minWidth: (1).
@@ -375,7 +375,7 @@ initializePanel
 	requestAuthTabContainer := OTTUiTabContainer new.
 	requestAuthTabContainer changeTableLayout.
 	requestAuthTabContainer extent: (918@143).
-	requestAuthTabContainer position: (12@399).
+	requestAuthTabContainer position: (12@400).
 	requestAuthTabContainer hResizing: (#spaceFill).
 	requestAuthTabContainer vResizing: (#spaceFill).
 	requestAuthTabContainer minWidth: (1).
@@ -404,7 +404,7 @@ initializePanel
 	requestAuthContainer := UiContainer new.
 	requestAuthContainer changeTableLayout.
 	requestAuthContainer extent: (910@30).
-	requestAuthContainer position: (16@403).
+	requestAuthContainer position: (16@404).
 	requestAuthContainer hResizing: (#spaceFill).
 	requestAuthContainer vResizing: (#shrinkWrap).
 	requestAuthContainer minWidth: (1).
@@ -431,7 +431,7 @@ initializePanel
 	requestAuthContainer setProperty: #objectName toValue: 'requestAuthContainer'.
 	authUsername := UiLineEdit new.
 	authUsername extent: (449@20).
-	authUsername position: (20@408).
+	authUsername position: (20@409).
 	authUsername hResizing: (#spaceFill).
 	authUsername vResizing: (#rigid).
 	authUsername minWidth: (1).
@@ -469,7 +469,7 @@ initializePanel
 	requestAuthContainer addChild: authUsername.
 	authPassword := UiLineEdit new.
 	authPassword extent: (449@20).
-	authPassword position: (473@408).
+	authPassword position: (473@409).
 	authPassword hResizing: (#spaceFill).
 	authPassword vResizing: (#rigid).
 	authPassword minWidth: (1).
@@ -509,8 +509,8 @@ initializePanel
 	requestTabs addChild: requestAuthTabContainer.
 	requestBodyTab := OTTUiTabContainer new.
 	requestBodyTab changeTableLayout.
-	requestBodyTab extent: (918@156).
-	requestBodyTab position: (12@546).
+	requestBodyTab extent: (918@155).
+	requestBodyTab position: (12@547).
 	requestBodyTab hResizing: (#spaceFill).
 	requestBodyTab vResizing: (#spaceFill).
 	requestBodyTab minWidth: (1).
@@ -538,7 +538,7 @@ initializePanel
 	requestBodyTab setProperty: #objectName toValue: 'requestBodyTab'.
 	unnamedMorph1 := UiContainer new.
 	unnamedMorph1 changeTableLayout.
-	unnamedMorph1 extent: (910@29).
+	unnamedMorph1 extent: (910@28).
 	unnamedMorph1 position: (16@551).
 	unnamedMorph1 hResizing: (#spaceFill).
 	unnamedMorph1 vResizing: (#shrinkWrap).
@@ -558,41 +558,49 @@ initializePanel
 	unnamedMorph1 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph1 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph1 balloonText: (nil).
-	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph1 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph1 color: (Color transparent).
 	unnamedMorph1 borderWidth: (0).
 	unnamedMorph1 borderStyle2: (#simple).
 	unnamedMorph1 borderColor: (Color black).
-	requestPostType := UiComboBox new.
-	requestPostType extent: (150@20).
-	requestPostType position: (20@555).
-	requestPostType hResizing: (#rigid).
-	requestPostType vResizing: (#rigid).
-	requestPostType minWidth: (1).
-	requestPostType minHeight: (1).
-	requestPostType cellInset: (0).
-	requestPostType cellPositioning: (#center).
-	requestPostType cellSpacing: (#none).
-	requestPostType layoutInset: (0).
-	requestPostType listCentering: (#topLeft).
-	requestPostType listDirection: (#topToBottom).
-	requestPostType listSpacing: (#none).
-	requestPostType maxCellSize: (1073741823).
-	requestPostType minCellSize: (0).
-	requestPostType wrapCentering: (#topLeft).
-	requestPostType wrapDirection: (#none).
-	requestPostType frameFractions: (0@0 corner: 1@1).
-	requestPostType frameOffsets: (0@0 corner: 0@0).
-	requestPostType balloonText: (nil).
-	requestPostType balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
-	requestPostType readOnly: (true).
-	requestPostType setProperty: #objectName toValue: 'requestPostType'.
-	unnamedMorph1 addChild: requestPostType.
+	requestPostParametersCheckbox := UiCheckBox new.
+	requestPostParametersCheckbox changeTableLayout.
+	requestPostParametersCheckbox extent: (213@20).
+	requestPostParametersCheckbox position: (20@555).
+	requestPostParametersCheckbox hResizing: (#shrinkWrap).
+	requestPostParametersCheckbox vResizing: (#shrinkWrap).
+	requestPostParametersCheckbox minWidth: (1).
+	requestPostParametersCheckbox minHeight: (1).
+	requestPostParametersCheckbox cellInset: (4).
+	requestPostParametersCheckbox cellPositioning: (#center).
+	requestPostParametersCheckbox cellSpacing: (#none).
+	requestPostParametersCheckbox layoutInset: (2@0 corner: 2@0).
+	requestPostParametersCheckbox listCentering: (#topLeft).
+	requestPostParametersCheckbox listDirection: (#leftToRight).
+	requestPostParametersCheckbox listSpacing: (#none).
+	requestPostParametersCheckbox maxCellSize: (1073741823).
+	requestPostParametersCheckbox minCellSize: (0).
+	requestPostParametersCheckbox wrapCentering: (#topLeft).
+	requestPostParametersCheckbox wrapDirection: (#none).
+	requestPostParametersCheckbox frameFractions: (0@0 corner: 1@1).
+	requestPostParametersCheckbox frameOffsets: (0@0 corner: 0@0).
+	requestPostParametersCheckbox balloonText: (nil).
+	requestPostParametersCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.737)).
+	requestPostParametersCheckbox enabled: (true).
+	requestPostParametersCheckbox setProperty: #iconByDesigner toValue: 'nil'.
+	requestPostParametersCheckbox icon: (nil).
+	requestPostParametersCheckbox text: ('Key/Value Request Parameters').
+	requestPostParametersCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
+	requestPostParametersCheckbox checkable: (true).
+	requestPostParametersCheckbox checked: (false).
+	requestPostParametersCheckbox autoExclusive: (false).
+	requestPostParametersCheckbox setProperty: #objectName toValue: 'requestPostParametersCheckbox'.
+	unnamedMorph1 addChild: requestPostParametersCheckbox.
 	requestBodyTab addChild: unnamedMorph1.
 	unnamedMorph2 := UiContainer new.
 	unnamedMorph2 changeTableLayout.
-	unnamedMorph2 extent: (910@114).
-	unnamedMorph2 position: (16@584).
+	unnamedMorph2 extent: (910@115).
+	unnamedMorph2 position: (16@583).
 	unnamedMorph2 hResizing: (#spaceFill).
 	unnamedMorph2 vResizing: (#spaceFill).
 	unnamedMorph2 minWidth: (1).
@@ -611,14 +619,48 @@ initializePanel
 	unnamedMorph2 frameFractions: (0@0 corner: 1@1).
 	unnamedMorph2 frameOffsets: (0@0 corner: 0@0).
 	unnamedMorph2 balloonText: (nil).
-	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.733)).
+	unnamedMorph2 balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
 	unnamedMorph2 color: (Color transparent).
 	unnamedMorph2 borderWidth: (0).
 	unnamedMorph2 borderStyle2: (#simple).
 	unnamedMorph2 borderColor: (Color black).
+	requestPostParams := UiTableView new.
+	requestPostParams extent: (441@99).
+	requestPostParams position: (477@591).
+	requestPostParams hResizing: (#spaceFill).
+	requestPostParams vResizing: (#spaceFill).
+	requestPostParams minWidth: (1).
+	requestPostParams minHeight: (1).
+	requestPostParams cellInset: (0).
+	requestPostParams cellPositioning: (#center).
+	requestPostParams cellSpacing: (#none).
+	requestPostParams layoutInset: (0).
+	requestPostParams listCentering: (#topLeft).
+	requestPostParams listDirection: (#topToBottom).
+	requestPostParams listSpacing: (#none).
+	requestPostParams maxCellSize: (1073741823).
+	requestPostParams minCellSize: (0).
+	requestPostParams wrapCentering: (#topLeft).
+	requestPostParams wrapDirection: (#none).
+	requestPostParams frameFractions: (0@0 corner: 1@1).
+	requestPostParams frameOffsets: (0@0 corner: 0@0).
+	requestPostParams balloonText: (nil).
+	requestPostParams balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
+	requestPostParams widgetResizable: (false).
+	requestPostParams horizontalScrollBarPolicy: (#asNeeded).
+	requestPostParams verticalScrollBarPolicy: (#asNeeded).
+	requestPostParams outerBorderWidth: (0).
+	requestPostParams scrollBarThickness: (9).
+	requestPostParams modelClass: (OTTPairModel).
+	requestPostParams horizontalHeaderVisible: (true).
+	requestPostParams verticalHeaderVisible: (false).
+	requestPostParams selectionBehavior: (#selectCells).
+	requestPostParams selectionMode: (UiViewSingleSelection).
+	requestPostParams setProperty: #objectName toValue: 'requestPostParams'.
+	unnamedMorph2 addChild: requestPostParams.
 	requestBody := UiTextEdit new.
-	requestBody extent: (441@98).
-	requestBody position: (477@592).
+	requestBody extent: (441@99).
+	requestBody position: (24@591).
 	requestBody hResizing: (#spaceFill).
 	requestBody vResizing: (#spaceFill).
 	requestBody minWidth: (1).
@@ -652,40 +694,6 @@ initializePanel
 	requestBody scrollingLimit: (10).
 	requestBody setProperty: #objectName toValue: 'requestBody'.
 	unnamedMorph2 addChild: requestBody.
-	requestPostParams := UiTableView new.
-	requestPostParams extent: (441@98).
-	requestPostParams position: (24@592).
-	requestPostParams hResizing: (#spaceFill).
-	requestPostParams vResizing: (#spaceFill).
-	requestPostParams minWidth: (1).
-	requestPostParams minHeight: (1).
-	requestPostParams cellInset: (0).
-	requestPostParams cellPositioning: (#center).
-	requestPostParams cellSpacing: (#none).
-	requestPostParams layoutInset: (0).
-	requestPostParams listCentering: (#topLeft).
-	requestPostParams listDirection: (#topToBottom).
-	requestPostParams listSpacing: (#none).
-	requestPostParams maxCellSize: (1073741823).
-	requestPostParams minCellSize: (0).
-	requestPostParams wrapCentering: (#topLeft).
-	requestPostParams wrapDirection: (#none).
-	requestPostParams frameFractions: (0@0 corner: 1@1).
-	requestPostParams frameOffsets: (0@0 corner: 0@0).
-	requestPostParams balloonText: (nil).
-	requestPostParams balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.722)).
-	requestPostParams widgetResizable: (false).
-	requestPostParams horizontalScrollBarPolicy: (#asNeeded).
-	requestPostParams verticalScrollBarPolicy: (#asNeeded).
-	requestPostParams outerBorderWidth: (0).
-	requestPostParams scrollBarThickness: (9).
-	requestPostParams modelClass: (OTTPairModel).
-	requestPostParams horizontalHeaderVisible: (true).
-	requestPostParams verticalHeaderVisible: (false).
-	requestPostParams selectionBehavior: (#selectCells).
-	requestPostParams selectionMode: (UiViewSingleSelection).
-	requestPostParams setProperty: #objectName toValue: 'requestPostParams'.
-	unnamedMorph2 addChild: requestPostParams.
 	requestBodyTab addChild: unnamedMorph2.
 	requestTabs addChild: requestBodyTab.
 	inputContainer addChild: requestTabs.
