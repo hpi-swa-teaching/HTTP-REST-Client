@@ -20,5 +20,5 @@ initializeUI
 	
 	self
 		updatePostTabVisibility;
-		updatePostParameterTable;
+		updatePostParamsTable;
 		resetRequest.

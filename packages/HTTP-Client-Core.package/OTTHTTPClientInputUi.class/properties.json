@@ -19,7 +19,7 @@
 		"authUsername",
 		"authPassword",
 		"requestBodyTab",
-		"requestPostParametersCheckbox",
+		"requestPostParamsCheckbox",
 		"requestPostParams",
 		"requestBody",
 		"sendButton",

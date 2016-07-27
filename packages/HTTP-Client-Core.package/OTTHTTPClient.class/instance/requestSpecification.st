@@ -14,8 +14,8 @@ requestSpecification
 		
 	request method = 'POST'
 		ifTrue: [
-			self hasRequestPostParameters
-				ifTrue: [request setPostParameters: self requestPostParams]
+			self hasRequestPostParams
+				ifTrue: [request setPostParams: self requestPostParams]
 				ifFalse: [request body: self requestBody]].
 
 	^ request

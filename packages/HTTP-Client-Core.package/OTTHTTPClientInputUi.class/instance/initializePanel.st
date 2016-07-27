@@ -560,39 +560,39 @@ initializePanel
 	unnamedMorph4 borderWidth: (0).
 	unnamedMorph4 borderStyle2: (#simple).
 	unnamedMorph4 borderColor: (Color black).
-	requestPostParametersCheckbox := UiCheckBox new.
-	requestPostParametersCheckbox changeTableLayout.
-	requestPostParametersCheckbox extent: (213@20).
-	requestPostParametersCheckbox position: (20@555).
-	requestPostParametersCheckbox hResizing: (#shrinkWrap).
-	requestPostParametersCheckbox vResizing: (#shrinkWrap).
-	requestPostParametersCheckbox minWidth: (1).
-	requestPostParametersCheckbox minHeight: (1).
-	requestPostParametersCheckbox cellInset: (4).
-	requestPostParametersCheckbox cellPositioning: (#center).
-	requestPostParametersCheckbox cellSpacing: (#none).
-	requestPostParametersCheckbox layoutInset: (2@0 corner: 2@0).
-	requestPostParametersCheckbox listCentering: (#topLeft).
-	requestPostParametersCheckbox listDirection: (#leftToRight).
-	requestPostParametersCheckbox listSpacing: (#none).
-	requestPostParametersCheckbox maxCellSize: (1073741823).
-	requestPostParametersCheckbox minCellSize: (0).
-	requestPostParametersCheckbox wrapCentering: (#topLeft).
-	requestPostParametersCheckbox wrapDirection: (#none).
-	requestPostParametersCheckbox frameFractions: (0@0 corner: 1@1).
-	requestPostParametersCheckbox frameOffsets: (0@0 corner: 0@0).
-	requestPostParametersCheckbox balloonText: (nil).
-	requestPostParametersCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.729)).
-	requestPostParametersCheckbox enabled: (true).
-	requestPostParametersCheckbox setProperty: #iconByDesigner toValue: 'nil'.
-	requestPostParametersCheckbox icon: (nil).
-	requestPostParametersCheckbox text: ('Key/Value Request Parameters').
-	requestPostParametersCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
-	requestPostParametersCheckbox checkable: (true).
-	requestPostParametersCheckbox checked: (false).
-	requestPostParametersCheckbox autoExclusive: (false).
-	requestPostParametersCheckbox setProperty: #objectName toValue: 'requestPostParametersCheckbox'.
-	unnamedMorph4 addChild: requestPostParametersCheckbox.
+	requestPostParamsCheckbox := UiCheckBox new.
+	requestPostParamsCheckbox changeTableLayout.
+	requestPostParamsCheckbox extent: (213@20).
+	requestPostParamsCheckbox position: (20@555).
+	requestPostParamsCheckbox hResizing: (#shrinkWrap).
+	requestPostParamsCheckbox vResizing: (#shrinkWrap).
+	requestPostParamsCheckbox minWidth: (1).
+	requestPostParamsCheckbox minHeight: (1).
+	requestPostParamsCheckbox cellInset: (4).
+	requestPostParamsCheckbox cellPositioning: (#center).
+	requestPostParamsCheckbox cellSpacing: (#none).
+	requestPostParamsCheckbox layoutInset: (2@0 corner: 2@0).
+	requestPostParamsCheckbox listCentering: (#topLeft).
+	requestPostParamsCheckbox listDirection: (#leftToRight).
+	requestPostParamsCheckbox listSpacing: (#none).
+	requestPostParamsCheckbox maxCellSize: (1073741823).
+	requestPostParamsCheckbox minCellSize: (0).
+	requestPostParamsCheckbox wrapCentering: (#topLeft).
+	requestPostParamsCheckbox wrapDirection: (#none).
+	requestPostParamsCheckbox frameFractions: (0@0 corner: 1@1).
+	requestPostParamsCheckbox frameOffsets: (0@0 corner: 0@0).
+	requestPostParamsCheckbox balloonText: (nil).
+	requestPostParamsCheckbox balloonColor: ((TranslucentColor r: 0.92 g: 0.92 b: 0.706 alpha: 0.725)).
+	requestPostParamsCheckbox enabled: (true).
+	requestPostParamsCheckbox setProperty: #iconByDesigner toValue: 'nil'.
+	requestPostParamsCheckbox icon: (nil).
+	requestPostParamsCheckbox text: ('Key/Value Request Parameters').
+	requestPostParamsCheckbox color: ((Color r: 0.85 g: 0.85 b: 0.85)).
+	requestPostParamsCheckbox checkable: (true).
+	requestPostParamsCheckbox checked: (false).
+	requestPostParamsCheckbox autoExclusive: (false).
+	requestPostParamsCheckbox setProperty: #objectName toValue: 'requestPostParamsCheckbox'.
+	unnamedMorph4 addChild: requestPostParamsCheckbox.
 	requestBodyTab addChild: unnamedMorph4.
 	unnamedMorph5 := UiContainer new.
 	unnamedMorph5 changeTableLayout.

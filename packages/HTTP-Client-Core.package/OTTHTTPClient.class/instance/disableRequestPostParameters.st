@@ -1,4 +1,0 @@
-accessing
-disableRequestPostParameters
-
-	self uiInput requestPostParametersCheckbox checked: false.
