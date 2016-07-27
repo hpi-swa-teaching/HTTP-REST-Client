@@ -9,7 +9,6 @@ testSetPostParams
 		
 		
 	postParamsTab := (self subject findByUiName: 'requestPostParams').
-	postParamsTab model pairAt: 'Accept-Language' put: 'en'.
-	postParamsTab model pairAt: 'User-Agent' put: 'OTTPRequestClient'.
+	params do: [:param | postParamsTab model pairAt: param key put: param value].
 	
 	self assert: params = self subject requestSpecification postParams.
