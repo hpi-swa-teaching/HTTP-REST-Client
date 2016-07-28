@@ -1,12 +1,10 @@
 ui-feedback
 updatePostTabVisibility
 
-	| tabs tabParams parameterTable bodyText|
+	| tabs parramsTab |
 	tabs := self uiInput requestTabs.
-	tabParams := self uiInput requestBodyTab.
-	parameterTable := self uiInput requestPostParams.
-	bodyText := self uiInput requestBody.
+	parramsTab := self uiInput requestBodyTab.
 	
 	self requestSpecification method = 'POST'
-		ifTrue: [tabs enableTab: tabParams]
-		ifFalse: [tabs disableTab: tabParams].
+		ifTrue: [tabs enableTab: parramsTab]
+		ifFalse: [tabs disableTab: parramsTab].

@@ -14,6 +14,8 @@
 		"cookies" : "MH 6/15/2016 22:11",
 		"cookies:" : "MH 6/15/2016 22:11",
 		"exportRequestToCode" : "MH 7/27/2016 17:26",
+		"getHeaderAt:" : "MH 7/28/2016 17:07",
+		"getHeaderAt:ifAbsent:" : "MH 7/28/2016 17:07",
 		"hasAuth" : "MH 6/16/2016 13:40",
 		"headers" : "MH 5/19/2016 12:57",
 		"headers:" : "MH 6/23/2016 16:17",

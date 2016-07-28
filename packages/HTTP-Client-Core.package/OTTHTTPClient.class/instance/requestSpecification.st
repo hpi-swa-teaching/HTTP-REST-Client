@@ -2,15 +2,15 @@ ui-accessing
 requestSpecification
 
 	| request |
-	request := OTTRequestSpecification new
+	request := OTTRequestSpecification new.
+	request
 		url: self requestURL;
 		method: self requestMethod;
 		body: self requestBody;
 		headers: self requestHeaders;
 		cookies: self requestCookies;
 		authUsername: self authUsername;
-		authPassword: self authPassword;
-		yourself.
+		authPassword: self authPassword.
 		
 	request method = 'POST'
 		ifTrue: [
