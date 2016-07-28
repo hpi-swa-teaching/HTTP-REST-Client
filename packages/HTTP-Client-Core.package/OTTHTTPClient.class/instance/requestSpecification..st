@@ -13,4 +13,5 @@ requestSpecification: aRequestSpecification
 		ifTrue: [
 			(aRequestSpecification getHeaderAt: 'Content-Type') = 'application/x-www-form-urlencoded'
 				ifTrue: [self setRequestPostParamsFrom: aRequestSpecification body]
-				ifFalse: [self requestBody: aRequestSpecification body]].
+				ifFalse: [self requestBody: aRequestSpecification body]]
+		ifFalse: [self requestBody: ''].
