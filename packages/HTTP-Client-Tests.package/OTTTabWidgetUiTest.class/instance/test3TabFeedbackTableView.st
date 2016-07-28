@@ -1,5 +1,5 @@
 testing
-test3TabFeedback
+test3TabFeedbackTableView
 
 	| pairs buttonText expectedButtonText tabButton |
 	pairs := Dictionary new

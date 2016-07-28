@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tab1",
 		"tab2",
-		"tab3" ],
+		"tab3",
+		"textEdit1" ],
 	"name" : "OTTTabWidgetUiTest",
 	"pools" : [
 		 ],
