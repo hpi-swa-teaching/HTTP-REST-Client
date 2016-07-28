@@ -1,12 +1,12 @@
 ui-actions
 saveRequest
 	
-	| fName fl |
+	| folder fileName |
 	
-	fl := FileList2 modalFolderSelector.
-	fl ifNil:[^self].
+	folder := FileList2 modalFolderSelector.
+	folder ifNil: [^ self].
 	
-	fName := UIManager default request: 'Please enter the filename' translated initialAnswer: 'request' externalName, '.st'.
-	fName isEmpty ifTrue:[^self].
+	fileName := UIManager default request: 'Please enter the filename' translated initialAnswer: 'request' externalName, '.st'.
+	fileName isEmpty ifTrue: [^ self].
 
-	self requestSpecification saveToFile: (fl pathName, '/', fName).
+	self requestSpecification saveToFile: (folder pathName, '/', fileName).
