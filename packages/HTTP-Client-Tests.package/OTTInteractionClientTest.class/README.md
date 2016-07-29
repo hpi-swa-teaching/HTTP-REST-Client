@@ -1,0 +1,1 @@
+An OTTInteractionClientTest is a test which tests various simple user interactions with the client.

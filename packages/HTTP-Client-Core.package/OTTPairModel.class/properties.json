@@ -5,9 +5,8 @@
 	"classtraitcomposition" : "TUiItemModel classTrait",
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MH 7/29/2016 15:05",
 	"instvars" : [
-		"headers",
 		"nodes",
 		"editable" ],
 	"name" : "OTTPairModel",

@@ -1,0 +1,1 @@
+An OTTRequestSpecificationClientTest is a test which tests setting/getting a request specification with the http/rest client.

@@ -1,0 +1,1 @@
+An OTTResponseClientTest is a test which tests sending a web response to the client and asserting that the gui output is correct.

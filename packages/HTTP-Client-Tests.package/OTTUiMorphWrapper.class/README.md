@@ -1,0 +1,1 @@
+An OTTUiMorphWrapper is a subclassed MTFMorphWrapper which correctly finds all morphs even with the custom tab widget which doesn't show some morphs as submorphs as only one tab page is visible at a time.

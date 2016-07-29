@@ -1,0 +1,1 @@
+An OTTRequestSpecificationTest is a test which tests the request specification.

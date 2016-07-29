@@ -1,0 +1,1 @@
+An OTTNullWebResponse is a null object which is used as a replacement for the WebResponse.
