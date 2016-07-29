@@ -2,6 +2,9 @@ export
 exportRequestToCode
 
 	| codeString |
+	
+	self method = 'POST' ifTrue: [self setHeaderAt: 'Content-Length' value: self body size ].
+	
 	codeString := '| client request |
 client := WebClient new initializeFromUrl: ''', self url asString, '''.'.
 	self cookies isEmpty ifFalse:[
