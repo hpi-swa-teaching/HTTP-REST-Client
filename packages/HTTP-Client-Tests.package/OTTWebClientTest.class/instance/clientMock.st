@@ -1,4 +1,0 @@
-accessing
-clientMock
-
-	^ clientMock

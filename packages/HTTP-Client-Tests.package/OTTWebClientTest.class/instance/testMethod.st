@@ -2,12 +2,11 @@ testing
 testMethod
 
 	| request |
-	request := self client defaultRequestSpecification.
+	request := self subject defaultRequestSpecification.
 
 	OTTRequestSpecification availableRequestMethods
 		do: [:method |
 			request method: method.
-			self client
-				requestSpecification: request;
-				sendRequest.
+			self subject requestSpecification: request.
+			self clickSendRequest.
 			self assert: self clientMock lastRequest method equals: request method].

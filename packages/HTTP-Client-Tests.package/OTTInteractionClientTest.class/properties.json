@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "OTTResponseUiTest",
+	"name" : "OTTInteractionClientTest",
 	"pools" : [
 		 ],
-	"super" : "OTTUiTest",
+	"super" : "OTTClientTest",
 	"type" : "normal" }

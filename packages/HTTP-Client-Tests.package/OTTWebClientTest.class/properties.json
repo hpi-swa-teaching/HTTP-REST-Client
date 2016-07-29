@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"clientMock" ],
+		 ],
 	"name" : "OTTWebClientTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "OTTClientTest",
 	"type" : "normal" }

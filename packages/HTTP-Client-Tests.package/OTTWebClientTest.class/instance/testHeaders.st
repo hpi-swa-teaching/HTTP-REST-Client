@@ -12,9 +12,8 @@ testHeaders
 			yourself);
 		yourself).
 	
-	self client
-		requestSpecification: request;
-		sendRequest.
+	self subject requestSpecification: request.
+	self clickSendRequest.
 	
 	submittedHeaders := OrderedCollection new.
 	self clientMock lastRequest headersDo: [:key :value | submittedHeaders add: key -> value].

@@ -1,3 +1,4 @@
 accessing
-webClient: anObject
-	webClient := anObject
+webClient: aWebClient
+
+	webClient := aWebClient

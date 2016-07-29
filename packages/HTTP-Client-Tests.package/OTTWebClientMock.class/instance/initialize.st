@@ -2,4 +2,4 @@ initialization
 initialize
 
 	super initialize.
-	self responseBlock: self dummy200Response.
+	self responseBlock: self dummy200ResponseBlock.

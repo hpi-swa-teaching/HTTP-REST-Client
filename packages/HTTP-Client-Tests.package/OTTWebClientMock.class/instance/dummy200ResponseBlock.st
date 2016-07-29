@@ -1,5 +1,5 @@
 sending
-dummy200Response
+dummy200ResponseBlock
 
 	^ [:client :request :content |
 		(WebResponse protocol: 'HTTP/1.1' code: 200)

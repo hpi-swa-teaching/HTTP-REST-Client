@@ -1,4 +1,4 @@
 accessing
-responseBlock: aBlockClosure
+responseBlock: aBlock
 
-	responseBlock := aBlockClosure.
+	responseBlock := aBlock.

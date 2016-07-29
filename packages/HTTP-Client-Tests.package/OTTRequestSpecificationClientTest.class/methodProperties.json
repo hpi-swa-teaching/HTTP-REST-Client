@@ -9,10 +9,12 @@
 		"testGetHeaders" : "NS 7/27/2016 16:28",
 		"testGetMethodType" : "MH 6/8/2016 21:02",
 		"testGetPostData" : "MH 7/10/2016 22:05",
+		"testGetPostParams" : "MH 7/29/2016 02:09",
 		"testGetURL" : "MH 6/23/2016 16:04",
 		"testSetAuthentication" : "MH 6/23/2016 16:04",
 		"testSetCookies" : "NS 7/27/2016 16:36",
 		"testSetHeaders" : "NS 7/27/2016 16:46",
 		"testSetMethodType" : "MH 6/8/2016 21:22",
 		"testSetPostData" : "MH 6/23/2016 16:05",
+		"testSetPostParams" : "MH 7/29/2016 02:02",
 		"testSetURL" : "MH 6/23/2016 16:05" } }
